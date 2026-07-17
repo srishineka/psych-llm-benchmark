@@ -1,0 +1,19 @@
+# Core
+pandas>=2.0
+matplotlib>=3.7
+numpy>=1.24
+python-dotenv>=1.0
+
+# API-based LLM providers (free-tier friendly)
+google-genai>=0.3          # Gemini API
+mistralai>=1.0             # Mistral "La Plateforme" API
+groq>=0.9                  # Groq Cloud API (Llama-3.1-8b, Mixtral-8x7b, free tier)
+openai>=1.30               # OpenAI API (for switching to GPT-4 Turbo later)
+
+# Local/Colab self-hosted models (MentaLLaMA, ChatCounselor/ChatPsychiatrist)
+# Only needed inside the Colab notebook / a machine with a GPU:
+transformers>=4.41
+accelerate>=0.30
+bitsandbytes>=0.43
+sentencepiece>=0.2
+torch>=2.2
