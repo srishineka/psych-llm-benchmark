@@ -241,9 +241,30 @@ class HFLocalClient(LLMClient):
 
     def _call(self, system_prompt: str, messages: List[Dict[str, str]]) -> str:
         import torch
+        from transformers import StoppingCriteria, StoppingCriteriaList
 
         prompt = self._render_prompt(system_prompt, messages)
         inputs = self.tokenizer(prompt, return_tensors="pt").to(self.model.device)
+        prompt_len = inputs["input_ids"].shape[1]
+
+        # --- Stop generation when the model starts a new "Human:" turn ------
+        stop_strings = ["\nHuman:", "\n\nHuman:", "Human:"]
+        class _StopOnDelimiter(StoppingCriteria):
+            """Halt as soon as any stop-string appears in the newly generated text."""
+            def __init__(self, tokenizer, prompt_length, stops):
+                self.tokenizer = tokenizer
+                self.prompt_length = prompt_length
+                self.stops = stops
+
+            def __call__(self, input_ids, scores, **kwargs):
+                generated_text = self.tokenizer.decode(
+                    input_ids[0][self.prompt_length:], skip_special_tokens=True
+                )
+                return any(s in generated_text for s in self.stops)
+
+        stopping_criteria = StoppingCriteriaList([
+            _StopOnDelimiter(self.tokenizer, prompt_len, stop_strings)
+        ])
 
         with torch.no_grad():
             output_ids = self.model.generate(
@@ -253,11 +274,20 @@ class HFLocalClient(LLMClient):
                 do_sample=True,
                 top_p=0.9,
                 pad_token_id=self.tokenizer.eos_token_id,
+                stopping_criteria=stopping_criteria,
             )
 
         generated = self.tokenizer.decode(
-            output_ids[0][inputs["input_ids"].shape[1]:], skip_special_tokens=True
+            output_ids[0][prompt_len:], skip_special_tokens=True
         )
+
+        # Post-process: truncate at the first "Human:" delimiter in case the
+        # stopping criteria fired one token late.
+        for delim in ["\nHuman:", "Human:"]:
+            idx = generated.find(delim)
+            if idx != -1:
+                generated = generated[:idx]
+
         return generated.strip()
 
 
