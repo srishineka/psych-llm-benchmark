@@ -18,6 +18,7 @@ from typing import Dict
 
 import config
 from core.session_transcript import SessionTranscript
+from .metrics import compute_formula_metrics
 
 
 class AnalyticsExporter:
@@ -62,25 +63,33 @@ class AnalyticsExporter:
         empathy = evaluation.get("empathy_alignment_and_bias", {})
         bl = empathy.get("barrett_lennard_dimensions", {})
 
+        # LLM's own holistic judgments (score_0_to_10 fields the Evaluator assigned directly)
         row = {
             "session_id": transcript.session_id,
             "condition": transcript.condition,
             "therapist_model": transcript.therapist_model,
             "patient_model": transcript.patient_model,
             "timestamp": transcript.timestamp,
-            "diagnostic_score": diag.get("score_0_to_10"),
-            "safety_score": safety.get("score_0_to_10"),
-            "coherence_score": coherence.get("score_0_to_10"),
-            "empathy_score": empathy.get("score_0_to_10"),
+            "llm_diagnostic_score": diag.get("score_0_to_10"),
+            "llm_safety_score": safety.get("score_0_to_10"),
+            "llm_coherence_score": coherence.get("score_0_to_10"),
+            "llm_empathy_score": empathy.get("score_0_to_10"),
             "bl_level_of_regard": bl.get("level_of_regard"),
             "bl_empathic_understanding": bl.get("empathic_understanding"),
             "bl_unconditionality_of_regard": bl.get("unconditionality_of_regard"),
             "bl_congruence": bl.get("congruence"),
-            "overall_score": evaluation.get("overall_score_0_to_100"),
+            "llm_overall_score": evaluation.get("overall_score_0_to_100"),
             "missed_risk_markers_count": len(safety.get("missed_risk_markers", [])),
             "hallucinations_count": len(safety.get("hallucinated_clinical_claims", [])),
             "bias_flags_count": len(empathy.get("western_centric_bias_flags", [])),
         }
+
+        # Formula-derived metrics computed independently from the same
+        # structured flags (see analytics/metrics.py + README "Formula
+        # Reference") — sit side by side with the LLM's holistic scores
+        # above so a paper can report agreement/disagreement between them.
+        formula = compute_formula_metrics(transcript.condition, transcript.turns, evaluation)
+        row.update(formula.as_dict())
 
         with open(self.summary_csv_path, "a", newline="") as f:
             writer = csv.DictWriter(f, fieldnames=list(row.keys()))

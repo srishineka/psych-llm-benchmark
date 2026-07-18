@@ -35,7 +35,10 @@ class EvaluatorAgent:
                 f"\n\n[FOR YOUR SCORING REFERENCE ONLY — ground truth, not shown to therapist]\n"
                 f"Actual simulated condition: {hidden_profile.condition}\n"
                 f"Standard scale expected: {hidden_profile.correct_scale}\n"
-                f"Risk markers the patient could have disclosed: {hidden_profile.risk_markers}\n"
+                f"DSM-5 criteria list (copy exact strings into criteria_elicited): "
+                f"{hidden_profile.dsm5_criteria_met}\n"
+                f"Risk markers list (copy exact strings into missed_risk_markers): "
+                f"{hidden_profile.risk_markers}\n"
             )
 
         user_message = [{
