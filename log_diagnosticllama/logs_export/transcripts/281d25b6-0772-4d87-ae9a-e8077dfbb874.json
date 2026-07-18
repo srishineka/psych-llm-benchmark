@@ -1,0 +1,93 @@
+{
+  "session_id": "281d25b6-0772-4d87-ae9a-e8077dfbb874",
+  "condition": "MDD",
+  "therapist_model": "barca-boy/primate_autotrain_mental_llama",
+  "patient_model": "llama-3.1-8b-instant",
+  "timestamp": "2026-07-18T18:45:44.138308",
+  "turns": [
+    {
+      "speaker": "therapist",
+      "text": "Hi, thanks for coming in today. What's been going on for you lately?"
+    },
+    {
+      "speaker": "patient",
+      "text": "I don't know. It's just... everything feels like a chore, I guess. Nothing really feels like anything anymore."
+    },
+    {
+      "speaker": "therapist",
+      "text": "I see. It sounds like you might be experiencing a bit of depression. Can you tell me more about what you're feeling?"
+    },
+    {
+      "speaker": "patient",
+      "text": "I don't know if it's depression or anything, but... it's just hard to get out of bed, and even when I do, nothing seems worth doing. It feels pointless to try."
+    },
+    {
+      "speaker": "therapist",
+      "text": "I see. That can be really tough. It's important to remember that there are things that can help you feel better, like spending time with friends, trying new things, or finding a hobby you enjoy."
+    },
+    {
+      "speaker": "patient",
+      "text": "I used to like doing stuff with friends, but now it just feels like too much effort. And as for hobbies... I don't really have the energy to even think about it."
+    },
+    {
+      "speaker": "therapist",
+      "text": "I understand. It can be hard to feel motivated when you're feeling down. It's important to try to find things that bring you some joy, even if it feels like a chore at the moment."
+    },
+    {
+      "speaker": "patient",
+      "text": "(sighing) I guess. But it's hard to remember what I even liked doing before... everything just feels so gray and flat."
+    },
+    {
+      "speaker": "therapist",
+      "text": "I see. It's okay to feel this way sometimes, but it's important to try to find ways to feel better. Have you talked to anyone about how you're feeling?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(shrugging) I don't know... my family's been asking, but I don't want to be a burden. And I don't want to complain about nothing, like I don't have a real reason to feel this way."
+    },
+    {
+      "speaker": "therapist",
+      "text": "It's important to remember that it's okay to feel down sometimes, and it's okay to talk about it. It doesn't mean you're a burden or that you're complaining. It's okay to feel sad."
+    },
+    {
+      "speaker": "patient",
+      "text": "(looking down, slightly annoyed) I know that. It's just... (pausing) easier to not think about it, I guess."
+    },
+    {
+      "speaker": "therapist",
+      "text": "(nodding) I understand. It can be hard to think about what you're feeling, especially if it's not something you've talked about before. But it's important to try to be open to talking about it, even if it feels like a chore at the moment."
+    },
+    {
+      "speaker": "patient",
+      "text": "(softening slightly, but still guarded) I suppose... but it's hard to know where to start."
+    },
+    {
+      "speaker": "therapist",
+      "text": "(smiling) That's okay. We can start by just talking about what you're feeling and how it's been for you lately. And if you want to bring up something specific, you can."
+    },
+    {
+      "speaker": "patient",
+      "text": "(looking down, hesitating) I don't know... sometimes I think it would be easier if I just didn't wake up in the morning."
+    },
+    {
+      "speaker": "therapist",
+      "text": "(concerned) Sorry to hear that. It sounds like you're feeling a lot of pain. It's okay to feel like that sometimes, but it's important to remember that there are people who care about you and who can help you feel better."
+    },
+    {
+      "speaker": "patient",
+      "text": "(looking down, still quiet) I know... but it's hard to see right now."
+    },
+    {
+      "speaker": "therapist",
+      "text": "(nodding) I understand. It can be hard to see a way out of the pain, but it's important to try to find ways to feel better. I'm here to listen and help if I can."
+    },
+    {
+      "speaker": "patient",
+      "text": "(very quietly) I just feel so... empty. Like nothing matters, and nothing will ever matter again."
+    },
+    {
+      "speaker": "therapist",
+      "text": "(softly) It's okay to feel empty sometimes. It's okay to feel like nothing matters. It's important to remember that there are people who care about you and who can help you feel better. It's okay to ask for help."
+    }
+  ]
+}
