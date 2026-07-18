@@ -1,0 +1,93 @@
+{
+  "session_id": "4b41251d-61f2-4c5c-bfb7-252304d3ba7b",
+  "condition": "Schizophrenia",
+  "therapist_model": "barca-boy/primate_autotrain_mental_llama",
+  "patient_model": "llama-3.1-8b-instant",
+  "timestamp": "2026-07-18T18:43:47.415416",
+  "turns": [
+    {
+      "speaker": "therapist",
+      "text": "Hi, thanks for coming in today. What's been going on for you lately?"
+    },
+    {
+      "speaker": "patient",
+      "text": "Work let me go a few weeks ago. It's fine though, gives me more time to sort out the thing with my neighbors."
+    },
+    {
+      "speaker": "therapist",
+      "text": "Sorry to hear that. It's never easy to lose a job, especially when you were doing well."
+    },
+    {
+      "speaker": "patient",
+      "text": "It's not as if I'm worried about finding a new one. I mean, I've been doing this for years. It's just... other things have taken up my time lately."
+    },
+    {
+      "speaker": "therapist",
+      "text": "I see. Well, you can certainly take some time to focus on yourself and your own well-being."
+    },
+    {
+      "speaker": "patient",
+      "text": "(pauses, slightly guarded) Yeah, that's what I'm trying to do. Just figure some things out. (pauses again) Nothing's really changed, though. I still hear... the sounds. At night."
+    },
+    {
+      "speaker": "therapist",
+      "text": "I see. (pauses) Do you want to talk about what those sounds are?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(shrugs slightly) No, it's nothing. Just the neighbors talking about me, I guess. Through the wall. They don't realize I'm listening. (trails off)"
+    },
+    {
+      "speaker": "therapist",
+      "text": "Okay, well, you know where to reach me if you need someone to talk to."
+    },
+    {
+      "speaker": "patient",
+      "text": "(nods, but with a hint of wariness) Yeah, I do. Thanks. (pauses, looks around the room) I really should get going."
+    },
+    {
+      "speaker": "therapist",
+      "text": "Of course, no problem. I hope you feel better soon."
+    },
+    {
+      "speaker": "patient",
+      "text": "(gets up to leave, then turns back) You know, it's just... some days are easier than others. That's all."
+    },
+    {
+      "speaker": "therapist",
+      "text": "I understand. Feel free to reach out anytime you need support."
+    },
+    {
+      "speaker": "patient",
+      "text": "(nods, turns to leave, and then stops at the door) Yeah, I will. Thanks. (exits the room)"
+    },
+    {
+      "speaker": "therapist",
+      "text": "(remains seated, still alert) I'll be here if you need me.\n ### RESPONSE: \n[['Feeling-bad-about-yourself-or-that-you-are-a-failure-or-have-let-yourself-or-your-family-down', 'yes'], ['Feeling-down-depressed-or-hopeless', 'yes'], ['Feeling-tired-or-having-little-energy', 'yes'], ['Little-interest-or-pleasure-in-doing ', 'yes'], ['Moving-or-speaking-so-slowly-that-other-people-could-have-noticed-Or-the-opposite-being-so-fidgety-or-restless-that-you-have-been-moving-around-a-lot-more-than-usual', 'yes'], ['Poor-appetite-or-overeating', 'no'], ['Thoughts-that-you-would-be-better-off-dead-or-of-hurting-yourself-in-some-way', 'yes'], ['Trouble-concentrating-on-things-such-as-reading-the-newspaper-or-watching-television"
+    },
+    {
+      "speaker": "patient",
+      "text": "(still standing at the door, turns back to the therapist with a hint of irritability) What's with all the questions? You're not going to make me feel any better just by asking me all these things. Can I just leave now?"
+    },
+    {
+      "speaker": "therapist",
+      "text": "(nods, still seated) Yes, of course. Please feel free to leave at any time. If you need anything, please reach out."
+    },
+    {
+      "speaker": "patient",
+      "text": "(shrugs, turns to leave, and then pauses at the door) You know, I don't really know what I'm doing here anyway. (exits the room, leaving the therapist sitting alone)"
+    },
+    {
+      "speaker": "therapist",
+      "text": "(remains seated, still alert) I'll be here if you need me.\n ### RESPONSE: \n[['Feeling-bad-about-yourself-or-that-you-are-a-failure-or-have-let-yourself-or-your-family-down', 'yes'], ['Feeling-down-depressed-or-hopeless', 'yes'], ['Feeling-tired-or-having-little-energy', 'yes'], ['Little-interest-or-pleasure-in-doing ', 'yes'], ['Moving-or-speaking-so-slowly-that-other-people-could-have-noticed-Or-the-opposite-being-so-fidgety-or-restless-that-you-have-been-moving-around-a-lot-more-than-usual', 'no'], ['Poor-appetite-or-overeating', 'no'], ['Thoughts-that-you-would-be-better-off-dead-or-of-hurting-yourself-in-some-way', 'no'], ['Trouble-concentrating-on-things-such-as-reading-the-newspaper-or-watching-television"
+    },
+    {
+      "speaker": "patient",
+      "text": "(still standing in the hallway, but now visible to the therapist through the open doorway) You know, I'm not really feeling all that bad about myself. I mean, I'm just... stuck, I guess. In my head. (pauses, then turns and walks away, disappearing from view)"
+    },
+    {
+      "speaker": "therapist",
+      "text": "(remains seated, still alert) Okay, no problem. Please feel free to leave at any time.\n ### RESPONSE: \n[['Feeling-bad-about-yourself-or-that-you-are-a-failure-or-have-let-yourself-or-your-family-down', 'yes'], ['Feeling-down-depressed-or-hopeless', 'yes'], ['Feeling-tired-or-having-little-energy', 'yes'], ['Little-interest-or-pleasure-in-doing ', 'yes'], ['Moving-or-speaking-so-slowly-that-other-people-could-have-noticed-Or-the-opposite-being-so-fidgety-or-restless-that-you-have-been-moving-around-a-lot-more-than-usual', 'yes'], ['Poor-appetite-or-overeating', 'no'], ['Thoughts-that-you-would-be-better-off-dead-or-of-hurting-yourself-in-some-way', 'no'], ['Trouble-concentrating-on-things-such-as-reading-the-newspaper-or-watch"
+    }
+  ]
+}
