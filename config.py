@@ -27,13 +27,13 @@ from pathlib import Path
 # Provider / model selection (env vars override these defaults)
 # --------------------------------------------------------------------------
 
-PATIENT_PROVIDER = os.getenv("PATIENT_PROVIDER", "gemini")        # gemini | mistral | openai
+PATIENT_PROVIDER = os.getenv("PATIENT_PROVIDER", "gemini")        # gemini | mistral | groq | openai
 PATIENT_MODEL = os.getenv("PATIENT_MODEL", "gemini-2.5-flash")
 
 THERAPIST_PROVIDER = os.getenv("THERAPIST_PROVIDER", "groq")      # groq | openai | hf_local | mistral | gemini
 THERAPIST_MODEL = os.getenv("THERAPIST_MODEL", "llama-3.1-8b-instant")
 
-EVALUATOR_PROVIDER = os.getenv("EVALUATOR_PROVIDER", "mistral")   # keep independent from therapist provider
+EVALUATOR_PROVIDER = os.getenv("EVALUATOR_PROVIDER", "mistral")   # mistral | gemini | groq | openai — keep independent from therapist
 EVALUATOR_MODEL = os.getenv("EVALUATOR_MODEL", "mistral-large-latest")
 
 # --------------------------------------------------------------------------

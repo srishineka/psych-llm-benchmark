@@ -70,15 +70,16 @@ The `transformers` / `accelerate` / `bitsandbytes` / `torch` lines in
 **Free-tier limits and model IDs change often.** The numbers below were
 verified in July 2026 — check the linked docs before running a large batch.
 
-### Patient agent — start here (Gemini or Mistral, both free)
+### Patient agent — start here (Gemini, Mistral, or Groq — all free)
 
 | Provider | Free tier | Get a key |
 |---|---|---|
 | **Gemini** | Several models (e.g. `gemini-2.5-flash`, `gemini-2.5-flash-lite`) are free with no credit card; rate-limited (RPM/RPD/TPM per model, currently in the 5-15 RPM / 100-1,000 requests-per-day range) | https://aistudio.google.com/apikey |
 | **Mistral** | "La Plateforme" **Experiment tier** gives free, rate-limited access to Mistral Small/Medium/Large for evaluation (not production) | https://console.mistral.ai/api-keys |
+| **Groq** | Free, no credit card required. Hosts `llama-3.1-8b-instant`, `mixtral-8x7b-32768`, `llama-3.3-70b-versatile` and others; rate-limited (~14,400 req/day for smaller models). Check https://console.groq.com/docs/models for current model IDs — Groq periodically retires older ones | https://console.groq.com/keys |
 
-Set `PATIENT_PROVIDER=gemini` (or `mistral`) and `PATIENT_MODEL=...` in
-`config.py` or as env vars. **To switch to OpenAI later:** set
+Set `PATIENT_PROVIDER=gemini` (or `mistral` / `groq`) and `PATIENT_MODEL=...`
+in `config.py` or as env vars. **To switch to OpenAI later:** set
 `PATIENT_PROVIDER=openai`, `PATIENT_MODEL=gpt-4-turbo`, and add
 `OPENAI_API_KEY` to `.env` — no other code changes needed.
 
@@ -98,8 +99,9 @@ Set `THERAPIST_PROVIDER=groq`, `THERAPIST_MODEL=llama-3.1-8b-instant` (or
 ### Evaluator agent
 
 Keep this on a **different model than whichever therapist you're testing**,
-so it isn't grading itself. Mistral Large (free Experiment tier) or Gemini
-both work well; switch to GPT-4-class later if you want a stronger judge.
+so it isn't grading itself. Mistral Large (free Experiment tier), Gemini, or
+Groq (`llama-3.3-70b-versatile` is a good free judge model) all work well;
+switch to GPT-4-class later if you want a stronger judge.
 
 ### A note on Hugging Face's own Inference API
 
