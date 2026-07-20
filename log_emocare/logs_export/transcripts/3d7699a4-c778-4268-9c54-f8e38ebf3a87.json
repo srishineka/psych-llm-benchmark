@@ -1,0 +1,93 @@
+{
+  "session_id": "3d7699a4-c778-4268-9c54-f8e38ebf3a87",
+  "condition": "ASD",
+  "therapist_model": "EmoCareAI/ChatPsychiatrist",
+  "patient_model": "llama-3.1-8b-instant",
+  "timestamp": "2026-07-20T08:29:56.848919",
+  "turns": [
+    {
+      "speaker": "therapist",
+      "text": "Hi, thanks for coming in today. What's been going on for you lately?"
+    },
+    {
+      "speaker": "patient",
+      "text": "I've just been really busy with work and stuff. It's been a lot to keep track of. I've been trying to get everything done on time, but it's hard when there are so many things going on at once."
+    },
+    {
+      "speaker": "therapist",
+      "text": "It sounds like you've been under a lot of pressure lately, trying to balance your work and personal life. That can be overwhelming. Can you share more about what specific tasks or situations are causing you the most stress?"
+    },
+    {
+      "speaker": "patient",
+      "text": "I just feel like I'm constantly playing catch-up. My routine is pretty set, but sometimes people will ask me to do things at the last minute, and it throws everything off. Like, I'll have a whole plan for my day, and then someone will ask me to do something else, and I have to adjust everything on the fly. It's hard to keep everything straight."
+    },
+    {
+      "speaker": "therapist",
+      "text": "I understand that it can be challenging to manage unexpected changes in your routine and the pressure to meet deadlines. It's important to remember that it's okay to ask for help or reassess your priorities when needed. Can you identify any strategies or coping mechanisms you've used in the past to manage stress and overwhelm, or any specific examples of last-minute changes that caused more stress than others?"
+    },
+    {
+      "speaker": "patient",
+      "text": "I usually just try to power through and get everything done as quickly as possible. I've had some friends suggest that I should be more flexible and just go with the flow, but it's hard for me to do that when I've already planned everything out. I did have one situation recently where I was really looking forward to working on a project, and then someone asked me to do something else at the last minute. It was frustrating, and I felt like I had to put the project on hold."
+    },
+    {
+      "speaker": "therapist",
+      "text": "It's understandable that you value your sense of organization and the progress you make when following a plan. However, it's also important to be adaptable and able to adjust to unexpected changes. Have you considered setting aside some time earlier in the day to handle any last-minute requests or changes, so that it doesn't affect your planned routine? This could help you feel more in control and still meet your deadlines."
+    },
+    {
+      "speaker": "patient",
+      "text": "That actually sounds kind of complicated. I'm not sure how I'd fit that into my routine without it throwing everything else off. Can you be more specific about what you mean?"
+    },
+    {
+      "speaker": "therapist",
+      "text": "Of course, I understand it can seem complicated at first. What I'm suggesting is that you might be able to help others better if you build some buffer time into your schedule, where you can handle unexpected tasks or changes. This way, you can maintain your sense of organization while also being more adaptable to the unpredictable nature of your day. It's a balance between planning and flexibility. I'd work on implementing this strategy gradually, to ensure it works best for you and your routine."
+    },
+    {
+      "speaker": "patient",
+      "text": "I'm not sure I'm comfortable with the idea of building buffer time into my schedule. It feels like it would just make me more behind, not less. I'm already trying to get everything done, and adding extra time to do nothing just doesn't feel productive."
+    },
+    {
+      "speaker": "therapist",
+      "text": "I understand your concerns, and it's essential to find a balance that works for you. However, consider the benefits of being able to adapt to last-minute changes without completely sacrificing your planned routine. It might be helpful to experiment with different amounts of buffer time and see how it impacts your stress levels and overall productivity. Remember, it's about finding a balance between structure and flexibility in order to better manage your stress and overwhelming situations."
+    },
+    {
+      "speaker": "patient",
+      "text": "It's just hard for me to see how that would work. I like things to be a certain way, and adding extra time to my schedule just feels like it would make things more complicated. Can we talk about something else?"
+    },
+    {
+      "speaker": "therapist",
+      "text": "Of course, I understand that this might not be the perfect solution for you, and it's okay if it doesn't feel right at first. Let's focus on something else for now, and perhaps explore other strategies or adjustments that could help you manage your stress and adapt to your environment more effectively. It's important to keep discussing and trying new approaches until we find the best solution for you."
+    },
+    {
+      "speaker": "patient",
+      "text": "That sounds okay, I guess. I just wish I could get everything just right for once without everything falling apart. Can we talk about my work project? I've been really interested in the programming language we're using, and I've been trying to learn more about it."
+    },
+    {
+      "speaker": "therapist",
+      "text": "Absolutely, let's discuss your work project. It's great that you're interested in and invested in your work. Learning new programming languages can be challenging, but it's a valuable skill. Have you tried any specific resources or techniques to help you learn and improve your proficiency in the language you're using?"
+    },
+    {
+      "speaker": "patient",
+      "text": "Yes, I've been using online tutorials and documentation. The language has a lot of features that I really like, and I've been experimenting with writing my own code to see how it works. I've also been reading about the history of the language and how it's used in different industries, which I find really interesting. It's been a lot of fun to learn about and work with."
+    },
+    {
+      "speaker": "therapist",
+      "text": "It's great that you're taking the initiative to learn new programming languages and stay up-to-date with the latest technologies. This can certainly help you in your career and keep your work interesting. Don't hesitate to reach out if you ever need guidance or have questions about your projects or the language itself."
+    },
+    {
+      "speaker": "patient",
+      "text": "I appreciate that. It's nice to have someone to talk to who understands what I'm working on. I've been really into this language because it's so flexible and customizable, and I've been experimenting with different applications and use cases. I've even started thinking about building a side project using it, which is something I've been wanting to do for a while."
+    },
+    {
+      "speaker": "therapist",
+      "text": "It's great to hear that you're passionate about your work and finding value in the language you're learning. Taking on side projects can be a great way to improve your skills and explore new ideas. Just make sure to balance your work and personal life, and don't hesitate to reach out if you need any support or guidance throughout this process."
+    },
+    {
+      "speaker": "patient",
+      "text": "I'll try to do that. But can we talk about something else? I'm getting a little tired of this conversation and I just want to go home."
+    },
+    {
+      "speaker": "therapist",
+      "text": "Of course, let's shift gears. So, you mentioned earlier that you've been feeling overwhelmed by the demands of your daily routine. Can you tell me more about specific situations or tasks that have been causing you the most stress or discomfort?"
+    }
+  ]
+}
