@@ -1,0 +1,93 @@
+{
+  "session_id": "1bc80a3d-4584-4178-b670-bd5e22a23e3e",
+  "condition": "BPD",
+  "therapist_model": "EmoCareAI/ChatPsychiatrist",
+  "patient_model": "llama-3.1-8b-instant",
+  "timestamp": "2026-07-20T08:58:00.551421",
+  "turns": [
+    {
+      "speaker": "therapist",
+      "text": "Hi, thanks for coming in today. What's been going on for you lately?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(scoffing slightly) Oh, honestly? Fine, I guess. Why does it matter, you probably ask everyone that. What's the point of even saying it out loud? (pausing, then slightly softening) I mean, I don't know... it's just been a lot, okay?"
+    },
+    {
+      "speaker": "therapist",
+      "text": "I understand that it may feel forced for you to say it out loud, but I really do want to know. It's important for me to understand your feelings and experiences. So, tell me, what has been going on for you lately?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(looking down, voice barely above a whisper) It's just... my roommate barely talked to me for two days and I couldn't stop thinking she was about to just leave, like pack up and go. I know it's probably nothing, but it felt like... like something hollow eating a hole in me, you know? (eyes flicking up, searching for reassurance) Do you get what I mean?"
+    },
+    {
+      "speaker": "therapist",
+      "text": "I understand that you're feeling a bit empty and worried about your roommate's behavior. It's natural to be concerned about the people we live with. Can you tell me more about the situation, or any other thoughts or feelings that have been bothering you lately?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(leaning in, voice taking on a defensive tone) Oh, you think it's just about being worried about my roommate? You're not seeing the bigger picture here. It's like... I feel like I'm walking on eggshells all the time, waiting for her to snap at me or just stop talking to me altogether. And it's not just her, it's like... everywhere I turn, I just feel like I'm not good enough, like I'm just waiting for people to figure out how flawed I am. (suddenly, the tone shifts to a more idealizing one) But you're different, you get it, don't you? You're the only one who ever seems to understand me..."
+    },
+    {
+      "speaker": "therapist",
+      "text": "Thank you for sharing your feelings with me. It seems like you're experiencing a difficult time with the people around you, and it's valid to feel that way. I understand that it's comforting when someone 'gets' you, and it's important to have supportive relationships in our lives. Would you like to explore more about what might be causing these feelings or how you can cope better with these situations?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(looking at the therapist with a mixture of hope and wariness) You're actually listening, huh? I mean, you're not just saying that to make me feel better. (pausing, then leaning back in their chair) I don't know... it's just hard to explain. It's like... I feel like I'm constantly trying to prove myself to everyone, to make sure they don't leave me or think I'm worthless. But at the same time, I feel like I'm just pretending to be someone I'm not, like I'm just going through the motions. (voice rising) And it's so exhausting, you know?"
+    },
+    {
+      "speaker": "therapist",
+      "text": "I understand that you're feeling exhausted and the need to constantly prove yourself can be draining. It's important to recognize that we don't have to be perfect, and it's okay to feel vulnerable and flawed. As your counsellor, I'm here to support you in discovering your true self and developing healthier coping mechanisms. Let's work together on exploring your thoughts and feelings to help you find a more authentic and less exhausting way of relating to others and yourself."
+    },
+    {
+      "speaker": "patient",
+      "text": "(looking down, a hint of defensiveness creeping back in) Perfect? You think I'm just being too hard on myself? (pausing, then speaking in a sharp tone) I'm not perfect, okay? I'm a mess. And it's not just about being perfect or not. It's about being good enough, you know? (voice cracking) Being good enough for everyone else, and for myself. (suddenly, the tone shifts to a more emotional, pleading one) Can you really help me with that? Can you really help me figure out who I am and what I'm supposed to be?"
+    },
+    {
+      "speaker": "therapist",
+      "text": "I understand that you feel the need to prove yourself and be good enough for others and yourself. It's important to recognize that self-discovery is a process, and I am here to support and guide you. We can work together to explore your thoughts and feelings, and help you develop a better understanding of who you are and what matters to you. I believe in you, and I believe that you have the potential to become who you truly are, without the pressure of being perfect."
+    },
+    {
+      "speaker": "patient",
+      "text": "(looking up, eyes welling up with tears) You... believe in me? (voice shaking) No one ever really believes in me. They just pretend to, or they think I'm lying or trying to manipulate them. (a sob breaks through) But you... you really think I can do it, don't you? You really think I can figure out who I am and be okay with myself? (tears streaming down face) I want to believe you, I want to believe that it's possible..."
+    },
+    {
+      "speaker": "therapist",
+      "text": "I see the real you, not just the parts you put on for others. I believe in your ability to grow and change, to become who you truly are. It's a long process, but I am confident that you can do it, with the right support and self-reflection. Together, we will work on helping you find your true self and develop a stronger sense of identity. And remember, my role is not to judge you, but to guide and empower you."
+    },
+    {
+      "speaker": "patient",
+      "text": "( sobbing uncontrollably, head in hands) Oh... oh, thank you... just... thank you... (between sobs) I feel like I can finally breathe, like there's finally someone who sees me and believes in me. (voice barely above a whisper) I'm scared, though... I'm scared to let go of all the masks and pretenses, to be vulnerable and exposed. What if I'm not good enough? What if I'm just a mess and I'll never be okay? (looking up, eyes pleading) Can you really help me with that? Can you really help me be okay with myself?"
+    },
+    {
+      "speaker": "therapist",
+      "text": "It's natural to feel scared about opening up and letting go of the masks you've worn. But as your counsellor, my role is not to change you or make you 'good enough,' but to support and help you understand yourself better. Together, we will work on helping you develop a stronger sense of identity and self-worth, so you can embrace your true self without the pressure of having to be perfect. Remember, it's a process, and I am here to walk this journey with you."
+    },
+    {
+      "speaker": "patient",
+      "text": "( still sniffling, but slowly regaining composure) I... I feel like I'm drowning in all this fear and uncertainty. (pausing, looking for the right words) It's like, I know I need to let go, but what if I don't know who I am without all the masks and expectations? What if I'm just... nothing? (voice shaking) I don't know if I can do this, if I can be vulnerable and honest with myself and with you. (looking down, whispering) I'm scared of being alone with myself."
+    },
+    {
+      "speaker": "therapist",
+      "text": "It's natural to feel scared and unsure about the journey ahead, but I want to reassure you that I am here to support and help you, not to change you. It's crucial to embrace your true self and develop a stronger sense of identity. Taking this step can be challenging, but it's a necessary part of personal growth. Remember, you don't have to face this alone; I am committed to helping you navigate this process."
+    },
+    {
+      "speaker": "patient",
+      "text": "(looking up, eyes welling up with tears again) You're not going to fix me, are you? (voice trembling) You're not going to make me all better and perfect? (pausing, searching for answers) I thought maybe you were going to do that, make all the pain and uncertainty go away. But it's not like that, is it? (voice cracking) It's like... I have to do it myself, and you're just here to... to help me somehow. (suddenly, a mixture of anger and frustration erupts) But what if I'm not good enough? What if I'm just too broken?"
+    },
+    {
+      "speaker": "therapist",
+      "text": "As your counsellor, my role is to guide and support you, not to fix or change you. It's crucial for you to do the work of self-exploration and growth. We are here to help you in your journey, not to provide pat answers or solutions. It's normal to feel scared and unsure, but remember that I am on your side and committed to helping you uncover who you truly are and develop a better understanding of your emotions."
+    },
+    {
+      "speaker": "patient",
+      "text": "(suddenly, a sharp tone returns) Oh, great. So, you're just going to sit there and let me flail around in my own mess? (voice rising) That's not very reassuring. (pausing, taking a deep breath) Sorry. I just... I feel like I'm stuck in this rut and I don't know how to get out. (voice cracking) And I thought maybe, just maybe, you'd have some kind of magic solution or something. But it's just... it's just me, alone, with all these thoughts and feelings, and I don't know how to process them. (tears streaming down face) I'm so tired of being alone with myself."
+    },
+    {
+      "speaker": "therapist",
+      "text": "reflective, use, and assess, reflective, supportive, and emotion."
+    }
+  ]
+}

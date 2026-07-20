@@ -1,0 +1,93 @@
+{
+  "session_id": "1e9021b8-5c45-4b59-a308-6e3ae710cf08",
+  "condition": "GAD",
+  "therapist_model": "EmoCareAI/ChatPsychiatrist",
+  "patient_model": "llama-3.1-8b-instant",
+  "timestamp": "2026-07-20T08:45:41.194709",
+  "turns": [
+    {
+      "speaker": "therapist",
+      "text": "Hi, thanks for coming in today. What's been going on for you lately?"
+    },
+    {
+      "speaker": "patient",
+      "text": "Honestly, everything and nothing? Like I'll be fine and then suddenly I'm thinking about whether I locked the car, or if my mom's flight is going to be okay, or some email I sent three days ago. It's just hard to explain."
+    },
+    {
+      "speaker": "therapist",
+      "text": "It sounds like you're experiencing a lot of anxiety and worry about various things in your life. It's normal to have concerns, but it's important to find a balance. Can you share more about the level of anxiety you're experiencing and if there's any particular thought that's causing you the most distress?"
+    },
+    {
+      "speaker": "patient",
+      "text": "My shoulders are up by my ears half the day, and I just feel...on edge, I guess. It's not just one thing, it's like all these little worries just pile up and I don't know how to make them stop. And like, the other day I was thinking, \"What if I forgot to pay that bill?\" and now I'm just wondering if I'm going to get in trouble for it."
+    },
+    {
+      "speaker": "therapist",
+      "text": "I understand that you're experiencing a significant amount of anxiety and worry. It's important to acknowledge that it's normal to have concerns, but we need to find ways to manage them better. Can you identify any specific thought or worry that's causing you the most distress? This can help us to better understand your situation and develop strategies to cope with it."
+    },
+    {
+      "speaker": "patient",
+      "text": "It's just...I don't know, it's hard to pinpoint one thing. I mean, it's like my brain just starts racing and I'm thinking about all these different things and I don't know how to stop it. Is that normal, do you think? People get like that sometimes, right?"
+    },
+    {
+      "speaker": "therapist",
+      "text": "It's not uncommon for people to experience racing thoughts and anxiety about various things in their lives. However, it's important to find ways to manage these feelings effectively. We can explore different coping strategies and techniques to help you reduce your anxiety and worry. Can you please share an instance when this level of anxiety significantly impacted your daily life?"
+    },
+    {
+      "speaker": "patient",
+      "text": "Well...I don't know, it's just been like this for a while now. I think it was a few weeks ago when I was supposed to meet with a client, and I was worried I'd forget what to say or do something wrong. I ended up being late and my shoulders were killing me from tension, and I just felt like I was on the verge of a nervous breakdown. It's just been like that ever since, to be honest."
+    },
+    {
+      "speaker": "therapist",
+      "text": "I appreciate you sharing that experience. It seems like your anxiety and worry have been affecting your daily life and causing you significant physical tension. It's important for us to work together to find strategies that can help you manage these feelings more effectively. Can you think of any specific situations or triggers that cause this level of anxiety, or is it more of a constant state throughout the day?"
+    },
+    {
+      "speaker": "patient",
+      "text": "To be honest, it's just...all the time, I guess. I mean, I'll be fine, and then suddenly I'll start thinking about something else and I'm right back to feeling on edge. It's hard to explain. But, I think maybe it's worse when I'm trying to fall asleep. My brain just keeps racing and I feel like I'm never going to be able to relax. Does that sound normal to you?"
+    },
+    {
+      "speaker": "therapist",
+      "text": "I understand that you're experiencing anxiety and worry that seems to be impacting your daily life and making it difficult for you to relax. It's not uncommon for people to experience racing thoughts and worry, but it's important to find ways to manage these feelings effectively. Let's discuss some strategies and techniques that can help you cope with these feelings, as well as explore any potential triggers or situations that may be exacerbating your anxiety."
+    },
+    {
+      "speaker": "patient",
+      "text": "I don't know...I just feel like I'm running on empty. I'm tired all the time, and I just want my brain to stop for one day, you know? Just to be able to relax and not think about all the things that could go wrong. Is that even possible?"
+    },
+    {
+      "speaker": "therapist",
+      "text": "It's understandable that you're feeling tired and overwhelmed by your thoughts. It's important to find ways to manage your anxiety effectively so that you can eventually reach a point where you can relax and not be constantly on edge. We can explore various coping strategies and techniques to help you achieve that. It's also crucial to identify any potential triggers or situations that may be exacerbating your anxiety and worry. Can you share more about those triggers or situations that cause your anxiety to escalate?"
+    },
+    {
+      "speaker": "patient",
+      "text": "It's just...work, and health, and my mom...I worry about all those things. I worry that I'll get fired, or that I'll get sick, or that something will happen to my mom. And it's not just one thing, it's like all these worries just pile up and I don't know how to make them stop. Do you think it's normal to feel like that?"
+    },
+    {
+      "speaker": "therapist",
+      "text": "It's not uncommon for people to experience various worries and anxieties in their lives, but it's important to find healthy ways to cope with these feelings. It seems that you have a lot on your plate, and it's affecting your ability to relax and enjoy your life. Let's explore some strategies and techniques that can help you manage your anxiety effectively so that you can eventually reach a point where you can relax and not be constantly on edge. Can you please share more about the specific worries that are causing you the most distress?"
+    },
+    {
+      "speaker": "patient",
+      "text": "I don't know...I guess it's just the not knowing. Like, if something's going to happen or not. And the not being able to control it. Does that make sense?"
+    },
+    {
+      "speaker": "therapist",
+      "text": "Yes, I understand what you mean. It's normal to feel a lack of control over certain situations, which can lead to anxiety and worry. It's important to acknowledge these feelings and find ways to cope with them effectively. We can explore various strategies and techniques that can help you manage your anxiety and improve your sense of control over certain situations. Can you please share a recent example of a situation that caused you to feel this level of anxiety and worry?"
+    },
+    {
+      "speaker": "patient",
+      "text": "I was supposed to meet with a client, and I was worried I'd forget what to say or do something wrong. I ended up being late, and my shoulders were killing me from tension, and I just felt like I was on the verge of a nervous breakdown. It's just been like that ever since, to be honest."
+    },
+    {
+      "speaker": "therapist",
+      "text": "It sounds like your anxiety and worry about being able to perform in certain situations have been affecting your daily life and causing you significant distress. It's important for us to work together to find strategies that can help you manage these feelings more effectively. Can you think of any specific situations or triggers that cause this level of anxiety, or is it more of a constant state throughout the day? Identifying these triggers can help us better understand your situation and develop coping strategies that are tailored to your needs."
+    },
+    {
+      "speaker": "patient",
+      "text": "I think it's just...my brain, I guess. It's always racing and thinking about all these things that could go wrong. I don't know, maybe if I could just calm my brain down a bit, that would help."
+    },
+    {
+      "speaker": "therapist",
+      "text": "I understand that you're experiencing a lot of racing thoughts and worry, which can be overwhelming. It's important to find ways to manage these feelings effectively. We can explore various coping strategies and techniques that can help you calm your mind and reduce your anxiety. It's also crucial to identify any potential triggers or situations that may be exacerbating your anxiety and worry. Can you share any recent examples of situations that caused your anxiety to escalate or your racing thoughts to increase?"
+    }
+  ]
+}
