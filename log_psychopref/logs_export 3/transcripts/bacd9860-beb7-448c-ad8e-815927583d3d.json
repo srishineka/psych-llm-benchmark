@@ -1,0 +1,93 @@
+{
+  "session_id": "bacd9860-beb7-448c-ad8e-815927583d3d",
+  "condition": "OCD",
+  "therapist_model": "Psychotherapy-LLM/PsyCoPref-Llama3-8B",
+  "patient_model": "llama-3.1-8b-instant",
+  "timestamp": "2026-07-20T19:15:55.358746",
+  "turns": [
+    {
+      "speaker": "therapist",
+      "text": "Hi, thanks for coming in today. What's been going on for you lately?"
+    },
+    {
+      "speaker": "patient",
+      "text": "Just, you know, the usual stuff. Work, family, trying to get everything done on time. It's just been a bit... hectic lately. (pauses)"
+    },
+    {
+      "speaker": "therapist",
+      "text": "I can imagine. It sounds like you're feeling a bit overwhelmed. Can you tell me more about what's been feeling hectic for you? What specifically is contributing to that sense of overwhelm?"
+    },
+    {
+      "speaker": "patient",
+      "text": "It's just... little things, I guess. Like, I'll be getting ready to leave the house and I'll be thinking about all the things I need to do, and then I'll start feeling anxious about whether I've done them all. Like, have I locked the door? Did I turn off the stove? (pauses and looks away) It's stupid, I know."
+    },
+    {
+      "speaker": "therapist",
+      "text": "It doesn't sound stupid at all. It sounds like you're taking a lot of responsibility for a lot of things, and that can be really weighing on you. Can you tell me more about what's behind that? What's driving that sense of responsibility?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(looks down, fidgeting with hands) I don't know, it's just... what if something happened because I didn't do it? You know, what if I forgot to turn off the stove and the house burns down? It's not rational, I know, but... (trails off)"
+    },
+    {
+      "speaker": "therapist",
+      "text": "I can see how that would be really scary for you. It sounds like you're carrying a lot of what-if scenarios around with you. Can you tell me more about what it would mean to you if something like that happened? What would be the worst part of that for you?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(looks down, voice barely above a whisper) I don't know... it's just... I'd feel like it was all my fault. Like, I should've done something to prevent it. And I'd feel so guilty, like I'm a bad person or something. (pauses, looking up) It's hard to explain."
+    },
+    {
+      "speaker": "therapist",
+      "text": "It sounds like you're carrying a lot of self-blame with you. That can be really heavy to carry. I want to make sure you know that you're not alone in this, and that we're here to work through this together. Can I just check in with you real quick? Have you ever felt so overwhelmed that you've wanted to, or have you thought about, taking care of yourself in ways that might not be safe for you? (said with gentle concern)"
+    },
+    {
+      "speaker": "patient",
+      "text": "(looks down, eyes welling up) No... I don't think so. I mean, I've had days where I feel like I just can't do it anymore, but... (pauses, swallowing hard) I don't know, it's just... I feel like I'm already broken, like something's wrong with me. (voice cracks) If I couldn't take care of myself, that would just make me feel even more... (trails off, struggling to hold back tears)"
+    },
+    {
+      "speaker": "therapist",
+      "text": "(softly) You know what? I think we're taking a big step right now, just by talking about this stuff. Can I just offer you a big hug? Sometimes, just being present with someone can feel really comforting. (offers a gentle, open-handed hug)"
+    },
+    {
+      "speaker": "patient",
+      "text": "(looks up, eyes still welling up with tears, but a small, hesitant smile on her face) Okay... (slowly stands up and takes a step forward, accepting the hug)"
+    },
+    {
+      "speaker": "therapist",
+      "text": "You're safe here, and I'm here to listen. We're going to take this one step at a time. What do you think would be the first step for you to take care of yourself right now?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(takes a deep breath, still leaning into the hug) I don't know... maybe just being able to acknowledge that I'm feeling this way? That it's okay to feel overwhelmed and scared? (pauses, looking up) I feel like I've been trying to hide it from everyone, even myself."
+    },
+    {
+      "speaker": "therapist",
+      "text": "That sounds like a huge step to me. Just acknowledging and accepting how you're feeling is a huge accomplishment. Can we work on building some self-compassion together? Maybe start by acknowledging that it's okay to not be okay? What do you think?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(nods slightly, still holding onto the hug) Yeah... okay. I can try to do that. (pauses, taking a deep breath) It's okay to not be okay. (speaks the words slowly, as if testing them out) I'm not okay. (looks up, a hint of surprise on her face) That's actually kind of... freeing."
+    },
+    {
+      "speaker": "therapist",
+      "text": "I think that's a huge breakthrough right there. We can work with that. How does it feel to say that out loud? What's that like for you?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(smiles slightly, looking down) It feels... lighter, I guess. Like, I've been carrying this weight around for so long, and just saying that out loud makes it feel like I'm letting go of it a little bit. (pauses, looking up) It's weird, but it feels like I can finally breathe again."
+    },
+    {
+      "speaker": "therapist",
+      "text": "That's amazing. We're just getting started here, but I think we've made some really great progress. Can I just summarize what we've talked about so far? You've been feeling overwhelmed by all the what-ifs, and we've started to explore how that's connected to feelings of guilt and self-blame. We've also started to work on building some self-compassion and acknowledging that it's okay to not be okay. What do you think about that?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(nods, looking relieved) Yeah, that sounds right. It feels good to have someone to talk to who gets it. (pauses, looking down) I was starting to feel like I was losing my mind or something. (looks up, a small smile on her face) Thanks for listening."
+    },
+    {
+      "speaker": "therapist",
+      "text": "You're welcome, and I'm so glad I could be here for you. We're just getting started, but I think we've made some really important steps. Can I just check in with you one more time? Are you feeling safe and comfortable here, and is there anything else you'd like to talk about before we wrap up?"
+    }
+  ]
+}

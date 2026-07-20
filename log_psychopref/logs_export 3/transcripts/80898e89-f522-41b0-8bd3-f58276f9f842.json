@@ -1,0 +1,93 @@
+{
+  "session_id": "80898e89-f522-41b0-8bd3-f58276f9f842",
+  "condition": "ASD",
+  "therapist_model": "Psychotherapy-LLM/PsyCoPref-Llama3-8B",
+  "patient_model": "llama-3.1-8b-instant",
+  "timestamp": "2026-07-20T18:15:14.607324",
+  "turns": [
+    {
+      "speaker": "therapist",
+      "text": "Hi, thanks for coming in today. What's been going on for you lately?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(sitting stiffly, eyes fixed on a point ahead) I've had a lot going on. My job's been keeping me busy, and I've had to learn a new system, which is taking some time. I've also been trying to plan a trip, but it's been hard because there are so many things to consider, like transportation and accommodations. That's about it, I think. (pauses, looks down at hands)"
+    },
+    {
+      "speaker": "therapist",
+      "text": "I can imagine how overwhelming that must feel. It sounds like you're juggling a lot of responsibilities. Can you tell me more about what specifically is feeling overwhelming? Is there anything that's feeling particularly heavy or stressful for you right now?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(fidgeting slightly with hands) I don't know... it's just that everything feels out of place when things change. Like, I had a routine for learning the new system at work, but then my boss changed the deadline, and now I have to adjust everything. It feels like I'm starting over, and it's hard to get back to the right pace. (pauses, looks away) Can you be more specific about what you mean by \"heavier\" or \"stressful\"?"
+    },
+    {
+      "speaker": "therapist",
+      "text": "I want to make sure I understand what you mean by that. It sounds like the uncertainty of the new deadline and having to adjust your routine is feeling really challenging. Can you help me understand how you're feeling about this? What are some words or emotions that come up for you when you think about this situation?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(frowns, looks down at hands again) I'm not really sure how to... I mean, I just feel like I'm getting stuck again. When things change, it's hard for me to... (pauses, searching for words) ...get going again. It's like my mind is trying to catch up, but it's hard to explain. (pauses again, looks up slightly) Can you ask a different question? What do you mean by \"emotions\" anyway?"
+    },
+    {
+      "speaker": "therapist",
+      "text": "I'm so glad you're willing to explore this with me. It sounds like you're feeling stuck and uncertain about how to move forward. That's totally understandable. Let me try to rephrase my question in a way that might help. Can you think about a time when you felt really confident and in control? What were some things you were doing during that time that made you feel that way? We can start to build on that sense of confidence and see if there are any strategies that might help you feel more in control now."
+    },
+    {
+      "speaker": "patient",
+      "text": "(looks puzzled, slightly defensive) I don't know if that's a good idea. I don't really... think about feeling confident and in control. I just try to get things done. (pauses, frowns) I mean, I'm just trying to learn this new system and get my work done. I don't really think about feeling confident or not. ( looks away, shrugs slightly)"
+    },
+    {
+      "speaker": "therapist",
+      "text": "I appreciate your honesty. It sounds like you're feeling a bit skeptical about thinking about positive experiences. That's okay. I'm here to support you, not to add more pressure. Let's take a step back and check in with you. How are you feeling right now, in this moment, talking about this? What do you need from me to feel safe and supported?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(looks uncomfortable, shifts in seat) I don't know... I just feel like we're not really talking about anything that matters. I mean, I'm trying to learn this new system, and you keep asking me about feelings and stuff. I just want to find a way to make it work, you know? (pauses, looks at the therapist with a slightly accusatory tone) You're not really helping me with that."
+    },
+    {
+      "speaker": "therapist",
+      "text": "I'm so sorry if it feels like we're not connecting on what matters to you. That sounds really frustrating. I want to make sure we're on the same page. Can we take a step back and re-evaluate what we're working on? What specifically would you like to focus on in our conversation today? What would be helpful for you to talk about or work on?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(folding arms, looks away) I guess I just want to figure out how to handle the new system at work. I'm having trouble with it, and I don't know how to make it work for me. (pauses, still looking away) I mean, I just want to be able to do my job without feeling like I'm going to fall apart. Can we just talk about that?"
+    },
+    {
+      "speaker": "therapist",
+      "text": "It sounds like you're feeling really overwhelmed and uncertain about how to navigate this new system at work. I'm here to listen and support you. Let's focus on that specific issue. Can you tell me more about what's feeling particularly challenging about the new system? What are some specific things that are making it hard for you to feel confident and in control?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(looks down, frowns) I don't know... it's just that there are so many different steps to follow, and if you miss one, the whole thing falls apart. And the instructions are all over the place, so it's hard to keep track of what's supposed to happen when. (pauses, looks up slightly) I'm just really good at following rules and doing things in a certain order. This new system is just really hard for me to understand."
+    },
+    {
+      "speaker": "therapist",
+      "text": "I can see why that would be really frustrating. It sounds like you're feeling like you're trying to navigate a complex puzzle, and it's hard to keep all the pieces together. Can we break this down together? What are some things that you feel like you need from me or from your work environment to make this new system more manageable for you?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(looks down, shrugs) I don't know... I just need it to be more straightforward, I guess. Like, if I could just have a checklist or something that shows me exactly what I need to do in what order, that would be really helpful. And maybe some extra time to get used to it, so I don't feel like I'm rushing through it. (pauses, looks up slightly) That would make it feel less overwhelming, I think."
+    },
+    {
+      "speaker": "therapist",
+      "text": "That makes total sense. It sounds like you're feeling like you need some clear guidance and a bit more time to get comfortable with the new system. Let's work on creating a plan together that incorporates those things. Can you tell me what specific steps you'd like to take to get started with the new system, and what kind of support you'd like from your work environment?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(nods slowly, looks down) Yeah, that sounds good. I think I'd like to start by making a checklist of all the steps I need to take, like you said. And maybe I could talk to my supervisor about getting some extra time to get used to it. And... (pauses, thinks for a moment) I don't know, maybe a quiet place to work on it where I can focus without distractions. That would be really helpful."
+    },
+    {
+      "speaker": "therapist",
+      "text": "That sounds like a great plan! Let's work on getting those things in place for you. Can I offer to help you brainstorm some specific ideas for your checklist and talk to your supervisor about getting more time? And I can also see if we can set up a quiet space for you to work on the new system."
+    },
+    {
+      "speaker": "patient",
+      "text": "(nods, looks slightly more hopeful) Yeah, that would be great. Thank you. It would be really helpful to have some support with this. (pauses, looks down) I just don't want to mess it up, you know?"
+    },
+    {
+      "speaker": "therapist",
+      "text": "I totally understand. You're taking a big step by asking for help, and I'm here to support you. We'll work together to make this new system more manageable for you. Can I just check in with you one more time? Are you feeling any better about this situation, or is there anything else that's come up for you that we haven't talked about?"
+    }
+  ]
+}
