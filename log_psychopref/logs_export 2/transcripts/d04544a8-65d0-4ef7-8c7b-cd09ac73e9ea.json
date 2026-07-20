@@ -1,0 +1,93 @@
+{
+  "session_id": "d04544a8-65d0-4ef7-8c7b-cd09ac73e9ea",
+  "condition": "Addiction",
+  "therapist_model": "Psychotherapy-LLM/PsyCoPref-Llama3-8B",
+  "patient_model": "llama-3.1-8b-instant",
+  "timestamp": "2026-07-20T18:12:11.812329",
+  "turns": [
+    {
+      "speaker": "therapist",
+      "text": "Hi, thanks for coming in today. What's been going on for you lately?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(sighing) Look, my partner basically made me come. I don't think it's as big a deal as they're making it out to be, honestly. They're always on my case about something, and this time it's just... (pausing, looking for the right words) I don't know, I'm fine."
+    },
+    {
+      "speaker": "therapist",
+      "text": "It sounds like there's a lot of frustration there. Can you tell me a bit more about what's been going on from your perspective? What do you think your partner is specifically worried about that you're not seeing as a big deal?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(rolling my eyes slightly, trying to downplay the situation) Oh, it's just... they think I'm drinking too much, I guess. I mean, I have a few beers at night to unwind, but... (pausing, seeming to calculate how much to reveal) I don't know, it's not like I'm some kind of drunk or anything. I can still function, right? (trying to sound convincing)"
+    },
+    {
+      "speaker": "therapist",
+      "text": "It sounds like you're feeling a bit defensive about this. Can you tell me more about what you think your partner is worried about? Maybe we can explore that together. What do you think they're concerned might happen if you continue to drink like this?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(getting slightly irritated, but trying to keep it in check) Look, I already told you, it's not a big deal. They just worry about stuff. I'm fine. (pausing, taking a deep breath) Fine, if they're so concerned, maybe they should be worried about how I'm sleeping or something. I've been having some trouble with that lately. (muttering under my breath) Like it's not a coincidence or anything..."
+    },
+    {
+      "speaker": "therapist",
+      "text": "I can see that this is a sensitive topic for you. It takes a lot of courage to share about the sleep issues. Can you tell me more about what's been going on with your sleep? When did you first notice it was a problem, and what do you think might be contributing to it?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(grumbling, but seeming to relax a bit) Yeah, it's just been... really tough lately. I mean, I used to sleep just fine, but now I'm waking up in the middle of the night and I just can't go back to sleep. And then I'm just lying there, feeling really... (pausing, searching for the right words) anxious, I guess. And when I do finally wake up, I feel... (shrugging) shaky, I don't know, like I need something to calm down or something. (looking away, seeming to avoid direct eye contact) Does that make sense?"
+    },
+    {
+      "speaker": "therapist",
+      "text": "Yeah, that makes total sense. It sounds like you're feeling really overwhelmed. Can you tell me more about what's been going on in your life that might be contributing to these feelings? Sometimes small changes can make a big difference. Have you noticed anything else that's changed or anything that might be helping or hindering your sleep?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(sighing, seeming to open up a bit) Okay, fine. It's just... everything's just been piling up, you know? Work's been stressful, and my partner's always on my case about something... (shaking my head) And I've just been trying to deal with it all by... (pausing, looking for the right words) drinking, I guess. I mean, it helps me relax, but it's not really fixing anything, is it? (looking down, seeming to avoid eye contact) And as for sleep, well... I have noticed that when I don't drink, mornings are really tough. I feel... (pausing, struggling to find the words) empty, I guess. Like I need something to get going. Does that make sense?"
+    },
+    {
+      "speaker": "therapist",
+      "text": "Yeah, that makes total sense. It sounds like you're feeling really overwhelmed, and you're trying to cope with some challenging situations. Can you tell me more about what you think might be some small changes you could make to help with your sleep and your stress? Sometimes just talking about small changes can help us see things in a different light. We can explore some options together."
+    },
+    {
+      "speaker": "patient",
+      "text": "(shrugging, seeming to consider the idea) I don't know... I mean, I guess I could try to cut back on the drinking some, but... (pausing, looking uncertain) I don't know, it's just so hard to stop once I start. And what's the point, anyway? It's not like it's hurting anyone. (sighing) But I guess I could try to get more exercise or something. I used to like running, but... (shaking my head) I don't know, it's just hard to find the motivation right now."
+    },
+    {
+      "speaker": "therapist",
+      "text": "It sounds like you're feeling a bit stuck. Let's explore some options together. What do you think might be the first step you could take towards making some positive changes? Sometimes small, manageable steps can make a big difference. We can work together to find something that feels doable for you."
+    },
+    {
+      "speaker": "patient",
+      "text": "(sighing, seeming to think about it) I don't know... I guess the first step would be to... (pausing, struggling to find the words) cut back on the drinking, I guess. Just for a day or two, to see how it goes. But... (looking worried) what if it doesn't work? What if I'm still stuck? (looking down, seeming uncertain) I don't want to promise something I don't think I can keep."
+    },
+    {
+      "speaker": "therapist",
+      "text": "I appreciate your honesty. That takes a lot of courage. Let's work on breaking it down together. What do you think might be the first step in cutting back on the drinking? We can explore some strategies to make it a bit more manageable. And if you're feeling uncertain about the outcome, that's okay. We can work on finding some coping strategies together. How does that sound?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(looking up, seeming to consider the idea) I guess the first step would be to... (pausing, thinking) track how much I'm drinking, I guess. Just for a day or two, to see how much I'm really having. Maybe that'll give me a better idea of what's going on. (looking uncertain) But what if I'm embarrassed about how much I'm drinking? (looking down, seeming self-conscious) I don't want to admit to myself how bad it is."
+    },
+    {
+      "speaker": "therapist",
+      "text": "That takes a lot of courage to even consider tracking your drinking. It sounds like you're feeling a bit vulnerable about this. Can we explore some ways to make tracking your drinking feel more manageable for you? Sometimes having a sense of control over the situation can make a big difference. We can work on finding some strategies that feel doable for you."
+    },
+    {
+      "speaker": "patient",
+      "text": "(looking up, seeming to consider the idea) Okay... I guess I could use one of those apps on my phone to track it. I've heard of them before, but... (shrugging) I don't know, it just feels like I'm being judged or something. Like, what if I'm having a bad day and I have a few extra drinks? Is that going to make me look bad or something? (looking uncertain) But maybe... maybe it would be helpful to have some concrete numbers or something. Just to see what's going on."
+    },
+    {
+      "speaker": "therapist",
+      "text": "That takes a lot of honesty. It sounds like you're feeling a bit anxious about being judged. Can we explore some ways to make tracking your drinking feel less judgmental? Sometimes having a sense of control and being kind to ourselves can make a big difference. What do you think might be some small ways we could make tracking your drinking feel more manageable for you?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(taking a deep breath, seeming to relax a bit) Yeah... I guess I could just focus on tracking the amount I'm drinking, without judging myself about it. Like, just write down the number of drinks, without thinking about whether it's good or bad. That way, I can just focus on the facts, and not worry about being judged. (looking up, seeming to consider the idea) And maybe... maybe I could also track some other things, like how I'm feeling before and after I drink. That way, I can see if there's a pattern or something. (looking uncertain) But what if I find out that I'm drinking more than I think I am? (looking worried)"
+    },
+    {
+      "speaker": "therapist",
+      "text": "That takes a lot of courage to consider. It sounds like you're feeling a bit anxious about the outcome. Can we explore some ways to make it feel more manageable? Sometimes having a sense of control and being kind to ourselves can make a big difference. What do you think might be some small ways we could make tracking your drinking and your feelings feel less overwhelming?"
+    }
+  ]
+}
