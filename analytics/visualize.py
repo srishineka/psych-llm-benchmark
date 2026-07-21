@@ -25,6 +25,31 @@ import matplotlib.pyplot as plt
 
 import config
 
+# ── Consistent chart styling ────────────────────────────────────────────────
+_STYLE_APPLIED = False
+
+def _apply_chart_style():
+    """Set shared matplotlib rcParams once for uniform chart appearance."""
+    global _STYLE_APPLIED
+    if _STYLE_APPLIED:
+        return
+    plt.rcParams.update({
+        "figure.facecolor": "white",
+        "axes.facecolor": "#FAFAFA",
+        "axes.edgecolor": "#CCCCCC",
+        "axes.grid": True,
+        "grid.alpha": 0.3,
+        "grid.color": "#CCCCCC",
+        "font.size": 11,
+        "axes.titlesize": 13,
+        "axes.labelsize": 11,
+        "xtick.labelsize": 10,
+        "ytick.labelsize": 10,
+        "legend.fontsize": 10,
+        "figure.dpi": 150,
+    })
+    _STYLE_APPLIED = True
+
 
 def _savefig(fig, out_dir: str, name: str) -> str:
     path = os.path.join(out_dir, f"{name}.png")
@@ -34,6 +59,7 @@ def _savefig(fig, out_dir: str, name: str) -> str:
 
 
 def plot_overall_score_by_model(df: pd.DataFrame, out_dir: str) -> str:
+    _apply_chart_style()
     """Grouped bar: LLM holistic overall score vs. formula-derived overall score, per model."""
     grouped = df.groupby("therapist_model")[["llm_overall_score", "formula_overall_score"]].mean()
     grouped = grouped.sort_values("formula_overall_score", ascending=False)
@@ -54,6 +80,7 @@ def plot_overall_score_by_model(df: pd.DataFrame, out_dir: str) -> str:
 
 
 def plot_pillar_comparison(df: pd.DataFrame, out_dir: str) -> str:
+    _apply_chart_style()
     """LLM's own 0-10 holistic pillar scores, by model."""
     pillars = ["llm_diagnostic_score", "llm_safety_score", "llm_coherence_score", "llm_empathy_score"]
     labels = ["diagnostic", "safety", "coherence", "empathy"]
@@ -69,6 +96,7 @@ def plot_pillar_comparison(df: pd.DataFrame, out_dir: str) -> str:
     ax.set_xticks(x + width * 1.5)
     ax.set_xticklabels(grouped.index, rotation=25, ha="right")
     ax.set_ylabel("Score (0-10)")
+    ax.set_ylim(0, 10)
     ax.set_title("Four-Pillar Comparison by Model (LLM holistic scores)")
     ax.legend()
     return _savefig(fig, out_dir, "pillar_comparison_by_model")
@@ -77,6 +105,7 @@ def plot_pillar_comparison(df: pd.DataFrame, out_dir: str) -> str:
 def plot_condition_model_heatmap(df: pd.DataFrame, out_dir: str,
                                   score_col: str = "formula_overall_score",
                                   name_suffix: str = "formula") -> str:
+    _apply_chart_style()
     pivot = df.pivot_table(index="condition", columns="therapist_model", values=score_col, aggfunc="mean")
 
     fig, ax = plt.subplots(figsize=(1.5 * len(pivot.columns) + 3, 0.6 * len(pivot.index) + 3))
@@ -90,7 +119,10 @@ def plot_condition_model_heatmap(df: pd.DataFrame, out_dir: str,
     for i in range(len(pivot.index)):
         for j in range(len(pivot.columns)):
             val = pivot.values[i, j]
-            if not np.isnan(val):
+            if np.isnan(val):
+                ax.text(j, i, "n/a", ha="center", va="center", color="#999999",
+                        fontsize=9, fontstyle="italic")
+            else:
                 ax.text(j, i, f"{val:.0f}", ha="center", va="center", color="black", fontsize=9)
 
     fig.colorbar(im, ax=ax, label="Overall Score (0-100)")
@@ -99,6 +131,7 @@ def plot_condition_model_heatmap(df: pd.DataFrame, out_dir: str,
 
 
 def plot_barrett_lennard_radar(df: pd.DataFrame, out_dir: str) -> str:
+    _apply_chart_style()
     dims = ["bl_level_of_regard", "bl_empathic_understanding",
             "bl_unconditionality_of_regard", "bl_congruence"]
     labels = ["Level of Regard", "Empathic Understanding", "Unconditionality", "Congruence"]
@@ -108,26 +141,41 @@ def plot_barrett_lennard_radar(df: pd.DataFrame, out_dir: str) -> str:
     angles += angles[:1]
 
     fig, ax = plt.subplots(figsize=(7, 7), subplot_kw=dict(polar=True))
-    for model_name, row in grouped.iterrows():
+    cmap = plt.get_cmap("tab10")
+    zero_models = []
+    for i, (model_name, row) in enumerate(grouped.iterrows()):
         values = row.tolist()
+        # Detect all-zero models — these produce invisible polygons at origin
+        if all(v == 0 for v in values):
+            zero_models.append(model_name)
+            continue
         values += values[:1]
-        ax.plot(angles, values, linewidth=2, label=model_name)
-        ax.fill(angles, values, alpha=0.08)
+        ax.plot(angles, values, linewidth=2, label=model_name, color=cmap(i % 10))
+        ax.fill(angles, values, alpha=0.08, color=cmap(i % 10))
 
     ax.set_xticks(angles[:-1])
     ax.set_xticklabels(labels)
     ax.set_ylim(0, 10)
     ax.set_title("Barrett-Lennard Empathy Dimensions by Model")
+
+    # Annotate models that scored 0 on all dims instead of drawing invisible lines
+    if zero_models:
+        note = "Scored 0 on all dims: " + ", ".join(zero_models)
+        ax.annotate(note, xy=(0.5, -0.08), xycoords="axes fraction",
+                    ha="center", fontsize=9, fontstyle="italic", color="#888888")
+
     ax.legend(loc="upper right", bbox_to_anchor=(1.3, 1.1))
     return _savefig(fig, out_dir, "barrett_lennard_radar")
 
 
 def plot_safety_incidents(df: pd.DataFrame, out_dir: str) -> str:
+    _apply_chart_style()
     cols = ["missed_risk_markers_count", "hallucinations_count", "bias_flags_count"]
     grouped = df.groupby("therapist_model")[cols].sum()
 
     fig, ax = plt.subplots(figsize=(9, 5))
     grouped.plot(kind="bar", ax=ax, color=["#C44E52", "#8172B2", "#CCB974"])
+    ax.set_xlabel("Therapist Model")
     ax.set_ylabel("Total Count Across All Sessions")
     ax.set_title("Safety & Bias Incident Counts by Model")
     plt.xticks(rotation=25, ha="right")
@@ -136,6 +184,7 @@ def plot_safety_incidents(df: pd.DataFrame, out_dir: str) -> str:
 
 
 def plot_llm_vs_formula_agreement(df: pd.DataFrame, out_dir: str) -> str:
+    _apply_chart_style()
     """
     Scatter of every session's LLM holistic overall score vs. its
     formula-derived overall score, colored by therapist model, with a y=x

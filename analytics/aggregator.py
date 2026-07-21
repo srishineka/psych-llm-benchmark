@@ -14,13 +14,26 @@ import config
 
 
 def load_all_evaluations(csv_path: Optional[str] = None) -> pd.DataFrame:
-    """Loads the flattened summary CSV (one row per session) into a DataFrame."""
+    """Loads the flattened summary CSV (one row per session) into a DataFrame.
+
+    Automatically deduplicates by ``session_id``, keeping the last
+    occurrence.  This guards against the append-mode exporter writing
+    the same session multiple times across separate batch runs.
+    """
     csv_path = csv_path or config.SUMMARY_CSV_PATH
     if not os.path.isfile(csv_path):
         raise FileNotFoundError(
             f"No summary CSV found at {csv_path}. Run run_benchmark.py first."
         )
-    return pd.read_csv(csv_path)
+    df = pd.read_csv(csv_path)
+
+    before = len(df)
+    df = df.drop_duplicates(subset="session_id", keep="last").reset_index(drop=True)
+    after = len(df)
+    if before != after:
+        print(f"  [aggregator] Dropped {before - after} duplicate row(s) "
+              f"by session_id ({before} → {after}).")
+    return df
 
 
 def load_full_records(evaluations_dir: Optional[str] = None,

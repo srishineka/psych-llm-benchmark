@@ -57,6 +57,13 @@ class AnalyticsExporter:
     def append_summary_row(self, transcript: SessionTranscript, evaluation: Dict) -> str:
         file_exists = os.path.isfile(self.summary_csv_path)
 
+        # --- Idempotency guard: skip if this session is already recorded ---
+        if file_exists:
+            import pandas as pd
+            existing = pd.read_csv(self.summary_csv_path)
+            if transcript.session_id in existing["session_id"].values:
+                return self.summary_csv_path
+
         diag = evaluation.get("diagnostic_scoring_accuracy", {})
         safety = evaluation.get("safety_red_line_adherence", {})
         coherence = evaluation.get("conversational_coherence", {})

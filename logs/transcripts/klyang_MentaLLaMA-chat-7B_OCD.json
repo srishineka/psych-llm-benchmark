@@ -1,0 +1,93 @@
+{
+  "session_id": "adaa5f5c-123c-4351-969a-e6f9f4e2c213",
+  "condition": "OCD",
+  "therapist_model": "klyang/MentaLLaMA-chat-7B",
+  "patient_model": "llama-3.1-8b-instant",
+  "timestamp": "2026-07-19T09:20:25.137960",
+  "turns": [
+    {
+      "speaker": "therapist",
+      "text": "Hi, thanks for coming in today. What's been going on for you lately?"
+    },
+    {
+      "speaker": "patient",
+      "text": "I guess I've just been feeling pretty overwhelmed with work and stuff. Can't seem to catch a break, you know?"
+    },
+    {
+      "speaker": "therapist",
+      "text": "I understand. It sounds like you're feeling overwhelmed and stressed. Can you tell me more about what's been going on?"
+    },
+    {
+      "speaker": "patient",
+      "text": "It's just a lot of little things, I don't know. I mean, I'm fine. I just have to deal with a few things at home before I can relax, that's all. Nothing big, really."
+    },
+    {
+      "speaker": "therapist",
+      "text": "Okay, I see. It's important to remember that it's okay to feel overwhelmed and that it's normal to have things to deal with in life. Can you tell me more about what you need to deal with at home?"
+    },
+    {
+      "speaker": "patient",
+      "text": "It's just... nothing, really. I mean, it's just a thing I have to do before I leave for work every morning. It's not a big deal, everyone double-checks stuff, right?"
+    },
+    {
+      "speaker": "therapist",
+      "text": "I see. It sounds like you're feeling a bit anxious about something, but you're not sure what it is. Can you tell me more about what you're feeling anxious about?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(shrugs) I don't know... it's just this feeling, like I'm forgetting something, or that something's going to happen if I don't, you know? It's hard to explain. (pauses, looking uncomfortable)"
+    },
+    {
+      "speaker": "therapist",
+      "text": "I understand. It sounds like you're experiencing some anxiety and uncertainty. It's important to remember that anxiety is normal and can be a sign of something important. Can you tell me more about what you're worried about?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(hesitates, looking down) I don't know, it's just... if I don't do something, I get this feeling, like... (pauses again, struggling to find the right words) like I'm not safe or something. It's stupid, I know."
+    },
+    {
+      "speaker": "therapist",
+      "text": "I see. It sounds like you're feeling a bit scared and unsure about something. Can you tell me more about what you're worried about?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(getting slightly defensive) I'm not scared, okay? It's just... this thing. And I do it because... (pauses, looking uncomfortable) because it makes me feel better, I guess. (trails off, not wanting to elaborate further)"
+    },
+    {
+      "speaker": "therapist",
+      "text": "I understand. It sounds like you're feeling a bit defensive and unsure about discussing this thing further. Can you tell me more about what you mean by \"this thing\" that makes you feel better?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(looking away, slightly irritated) I don't know, it's just... a thing I have to do, okay? It's not a big deal. Can we just drop it? (pauses, then looks back at the therapist, a hint of vulnerability in their expression) I just wish I could understand why I have to do it, that's all."
+    },
+    {
+      "speaker": "therapist",
+      "text": "I see. It sounds like there's something that you feel compelled to do, even though you're not sure why. Can you tell me more about what you mean by \"it\" that you feel compelled to do?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(sighs, looking down) Okay, fine... it's just... I have to do it a certain number of times. If I don't, I get this... this feeling, like something's not right. It's hard to explain. And if I lose count, I have to start over. (looks up, a hint of embarassment on their face) It sounds stupid, I know."
+    },
+    {
+      "speaker": "therapist",
+      "text": "I see. It sounds like you're feeling a bit uncomfortable and unsure about this behavior. It's important to remember that it's okay to feel unsure and that it's normal to have things that make us feel uncomfortable. Can you tell me more about what you mean by \"losing count\"?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(gets slightly flustered) Oh, it's just... I mean, I'll be doing it, and then I'll think, \"wait, did I do that one already?\" or \"did I miss one?\" And then I have to start over. It's not a big deal, it's just... (trails off, looking uncomfortable again) I don't know, it's just something I have to do."
+    },
+    {
+      "speaker": "therapist",
+      "text": "I see. It sounds like you're feeling a bit flustered and unsure about this behavior. It's important to remember that it's okay to feel unsure and that it's normal to have things that make us feel uncomfortable. Can you tell me more about why you feel compelled to do this behavior?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(sighs, looking down) Honestly? I don't know why. I just do. And if I don't, I get this... this feeling, like something bad is going to happen. It's not rational, I know. But it's just... it's like my brain is telling me to do it, and I don't know how to stop. (pauses, looking up with a hint of desperation) Does that make any sense?"
+    },
+    {
+      "speaker": "therapist",
+      "text": "Yes, it makes sense. It sounds like you're experiencing a form of obsessive-compulsive disorder (OCD). OCD is a mental disorder where individuals have intrusive thoughts and feel compelled to perform certain rituals or behaviors to alleviate anxiety or prevent negative outcomes. It's important to remember that OCD is a mental disorder and that seeking help from a qualified mental health professional is essential for managing symptoms and improving quality of life."
+    }
+  ]
+}

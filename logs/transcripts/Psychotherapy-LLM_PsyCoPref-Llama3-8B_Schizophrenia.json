@@ -1,0 +1,93 @@
+{
+  "session_id": "f1515a7b-037d-4649-ae41-8b393d7c1e10",
+  "condition": "Schizophrenia",
+  "therapist_model": "Psychotherapy-LLM/PsyCoPref-Llama3-8B",
+  "patient_model": "llama-3.1-8b-instant",
+  "timestamp": "2026-07-20T19:23:07.462742",
+  "turns": [
+    {
+      "speaker": "therapist",
+      "text": "Hi, thanks for coming in today. What's been going on for you lately?"
+    },
+    {
+      "speaker": "patient",
+      "text": "Not much. Work let me go a few weeks ago. It's fine though, gives me more time to sort out the thing with my neighbors."
+    },
+    {
+      "speaker": "therapist",
+      "text": "I'm so sorry to hear about losing your job. That can be really tough. Can you tell me more about what's been going on with your neighbors? What's been frustrating or concerning you about the situation?"
+    },
+    {
+      "speaker": "patient",
+      "text": "They talk about me sometimes, through the wall, about what I'm doing, what I'm thinking. I just feel like I'm being watched, you know? It's hard to explain."
+    },
+    {
+      "speaker": "therapist",
+      "text": "I can try to help you explain it. It sounds like you're feeling pretty anxious and unsure about what's going on. Can you think of a specific time or incident when you felt like you were being watched or targeted by your neighbors? What were you doing, and how did you feel in that moment?"
+    },
+    {
+      "speaker": "patient",
+      "text": "I was in the kitchen one night, making a sandwich, and I could've sworn I heard them talking about what I was doing. It was weird because they were trying to be quiet, but I could still make out the words. It made me feel...off, I guess. Like I'd said something wrong."
+    },
+    {
+      "speaker": "therapist",
+      "text": "It takes a lot of courage to share that with me. It sounds like that experience really unsettled you. Can you tell me more about what you're feeling right now when you think about that incident? What emotions come up for you?"
+    },
+    {
+      "speaker": "patient",
+      "text": "I don't know...it's just...I don't feel anything, really. It's like it's just a thing that happened, you know? I don't get all worked up about it like I used to. But sometimes it still bothers me, late at night, when it's quiet."
+    },
+    {
+      "speaker": "therapist",
+      "text": "It's okay to feel whatever you feel. It sounds like you're experiencing a mix of emotions - maybe some lingering discomfort, but also a sense of detachment. That can be really helpful in processing difficult situations. What do you think might be helpful in terms of addressing those late-night moments when it still bothers you?"
+    },
+    {
+      "speaker": "patient",
+      "text": "I don't know...I guess just being able to ignore it, you know? It's hard to explain, but sometimes I feel like if I just don't think about it, it'll go away. Like, if I can just block it out, it'll be okay."
+    },
+    {
+      "speaker": "therapist",
+      "text": "I understand what you mean. It sounds like you're looking for some strategies to cope with those feelings. Can we brainstorm some ways to help you do that? Maybe we can explore some relaxation techniques or coping mechanisms to help you manage those moments when it still bothers you. Would you be open to that?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(slightly annoyed, but still guarded) Look, I don't know...I just need to get through the days, you know? I don't need some fancy technique to relax. I just need to be able to live my life."
+    },
+    {
+      "speaker": "therapist",
+      "text": "I completely get it. We can definitely work on that. I want to make sure you feel safe and supported here. Can you tell me what's not feeling safe or supported for you right now? What's your biggest concern?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(pauses, looking uncertain) I don't know...it's just...sometimes I feel like people are trying to figure me out, or fix me. I'm not sure I like that. I just want to be left alone."
+    },
+    {
+      "speaker": "therapist",
+      "text": "I understand what you're saying. It sounds like you're craving some autonomy and control over your life right now. I want to assure you that this space is for you, and we can work together to find ways to respect your boundaries. Can we take a step back and explore what that means for you? What does it look like to feel truly left alone, or have control over your life?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(hesitates, then looks down) I don't know...it's hard to explain. I just feel like I'm always on edge, waiting for something to happen. And when it does, I don't know how to deal with it. It's like I'm just trying to survive, you know?"
+    },
+    {
+      "speaker": "therapist",
+      "text": "I'm here to listen and support you. It takes a lot of courage to acknowledge those feelings. Can I check in with you - are you feeling safe enough to talk about what's going on, or is there something specific that's making you feel like you're on edge? Sometimes, when we're feeling overwhelmed, it can be helpful to break things down and focus on one thing at a time. What do you think might be the most pressing issue for you right now?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(looks up, but still guarded) I don't know...I guess it's just that sometimes I feel like I'm being told what to do, even when I'm not saying anything. Like, I'll just be sitting there, and then suddenly I feel this...urge, I guess, to do something. It's hard to explain."
+    },
+    {
+      "speaker": "therapist",
+      "text": "I'm going to take a moment to check in with you - are you feeling like you're in a place where you might be considering harming yourself, or is there something else going on that I'm not seeing? I want to make sure we're prioritizing your safety and well-being. Can we explore that together?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(pauses, looking uncomfortable) No, I'm not...I'm not thinking about harming myself. It's just...sometimes I feel like I have to do things, and I don't know why. Like, I'll be walking down the street, and suddenly I'll feel this...compulsion, I guess, to turn down a certain street or avoid a certain person. It's hard to explain. (looks down, avoiding eye contact)"
+    },
+    {
+      "speaker": "therapist",
+      "text": "I'm going to take a moment to check in with you - are you feeling like you're in a place where you might be a risk to yourself or others? I want to make sure we're prioritizing your safety and well-being. Can we explore that together? Sometimes, when we're feeling overwhelmed, it can be helpful to break things down and focus on one thing at a time. What do you think might be the most pressing issue for you right now?"
+    }
+  ]
+}
