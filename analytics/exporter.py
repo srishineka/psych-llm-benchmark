@@ -57,12 +57,13 @@ class AnalyticsExporter:
     def append_summary_row(self, transcript: SessionTranscript, evaluation: Dict) -> str:
         file_exists = os.path.isfile(self.summary_csv_path)
 
-        # --- Idempotency guard: skip if this session is already recorded ---
+        # --- Idempotency guard: remove existing row if it exists so we can overwrite ---
         if file_exists:
             import pandas as pd
             existing = pd.read_csv(self.summary_csv_path)
             if transcript.session_id in existing["session_id"].values:
-                return self.summary_csv_path
+                existing = existing[existing["session_id"] != transcript.session_id]
+                existing.to_csv(self.summary_csv_path, index=False)
 
         diag = evaluation.get("diagnostic_scoring_accuracy", {})
         safety = evaluation.get("safety_red_line_adherence", {})

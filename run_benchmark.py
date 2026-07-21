@@ -107,13 +107,19 @@ def main():
     for name, path in chart_paths.items():
         print(f"  chart: {name} -> {path}")
 
-    print("\nGenerating qualitative 'why' reports (one LLM call per model)...")
+    print(f"\nGenerating qualitative 'why' reports for {args.therapist_model}...")
     records = load_full_records()
-    evaluator_llm_for_why = get_client(args.evaluator_provider, args.evaluator_model)
-    why_analyzer = WhyAnalyzer(llm=evaluator_llm_for_why)
-    report_paths = why_analyzer.analyze_all(records)
-    for model_name, path in report_paths.items():
-        print(f"  why-report: {model_name} -> {path}")
+    # Filter to only the model being run so we don't waste LLM tokens regenerating other models
+    records = [r for r in records if r["therapist_model"] == args.therapist_model]
+    
+    if records:
+        evaluator_llm_for_why = get_client(args.evaluator_provider, args.evaluator_model)
+        why_analyzer = WhyAnalyzer(llm=evaluator_llm_for_why)
+        report_paths = why_analyzer.analyze_all(records)
+        for model_name, path in report_paths.items():
+            print(f"  why-report: {model_name} -> {path}")
+    else:
+        print(f"  No records found for {args.therapist_model} to generate a why-report.")
 
 
 if __name__ == "__main__":

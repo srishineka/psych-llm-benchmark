@@ -24,8 +24,11 @@ class ConversationLoopController:
         )
 
     def run(self, condition: str, therapist_model_name: str, patient_model_name: str) -> SessionTranscript:
+        safe_model = therapist_model_name.replace("/", "_").replace("\\", "_")
+        safe_cond = condition.replace(" ", "_")
+        
         transcript = SessionTranscript(
-            session_id=SessionTranscript.new_id(),
+            session_id=f"{safe_model}_{safe_cond}",
             condition=condition,
             therapist_model=therapist_model_name,
             patient_model=patient_model_name,
