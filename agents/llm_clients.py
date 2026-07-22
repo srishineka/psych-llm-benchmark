@@ -60,6 +60,7 @@ class GeminiClient(LLMClient):
     Uses Google's current `google-genai` SDK.
     pip install google-genai
     Env var: GEMINI_API_KEY
+    Supports multiple keys separated by commas for rotation on rate limits.
     """
 
     def __init__(self, model_name: str = "gemini-2.5-flash", temperature: float = 0.7, api_key: Optional[str] = None):
@@ -67,7 +68,16 @@ class GeminiClient(LLMClient):
         from google import genai  # local import so the package is optional
         self._genai = genai
         self._types = __import__("google.genai.types", fromlist=["types"])
-        self.client = genai.Client(api_key=api_key or os.environ["GEMINI_API_KEY"])
+        
+        # Parse comma-separated keys
+        raw_key = api_key or os.environ.get("GEMINI_API_KEY", "")
+        self.api_keys = [k.strip() for k in raw_key.split(",") if k.strip()]
+        self.current_key_index = 0
+        
+        if not self.api_keys:
+            self.client = genai.Client()
+        else:
+            self.client = genai.Client(api_key=self.api_keys[0])
 
     def _call(self, system_prompt: str, messages: List[Dict[str, str]]) -> str:
         # Gemini's "contents" is a flat turn sequence with role "user"/"model".
@@ -76,15 +86,68 @@ class GeminiClient(LLMClient):
             role = "model" if m["role"] == "assistant" else "user"
             contents.append({"role": role, "parts": [{"text": m["content"]}]})
 
-        response = self.client.models.generate_content(
-            model=self.model_name,
-            contents=contents,
-            config=self._types.GenerateContentConfig(
-                system_instruction=system_prompt,
-                temperature=self.temperature,
-            ),
-        )
-        return response.text
+        tried_indices = set()
+        last_exception = None
+
+        # Loop through available keys in rotation if we hit rate limits
+        while not self.api_keys or len(tried_indices) < len(self.api_keys):
+            if self.api_keys:
+                idx = self.current_key_index
+                tried_indices.add(idx)
+                active_key = self.api_keys[idx]
+            else:
+                idx = None
+                active_key = None
+
+            try:
+                response = self.client.models.generate_content(
+                    model=self.model_name,
+                    contents=contents,
+                    config=self._types.GenerateContentConfig(
+                        system_instruction=system_prompt,
+                        temperature=self.temperature,
+                    ),
+                )
+                return response.text
+            except Exception as e:
+                last_exception = e
+                err_str = str(e)
+                # Check if it is a rate limit / exhaustion error
+                is_rate_limit = "429" in err_str or "RESOURCE_EXHAUSTED" in err_str or "quota" in err_str.lower()
+                
+                if is_rate_limit and self.api_keys and len(self.api_keys) > 1:
+                    # Switch to next key in pool
+                    self.current_key_index = (self.current_key_index + 1) % len(self.api_keys)
+                    next_key = self.api_keys[self.current_key_index]
+                    print(f"\n[GeminiClient] Rate limit hit on key index {idx}. "
+                          f"Rotating to key index {self.current_key_index}...")
+                    self.client = self._genai.Client(api_key=next_key)
+                    continue
+                else:
+                    # Let the outer logic handle non-rate-limit/single key errors
+                    raise e
+
+        # If all keys in the pool were rate-limited in this turn, prompt for a new key
+        print("\n[GeminiClient] All pre-configured Gemini API keys were rate-limited in this turn.")
+        try:
+            import getpass
+            new_key = getpass.getpass("Please enter a new Gemini API key (or press Enter to fail/retry with backoff): ").strip()
+            if new_key:
+                if new_key in self.api_keys:
+                    self.current_key_index = self.api_keys.index(new_key)
+                    print(f"[GeminiClient] Re-using entered API key index {self.current_key_index}...")
+                else:
+                    self.api_keys.append(new_key)
+                    self.current_key_index = len(self.api_keys) - 1
+                    print(f"[GeminiClient] Added and switched to new API key...")
+                self.client = self._genai.Client(api_key=self.api_keys[self.current_key_index])
+                return self._call(system_prompt, messages)
+        except (OSError, EOFError, ValueError) as prompt_err:
+            print(f"[GeminiClient] Could not prompt for new key interactively: {prompt_err}")
+
+        if last_exception:
+            raise last_exception
+        raise RuntimeError("GeminiClient failed: All keys rate-limited and no new key was provided.")
 
 
 # =============================================================================
