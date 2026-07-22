@@ -112,11 +112,12 @@ class GeminiClient(LLMClient):
             except Exception as e:
                 last_exception = e
                 err_str = str(e)
-                # Check if it is a rate limit, authentication, or permission error
+                # Check if it is a rate limit, authentication, permission, or invalid key error
                 is_key_error = (
                     "429" in err_str or "RESOURCE_EXHAUSTED" in err_str or "quota" in err_str.lower() or
                     "401" in err_str or "UNAUTHENTICATED" in err_str or "auth" in err_str.lower() or
-                    "403" in err_str or "permission" in err_str.lower() or "invalid key" in err_str.lower()
+                    "403" in err_str or "permission" in err_str.lower() or
+                    "400" in err_str or "invalid" in err_str.lower() or "not valid" in err_str.lower()
                 )
                 
                 if is_key_error and self.api_keys and len(self.api_keys) > 1:
