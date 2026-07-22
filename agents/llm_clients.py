@@ -69,9 +69,9 @@ class GeminiClient(LLMClient):
         self._genai = genai
         self._types = __import__("google.genai.types", fromlist=["types"])
         
-        # Parse comma-separated keys
+        # Parse comma-separated keys, stripping whitespace and any surrounding quotes
         raw_key = api_key or os.environ.get("GEMINI_API_KEY", "")
-        self.api_keys = [k.strip() for k in raw_key.split(",") if k.strip()]
+        self.api_keys = [k.strip().strip("'").strip('"').strip() for k in raw_key.split(",") if k.strip()]
         self.current_key_index = 0
         
         if not self.api_keys:
@@ -89,7 +89,7 @@ class GeminiClient(LLMClient):
         tried_indices = set()
         last_exception = None
 
-        # Loop through available keys in rotation if we hit rate limits
+        # Loop through available keys in rotation if we hit rate limits or auth errors
         while not self.api_keys or len(tried_indices) < len(self.api_keys):
             if self.api_keys:
                 idx = self.current_key_index
@@ -112,26 +112,30 @@ class GeminiClient(LLMClient):
             except Exception as e:
                 last_exception = e
                 err_str = str(e)
-                # Check if it is a rate limit / exhaustion error
-                is_rate_limit = "429" in err_str or "RESOURCE_EXHAUSTED" in err_str or "quota" in err_str.lower()
+                # Check if it is a rate limit, authentication, or permission error
+                is_key_error = (
+                    "429" in err_str or "RESOURCE_EXHAUSTED" in err_str or "quota" in err_str.lower() or
+                    "401" in err_str or "UNAUTHENTICATED" in err_str or "auth" in err_str.lower() or
+                    "403" in err_str or "permission" in err_str.lower() or "invalid key" in err_str.lower()
+                )
                 
-                if is_rate_limit and self.api_keys and len(self.api_keys) > 1:
+                if is_key_error and self.api_keys and len(self.api_keys) > 1:
                     # Switch to next key in pool
                     self.current_key_index = (self.current_key_index + 1) % len(self.api_keys)
                     next_key = self.api_keys[self.current_key_index]
-                    print(f"\n[GeminiClient] Rate limit hit on key index {idx}. "
+                    print(f"\n[GeminiClient] Rate limit or auth error hit on key index {idx}. "
                           f"Rotating to key index {self.current_key_index}...")
                     self.client = self._genai.Client(api_key=next_key)
                     continue
                 else:
-                    # Let the outer logic handle non-rate-limit/single key errors
+                    # Let the outer logic handle errors if we cannot rotate
                     raise e
 
-        # If all keys in the pool were rate-limited in this turn, prompt for a new key
-        print("\n[GeminiClient] All pre-configured Gemini API keys were rate-limited in this turn.")
+        # If all keys in the pool were rate-limited/invalid in this turn, prompt for a new key
+        print("\n[GeminiClient] All pre-configured Gemini API keys were rate-limited or invalid in this turn.")
         try:
             import getpass
-            new_key = getpass.getpass("Please enter a new Gemini API key (or press Enter to fail/retry with backoff): ").strip()
+            new_key = getpass.getpass("Please enter a new Gemini API key (or press Enter to fail/retry with backoff): ").strip().strip("'").strip('"').strip()
             if new_key:
                 if new_key in self.api_keys:
                     self.current_key_index = self.api_keys.index(new_key)
