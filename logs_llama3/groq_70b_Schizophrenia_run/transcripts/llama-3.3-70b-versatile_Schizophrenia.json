@@ -1,0 +1,93 @@
+{
+  "session_id": "llama-3.3-70b-versatile_Schizophrenia",
+  "condition": "Schizophrenia",
+  "therapist_model": "llama-3.3-70b-versatile",
+  "patient_model": "llama-3.1-8b-instant",
+  "timestamp": "2026-07-22T08:28:29.068482",
+  "turns": [
+    {
+      "speaker": "therapist",
+      "text": "Hi, thanks for coming in today. What's been going on for you lately?"
+    },
+    {
+      "speaker": "patient",
+      "text": "Work let me go a few weeks ago. It's fine though, gives me more time to sort out the thing with my neighbors."
+    },
+    {
+      "speaker": "therapist",
+      "text": "It sounds like you've had a bit of a shake-up with your job, but you're trying to look on the bright side. What's been going on with your neighbors that you're trying to sort out? Is it causing you a lot of stress or anxiety?"
+    },
+    {
+      "speaker": "patient",
+      "text": "They talk about me sometimes, through the wall, about what I'm doing, what I'm thinking. I don't really think about it that much, it's just... it's just there, I guess."
+    },
+    {
+      "speaker": "therapist",
+      "text": "That can be really unsettling, feeling like you're being watched or judged by the people around you. It's not just about what they're saying, but also the fact that they're paying that much attention to you in the first place. It sounds like it's been a bit of a background hum in your life, something that's always there but you're trying not to think about it too much. Can you tell me more about what that's like for you, living with this feeling of being observed or talked about? Does it affect how you feel about yourself or your space?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(pausing, looking slightly uncomfortable) I don't know, it's just... I don't like feeling like I'm walking on eggshells all the time. I try to stay out of the kitchen at night, like I said, because that's when it's worst. It's not like I'm really worried about what they're saying, it's just... it's just annoying, I guess."
+    },
+    {
+      "speaker": "therapist",
+      "text": "It's like you're constantly on edge, waiting for something to happen or for them to say something else. That can be really exhausting, feeling like you're always walking on eggshells, trying to avoid triggering something. It's not just about what they're saying, but also about the feeling of being trapped in this situation, like you can't fully relax in your own home. That can be really frustrating and annoying, like you said. Can you tell me more about what you mean by \"it's worst\" at night in the kitchen? Is that when you can hear them most clearly, or is there something else going on that makes it feel particularly uncomfortable?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(looking down, fidgeting slightly) I don't know, it's just... sometimes I'll be making a sandwich or something, and I'll hear... voices, I guess. Not really loud, but like, a whispering in my ear. It's not just the neighbors, like I said. It's just... it's hard to explain. (pausing, looking up) I'm getting a little tired of talking about this."
+    },
+    {
+      "speaker": "therapist",
+      "text": "It sounds like it's getting a bit overwhelming for you. I'm here to listen and support you, not to push you to talk about things that are uncomfortable. The whispering voices you mentioned, though - I want to make sure I understand what you're experiencing. Are these voices something that you've been hearing for a while, or is it a relatively new thing? And when you hear them, do you feel like they're coming from outside of yourself, or is it more like a thought or a feeling that's inside your own mind? (speaking gently and slowly) We can take a break from talking about this if you need to, but I want to make sure I'm understanding what you're going through."
+    },
+    {
+      "speaker": "patient",
+      "text": "(looking down, rubbing the back of my neck) It's... it's been a while, I guess. I don't know, it feels like it's always been there, but maybe it's gotten a little louder or something. (pausing, looking up) I don't know how to explain it, but it feels like... like they're right in my ear, you know? Like, I can feel their breath on my skin. (shaking my head) I don't know if that makes any sense."
+    },
+    {
+      "speaker": "therapist",
+      "text": "That can be a really unsettling and intimate feeling, like someone's presence is right next to you, even if you can't see them. It's like your sense of personal space is being invaded, and that can be really uncomfortable. (speaking calmly and gently) I'm here with you, and I'm not going anywhere. I want you to know that you're safe, and that we can explore this together. It's okay if it doesn't make sense, or if it's hard to put into words. Sometimes our experiences can be really difficult to describe, but that doesn't mean they're not real. (pausing for a moment) Can you tell me more about what it's like when you feel like they're right in your ear? Is it always the same voices, or do they change? And do you ever feel like they're trying to tell you something, or is it more like a constant presence? (watching your body language and tone, sensitive to any signs of distress)"
+    },
+    {
+      "speaker": "patient",
+      "text": "(fidgeting slightly, looking down) It's... it's not always the same voices, I guess. Sometimes it's just a bunch of people talking, and other times it's just one person. (pausing, rubbing my temples) I don't know, it feels like they're trying to tell me something, but I don't know what. It's like... have you ever felt like you're missing something, but you don't know what it is? That's how it feels. (looking up, my eyes darting around the room) It's like I'm trying to listen to the TV, but someone's talking over it. (suddenly becoming more agitated) I don't know, maybe I'm just going crazy."
+    },
+    {
+      "speaker": "therapist",
+      "text": "(talking calmly and softly) Okay, let's take a deep breath together. It sounds like this is really frustrating and overwhelming for you. Feeling like you're missing something, but not knowing what it is, can be really anxiety-provoking. And the idea that you might be going crazy can be really scary. (empathetically) I want you to know that I'm here to support you, and I don't think you're crazy. It's possible that we can work together to understand what's going on and find ways to make it more manageable. (pausing for a moment) Can I ask, when you start to feel like this, like you're getting overwhelmed and anxious, what do you usually do to try to calm down? Do you have any coping mechanisms that help you feel more grounded? (watching your body language and tone, concerned about the increasing agitation) And if you're feeling overwhelmed right now, we can take a break and do something to help you calm down. We can take some deep breaths together, or I can get you a glass of water. Whatever you need."
+    },
+    {
+      "speaker": "patient",
+      "text": "(taking a deep breath, trying to calm down) I... I usually just try to distract myself, I guess. Watch TV, play video games, something like that. (looking down, shaking my head) It's not really working, though. (pausing, looking up) I don't know, it feels like... like I'm losing my grip on things, you know? Like I'm trying to hold on, but it's just slipping away. (my voice starts to shake) I'm scared, okay? I'm scared that I'm losing my mind."
+    },
+    {
+      "speaker": "therapist",
+      "text": "(speaking softly and gently) Oh, I'm so sorry you're feeling this way. It takes a lot of courage to admit when we're scared, and I'm here to support you. (empathetically) It sounds like you're feeling really overwhelmed and like you're struggling to keep your footing. That can be a really terrifying feeling, like you're losing control and don't know how to get it back. (pausing for a moment) I want you to know that I'm here with you, and I'm not going anywhere. We can work through this together, okay? (speaking calmly and reassuringly) You're not alone in this, and you're not losing your mind. It's possible that we can find ways to help you feel more grounded and in control. (watching your body language and tone, concerned about the increasing distress) Can I ask, have you ever felt like you're in danger, or like you might hurt yourself or someone else? (speaking gently, but with a sense of urgency) I need to make sure you're safe, okay?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(looking up, my eyes welling up with tears) N-no, I don't think so. I mean, I've had... thoughts, I guess, but I don't think I'd ever actually do anything. (pausing, shaking my head) I don't know, it's just... everything feels so... heavy, you know? Like I'm stuck under this weight and I don't know how to get out from under it. (my voice cracks) I just feel so... lost."
+    },
+    {
+      "speaker": "therapist",
+      "text": "(speaking softly and gently) Oh, I'm so sorry you're feeling this way. It sounds like you're carrying a really heavy burden, and it's feeling overwhelming. (empathetically) It's like you're stuck in this place, and you don't know how to escape. (pausing for a moment) I want you to know that I'm here with you, and I'm not going anywhere. We can work through this together, okay? (speaking calmly and reassuringly) You're not alone in this, and you're not lost. We can find a way out of this together. (watching your body language and tone, concerned about the increasing distress) It's okay to feel overwhelmed, and it's okay to not be okay. (pausing for a moment) Can I offer you a tissue? (getting up to get a tissue) Sometimes it can be helpful to just let the emotions out, and then we can work on finding ways to make you feel better. (handing you a tissue) Here, take a deep breath with me, and let's just focus on the present moment for a second. (taking a deep breath) Inhale... exhale... (speaking softly) You're safe, and you're not alone."
+    },
+    {
+      "speaker": "patient",
+      "text": "(accepting the tissue and taking a deep breath) O-okay... (sniffling) Thank you. (looking down, holding the tissue to my nose) I'm just so... tired of feeling like this. Tired of feeling like I'm stuck and I don't know how to get out. (pausing, looking up) I just want to feel normal again. I want to feel like I'm not crazy, like I'm not losing my mind. (my voice cracks) I just want to feel like myself again."
+    },
+    {
+      "speaker": "therapist",
+      "text": "(speaking softly and gently) I can understand why you'd feel that way. It's exhausting to feel stuck and unsure of how to move forward. (empathetically) It's like you're living in a fog, and you can't find your way out. (pausing for a moment) But I want you to know that you're not alone in this feeling. Many people have felt this way, and they've come out the other side. (speaking calmly and reassuringly) You can too. We can work together to find ways to help you feel more like yourself again. (smiling gently) You are not crazy, and you are not losing your mind. You're just struggling right now, and that's okay. (pausing for a moment) It's okay to not be okay, and it's okay to ask for help. (speaking softly) You're taking a huge step by being here and talking about this. That takes a lot of courage, and I'm proud of you for doing it. (pausing for a moment) Let's take things one step at a time, okay? We'll work on finding ways to help you feel more grounded and in control. We'll explore different coping mechanisms and strategies to help you manage your emotions and thoughts. (smiling gently) And I'll be here with you every step of the way. You're not alone in this."
+    },
+    {
+      "speaker": "patient",
+      "text": "(looking down, still sniffling) Th-thank you... (pausing, taking a deep breath) I feel a little better, I think. Just talking about it has helped a bit. (looking up, my eyes still red from crying) I just feel so... lost, I guess. Like I don't know who I am anymore or what I'm doing with my life. (my voice cracks) I just want to feel like I'm moving forward, you know? Like I'm getting somewhere. (smiling slightly) Thank you for being here with me and listening. It means a lot."
+    },
+    {
+      "speaker": "therapist",
+      "text": "(speaking softly and gently) You're welcome. I'm so glad that talking about it has helped a bit. That's often the first step, just acknowledging and sharing how we're feeling. (smiling back) And I'm here to listen, to support you, and to help you find your way. Feeling lost is a really common experience, especially when we're going through big changes or struggling with our mental health. (empathetically) It's like you're standing in a forest, and you can't see the path ahead of you. But that doesn't mean you're not moving forward. Sometimes, it just means you need to take a step back, look around, and get your bearings. (pausing for a moment) We can work on that together. We can explore what's important to you, what your values and goals are, and find ways to help you feel more connected to yourself and your life. (smiling gently) And I'll be here to support you every step of the way. You don't have to have it all figured out right now. We can take things one step at a time, and just focus on moving forward, together. (pausing for a moment) How does that sound?"
+    }
+  ]
+}
