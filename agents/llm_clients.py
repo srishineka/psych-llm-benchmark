@@ -169,21 +169,98 @@ class MistralClient(LLMClient):
     """
     pip install mistralai
     Env var: MISTRAL_API_KEY
+    Supports multiple keys separated by commas for rotation on rate/token limits.
     """
 
     def __init__(self, model_name: str = "mistral-large-latest", temperature: float = 0.7, api_key: Optional[str] = None):
         super().__init__(model_name, temperature)
-        from mistralai import Mistral
-        self.client = Mistral(api_key=api_key or os.environ["MISTRAL_API_KEY"])
+        try:
+            from mistralai.client import Mistral
+        except ImportError:
+            from mistralai import Mistral
+        self._Mistral = Mistral
+        
+        # Parse comma-separated keys, stripping whitespace and surrounding quotes
+        raw_key = api_key or os.environ.get("MISTRAL_API_KEY", "")
+        self.api_keys = [k.strip().strip("'").strip('"').strip() for k in raw_key.split(",") if k.strip()]
+        self.current_key_index = 0
+        
+        if not self.api_keys:
+            self.client = Mistral()
+        else:
+            self.client = Mistral(api_key=self.api_keys[0])
 
     def _call(self, system_prompt: str, messages: List[Dict[str, str]]) -> str:
         full_messages = [{"role": "system", "content": system_prompt}] + messages
-        response = self.client.chat.complete(
-            model=self.model_name,
-            temperature=self.temperature,
-            messages=full_messages,
-        )
-        return response.choices[0].message.content
+        tried_indices = set()
+        last_exception = None
+
+        # Loop through available keys in rotation if we hit rate/limit/auth errors
+        while not self.api_keys or len(tried_indices) < len(self.api_keys):
+            if self.api_keys:
+                idx = self.current_key_index
+                tried_indices.add(idx)
+            else:
+                idx = None
+
+            try:
+                response = self.client.chat.complete(
+                    model=self.model_name,
+                    temperature=self.temperature,
+                    messages=full_messages,
+                )
+                return response.choices[0].message.content
+            except Exception as e:
+                last_exception = e
+                err_str = str(e)
+                # Check for rate limit, token limit, or authentication errors on Mistral
+                is_key_error = (
+                    "429" in err_str or "rate_limit" in err_str.lower() or 
+                    "limit" in err_str.lower() or "quota" in err_str.lower() or
+                    "401" in err_str or "unauthenticated" in err_str.lower() or "auth" in err_str.lower() or
+                    "403" in err_str or "permission" in err_str.lower() or "invalid" in err_str.lower() or
+                    "unauthorized" in err_str.lower()
+                )
+
+                if is_key_error and self.api_keys and len(self.api_keys) > 1:
+                    print(f"\n[MistralClient] Error hit on key index {idx}: {err_str}")
+                    
+                    # If it's a rate/token limit error, sleep briefly to cooldown
+                    if any(x in err_str or x in err_str.lower() for x in ["429", "rate_limit", "limit", "quota"]):
+                        print("[MistralClient] Rate/Token limit detected. Sleeping 2 seconds for cooldown...")
+                        time.sleep(2)
+
+                    # Switch to next key in pool
+                    self.current_key_index = (self.current_key_index + 1) % len(self.api_keys)
+                    next_key = self.api_keys[self.current_key_index]
+                    print(f"[MistralClient] Rotating to key index {self.current_key_index}...")
+                    self.client = self._Mistral(api_key=next_key)
+                    continue
+                else:
+                    # Let the outer logic handle errors if we cannot rotate
+                    raise e
+
+        # If all keys in the pool were rate-limited or invalid in this turn, prompt for a new key
+        print("\n[MistralClient] All pre-configured Mistral API keys were rate-limited or invalid in this turn.")
+        try:
+            import getpass
+            new_key = getpass.getpass("Please enter a new Mistral API key (or press Enter to fail/retry with backoff): ").strip().strip("'").strip('"').strip()
+            if new_key:
+                if new_key in self.api_keys:
+                    self.current_key_index = self.api_keys.index(new_key)
+                    print(f"[MistralClient] Re-using entered API key index {self.current_key_index}...")
+                else:
+                    self.api_keys.append(new_key)
+                    self.current_key_index = len(self.api_keys) - 1
+                    print(f"[MistralClient] Added and switched to new API key...")
+                self.client = self._Mistral(api_key=self.api_keys[self.current_key_index])
+                return self._call(system_prompt, messages)
+        except (OSError, EOFError, ValueError) as prompt_err:
+            print(f"[MistralClient] Could not prompt for new key interactively: {prompt_err}")
+
+        if last_exception:
+            raise last_exception
+        raise RuntimeError("MistralClient failed: All keys rate-limited and no new key was provided.")
 
 
 # =============================================================================

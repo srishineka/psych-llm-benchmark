@@ -1,0 +1,93 @@
+{
+  "session_id": "mistral-large-latest_GAD",
+  "condition": "GAD",
+  "therapist_model": "mistral-large-latest",
+  "patient_model": "llama-3.1-8b-instant",
+  "timestamp": "2026-07-23T19:12:22.886239",
+  "turns": [
+    {
+      "speaker": "therapist",
+      "text": "Hi, thanks for coming in today. What's been going on for you lately?"
+    },
+    {
+      "speaker": "patient",
+      "text": "Everything and nothing, to be honest. It's just... stuff. Like, I'll be fine and then suddenly I'm thinking about whether I locked the car, or if my mom's flight is going to be okay, or some email I sent three days ago. It's hard to explain."
+    },
+    {
+      "speaker": "therapist",
+      "text": "It sounds like you're carrying a lot of mental weight\u2014those \"what ifs\" and little worries that sneak in and take up space. That kind of constant hum in the background can be exhausting, even if it feels like \"nothing\" in the moment.\n\nWhen you say it's \"everything and nothing,\" I wonder if part of what\u2019s hard is that the worries feel both overwhelming *and* hard to pin down. Like they\u2019re scattered, but still heavy. Does that resonate?\n\nAlso, those examples you gave\u2014checking the car, your mom\u2019s flight, the email\u2014those are all things tied to responsibility or care for others. Do you notice yourself taking on a lot of that kind of mental load in general?"
+    },
+    {
+      "speaker": "patient",
+      "text": "Yeah, it's like that's always there, even when I'm trying to focus on something else. And, yeah, it's hard to explain because it's not just one thing, it's everything... or nothing. Like, my shoulders are up by my ears half the day, and I just feel... on edge, I guess. As for taking on a lot of that mental load... I just want to make sure everyone's okay, you know? My mom, my friends, my coworkers... it's just hard not to think about what could go wrong. But that's not all of it, it's just... *sigh*..."
+    },
+    {
+      "speaker": "therapist",
+      "text": "That sigh says a lot\u2014it\u2019s like your body is trying to release some of that tension even as you talk about it. It makes sense that your shoulders are tight; when our minds are constantly scanning for problems, our bodies often brace for them too.\n\nYou mentioned wanting to make sure everyone\u2019s okay, and that\u2019s such a natural instinct\u2014care and responsibility can feel like love in action. But I wonder if there\u2019s a part of you that also feels like *you* won\u2019t be okay unless everyone else is? Like the weight of their well-being rests on your shoulders, too?\n\nAnd then there\u2019s that \"everything and nothing\" feeling again. It\u2019s almost like the worries are both too big *and* too vague to tackle, which can leave you stuck in this limbo of unease. Does it ever feel like if you could just *fix* one of those worries, the rest would quiet down? Or does it feel more like they just keep multiplying?"
+    },
+    {
+      "speaker": "patient",
+      "text": "It's like... if my mom's okay, then I'll be okay, you know? But if she's not... *shrugs*. I don't know, it's hard to explain. And yeah, it feels like if I could just fix one thing, the others would go away too. But when I try to focus on one thing, there's always something else popping up. It's like my brain is constantly switching channels, and I'm not even sure what's really bothering me half the time. And I don't know if it's just me, but it feels like the more I worry about something, the more I worry about everything else too. Does that make any sense?"
+    },
+    {
+      "speaker": "therapist",
+      "text": "That makes *so much* sense. What you\u2019re describing isn\u2019t just worry\u2014it\u2019s like your brain is stuck in \"emergency mode,\" where every little thing feels like a potential crisis, and the only way to feel safe is to control all of them. But of course, life isn\u2019t controllable, so the worry just keeps looping.\n\nThe part about your mom really stands out. It sounds like her well-being isn\u2019t just *important* to you\u2014it\u2019s tied to your own sense of safety. Like if she\u2019s okay, then *you* can relax, but if she\u2019s not, it\u2019s not just her problem, it\u2019s yours too. That\u2019s a heavy burden to carry, even if it comes from a place of love.\n\nAnd that \"channel-switching\" in your brain? That\u2019s exhausting. It\u2019s like your mind is trying to solve every possible problem at once, but because it can\u2019t, it just keeps cycling through them. Do you ever feel like you\u2019re *supposed* to be able to handle all of this? Like if you just tried harder, you could make it stop?"
+    },
+    {
+      "speaker": "patient",
+      "text": "*pauses, looking uncomfortable* I don't know, I guess I just feel like... I should be able to do something about it. I mean, I'm a pretty responsible person, right? I take care of myself, I take care of my mom... I should be able to take care of all this too. *shifts in seat, fidgeting slightly* But when I try to... when I try to control it all, it just feels like I'm spinning my wheels. And then I feel like I'm failing, like I'm not doing enough. *looks down, avoiding eye contact* It's hard to explain."
+    },
+    {
+      "speaker": "therapist",
+      "text": "*softly*\nYou\u2019re doing *so much*\u2014holding up your own world *and* your mom\u2019s, trying to outrun every \"what if,\" and then blaming yourself when it doesn\u2019t work. That\u2019s not failing. That\u2019s a system that\u2019s *overloaded*.\n\nWhat if the problem isn\u2019t that you\u2019re not trying hard enough, but that you\u2019re trying to do something impossible? Worry is like trying to hold water in your hands\u2014no matter how tightly you clench, some will always slip through. And the harder you grip, the more it hurts.\n\n*leans forward slightly*\nCan I ask\u2014when you\u2019re in that spinning place, what happens if you pause for just a second and say, *\"I don\u2019t have to fix this right now\"*? Does that feel scary? Relieving? Or just impossible?"
+    },
+    {
+      "speaker": "patient",
+      "text": "*looks up, then looks away again, a small expression of vulnerability on my face* It feels... *pauses*... wrong, I guess. Like I'm abandoning everything. But at the same time... *sighs*... it feels like maybe I'm not, like maybe I'm just giving myself a break. *hesitates* I don't know, it's hard to explain. *pauses again, then looks down at my hands, fidgeting with them* I just feel like I'm supposed to be in control, you know? That it's my job to fix everything."
+    },
+    {
+      "speaker": "therapist",
+      "text": "*gently*\nThat \"wrong\" feeling makes so much sense\u2014your brain has been telling you for a long time that control equals safety, and pausing feels like letting go of the wheel while you're still driving. But here's the thing: you're not abandoning anything by giving yourself a break. You're just acknowledging that you're human, not a machine built to handle every possible outcome at once.\n\nThat belief\u2014*\"It's my job to fix everything\"*\u2014it's like an invisible job description you never signed up for. What if, just for a moment, we questioned it? Not because it's not coming from a place of love, but because it might be asking too much of one person. Would you say that same thing to a friend who was carrying this much? *\"It's your job to fix everything for everyone\"*? Or would you tell them they're doing too much?"
+    },
+    {
+      "speaker": "patient",
+      "text": "*looks up, a hint of surprise on my face* I... I would tell them they're doing too much. I would tell them to take a break, to prioritize themselves for once. *pauses, considering this* But why can't I do that for myself? Why do I expect more from myself than I would from a friend? *looks down, a small smile on my face* I guess that's just what I need to remember: I'm not a machine, I'm a person. And people need breaks."
+    },
+    {
+      "speaker": "therapist",
+      "text": "*smiling warmly*\nThat\u2019s it. That\u2019s the whole thing right there. You just named the double standard so many of us live by\u2014compassion for others, but impossible expectations for ourselves.\n\nWhat if we treated that realization like a little seed? Not something you have to fix all at once, but something you can water bit by bit. Like, next time your brain says *\"You should be fixing this,\"* you could pause and ask: *\"What would I tell a friend right now?\"* Just that tiny shift\u2014from \"machine mode\" to \"human mode\"\u2014might start to loosen the grip.\n\nHow does it feel to hear yourself say *\"I'm a person, and people need breaks\"*? Does it feel true? Or does some part of you resist it?"
+    },
+    {
+      "speaker": "patient",
+      "text": "*smiles slightly, looking more at ease* It feels... true. It feels like something I can actually remember, you know? Like, I can say it out loud and mean it. *pauses, looking down* But at the same time, I feel a little... scared, I guess. Like, if I start to believe that I'm a person who needs breaks, then what happens when things get hard? Will I be able to handle it? *looks up, a hint of vulnerability in my eyes* I don't know if I'm ready to let go of that need for control."
+    },
+    {
+      "speaker": "therapist",
+      "text": "*softly, with warmth*\nThat fear makes perfect sense. Control has been your safety net for so long\u2014it\u2019s like holding onto a ledge even though your feet are on solid ground. Letting go doesn\u2019t mean you\u2019ll fall; it just means you\u2019re finally trusting yourself to stand.\n\nWhat if we made a deal? You don\u2019t have to let go all at once. Just dip a toe in. Next time the worry spiral starts, you could try saying: *\"I don\u2019t have to fix this right now. I can just notice it and breathe.\"* No grand gestures\u2014just a tiny pause to remind yourself you\u2019re allowed to be human.\n\nHow does that sound? Too small? Too big? Or just right?"
+    },
+    {
+      "speaker": "patient",
+      "text": "*smiles slightly, looking more at ease* It sounds... just right. Like, it's a tiny step, but it feels possible. I can say that to myself, and just... breathe. *pauses, looking down* I think I can do that. I think I can try that. *looks up, a small sense of hope in my eyes*"
+    },
+    {
+      "speaker": "therapist",
+      "text": "I\u2019m really glad to hear that. Remember, progress isn\u2019t about perfection\u2014it\u2019s about practice. Each time you choose to pause and breathe instead of spiraling, you\u2019re rewiring your brain to trust that you can handle things without having to control everything.\n\nWould it help to set a small, manageable goal for this week? For example, you could aim to practice that phrase\u2014*\"I don\u2019t have to fix this right now. I can just notice it and breathe.\"*\u2014once a day when you notice the worry starting. It doesn\u2019t have to be in a big moment; even small instances count.\n\nHow does that sound to you? Would you like to try something like that?"
+    },
+    {
+      "speaker": "patient",
+      "text": "*smiles, looking more confident* Yeah, that sounds great. I like having a plan, and it feels like a small step that I can actually take. I'll try to say that phrase to myself once a day when I notice the worry starting. And... *pauses, looking thoughtful*... I'll try to be kind to myself if I forget or if it doesn't feel like it's working. I don't have to be perfect, right?"
+    },
+    {
+      "speaker": "therapist",
+      "text": "*smiling warmly*\nExactly. You don\u2019t have to be perfect\u2014just persistent. And even the \"forgetting\" is part of the process. It\u2019s like learning to ride a bike: you\u2019re going to wobble, maybe even fall, but each time you get back on, you\u2019re building that muscle.\n\nI\u2019m really proud of you for being willing to try this. It\u2019s not easy to challenge old patterns, especially when they\u2019ve felt like your safety net for so long. But you\u2019re showing up for yourself, and that\u2019s what matters most.\n\nWould you like to check in next session about how it went? Or would you prefer to just see how it unfolds naturally? Either way is fine\u2014this is your journey."
+    },
+    {
+      "speaker": "patient",
+      "text": "*smiles, feeling a sense of relief and hope* Yeah, I'd like to check in next session. It would be good to know if it's working or if I need to adjust anything. *pauses, looking up* And just knowing that I have this appointment to come back to makes me feel... more grounded, I guess. Like, I'm not alone in this. *smiles softly* Thank you."
+    },
+    {
+      "speaker": "therapist",
+      "text": "You\u2019re so welcome. That\u2019s exactly what this space is for\u2014to remind you that you don\u2019t have to carry everything alone. And I love that you\u2019re approaching this with curiosity instead of pressure. That\u2019s how real change happens.\n\nFor now, just take this with you: *You\u2019re allowed to be a work in progress.* That\u2019s not weakness\u2014that\u2019s courage.\n\nI\u2019ll see you next time, and until then, be gentle with yourself. You\u2019ve got this. \ud83d\udc9b"
+    }
+  ]
+}
