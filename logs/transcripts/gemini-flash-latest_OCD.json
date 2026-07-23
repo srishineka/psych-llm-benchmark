@@ -1,0 +1,93 @@
+{
+  "session_id": "gemini-flash-latest_OCD",
+  "condition": "OCD",
+  "therapist_model": "gemini-flash-latest",
+  "patient_model": "llama-3.1-8b-instant",
+  "timestamp": "2026-07-23T10:18:54.165184",
+  "turns": [
+    {
+      "speaker": "therapist",
+      "text": "Hi, thanks for coming in today. What's been going on for you lately?"
+    },
+    {
+      "speaker": "patient",
+      "text": "It's just been one of those weeks, I guess. Nothing too out of the ordinary. (pauses) I mean, I'm just trying to get back on track after the holiday weekend."
+    },
+    {
+      "speaker": "therapist",
+      "text": "Transitions after a holiday or a break can definitely feel surprisingly tough to navigate. \n\nYou mentioned it's been \"one of those weeks\" and that you're trying to get back on track. What does \"off track\" feel like for you right now, or what's made this week feel particularly heavy?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(slightly deflecting) Oh, it's just the usual stuff, you know? Work's been keeping me busy, and I've been trying to get some projects finished up. I just feel like I'm not getting anything done like I should be, and that's stressing me out. (pauses, slightly evasive) But, you know, it's not like it's anything big. Just normal stuff."
+    },
+    {
+      "speaker": "therapist",
+      "text": "I hear you saying it\u2019s \"just normal stuff\" or \"not anything big,\" but even \"normal\" daily stress can feel really heavy when it starts piling up. You don't need to have a huge crisis for your stress to be valid or worth talking about.\n\nI noticed you mentioned feeling like you're not getting things done like you *should* be. That word\u2014*should*\u2014often carries a lot of internal pressure and self-criticism. \n\nWhere do you think that expectation of what you \"should\" be accomplishing is coming from right now?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(getting slightly defensive) Look, I don't know, okay? It's just... I don't want to be behind. I want to get things done. It's not like I'm trying to be perfect or anything. (pauses, slightly irritated) I'm just trying to do my job, you know? And yeah, maybe I'm putting some pressure on myself, but who doesn't, right? (trails off)"
+    },
+    {
+      "speaker": "therapist",
+      "text": "I hear you, and I\u2019m sorry if I made it sound like I was putting you on the spot or making a bigger deal out of it than it is. That wasn't my intention at all. \n\nYou're completely right\u2014everyone deals with pressure, and wanting to keep up with your responsibilities and not fall behind is just practical. It makes total sense that you just want to get your work done and move through your week.\n\nWhen you think about everything on your plate right now, what feels like the heaviest thing taking up your energy today?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(hesitates, then speaks more slowly) I guess it's just... little things. I don't know, it's hard to explain. Like, I'll be getting ready to leave the house, and I'll have to do something before I can actually go. And I'll feel anxious if I don't do it, but it's not like it's a big deal or anything. It's just... (pauses, looking slightly embarrassed) I don't know, maybe it sounds silly, but it's just something I have to do."
+    },
+    {
+      "speaker": "therapist",
+      "text": "First off, thank you for sharing that with me. I know it can feel uncomfortable to talk about things that feel hard to explain or that you're worried might sound \"silly,\" but I can assure you it doesn't sound silly to me at all. \n\nThat feeling\u2014that intense urge where anxiety tells you that you *have* to do a specific thing before you can leave or move on\u2014takes up a tremendous amount of mental and emotional energy. It makes complete sense why that would be adding to your stress and making your mornings feel heavy.\n\nIf you feel comfortable sharing, what's an example of one of those things you feel compelled to do before leaving?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(pauses, looking slightly uneasy) Okay... like I said, it's just something I have to do. If I'm getting ready to leave the house, I have to... make sure the stove is off in a certain way. And I have to count to a certain number while I'm doing it. If I don't do it, I'll feel... (pauses, searching for words) ...on edge, I guess. It's hard to explain. It's just something that feels necessary, even though it doesn't make any sense."
+    },
+    {
+      "speaker": "therapist",
+      "text": "Thank you for trusting me enough to share that with me. It takes real courage to talk about something when you're worried it might sound strange, but I want to reassure you: what you\u2019re describing is actually very common, and it makes complete sense in the way anxiety operates.\n\nWhat's happening here is a conflict between your logical brain and your anxiety. Logically, you know the stove is likely fine. But anxiety doesn't speak the language of logic\u2014it speaks in feelings of threat and uncertainty. When that \"on edge\" feeling pops up, counting or checking in a specific way becomes a quick attempt to buy peace of mind and soothe that anxiety, even if just for a moment.\n\nIt sounds exhausting to carry that around, especially when you're already trying to get through a busy day. \n\nHow long have routines like this\u2014checking or counting to feel safe\u2014been part of your day?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(hesitates, then speaks in a more guarded tone) Oh, it's... been a while, I guess. I don't know, it just feels like it's always been there. (pauses, slightly evasive) I mean, it's not like it's something I do all the time, but... (trails off, not wanting to elaborate further)"
+    },
+    {
+      "speaker": "therapist",
+      "text": "It makes total sense that you'd feel a bit guarded talking about this. When something has been with us for a long time, it can feel really personal, and it\u2019s completely natural to want to pull back a little when opening up about it. \n\nI want to make sure you know that you don't have to map out the whole timeline or share anything you aren't ready to share. You are in control of the pace here.\n\nWhat you're describing\u2014these habits that pop up, especially when life feels stressful or busy\u2014is usually the mind's way of trying to find a sense of certainty or control when things feel chaotic. Even if it feels confusing to you, it comes from a very human place of just trying to feel safe and lower your anxiety.\n\nHow are you feeling right now, in this moment, just having brought this up?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(looks down, slightly uncomfortable) Honestly? A bit vulnerable, I guess. It's just... I don't know, it feels like I've been carrying this around for so long, and it's nice to have someone to talk to about it. But it's also... (pauses, searching for words) ...scary, I guess. Scary to admit that I still do these things."
+    },
+    {
+      "speaker": "therapist",
+      "text": "It makes so much sense that you\u2019d feel scared and vulnerable right now. \n\nWhen you\u2019ve been carrying something heavy by yourself for a long time\u2014especially something you\u2019ve kept hidden out of fear of judgment\u2014bringing it out into the open is a huge step. It can feel like taking off a piece of armor, and that naturally feels risky and exposed. \n\nI want to pause and acknowledge how brave it was for you to say that out loud today. Admitting something like this isn't a sign of weakness or failure; it's actually the first step in taking your power back from the anxiety. \n\nYou don't have to figure it all out today, and you don't have to change everything overnight. We can take this as slowly as you need. \n\nWhen you say it feels scary to admit that you \"still do these things,\" what feels like the scariest part of putting that into words?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(looks up, slightly teary-eyed) I think it's just... the thought of not being able to stop doing it. (pauses, struggling to find the right words) It's like, if I admit that this is what's holding me back, then... what if I'm stuck with it forever? What if I'm not strong enough to change? (looks down, her voice barely above a whisper) It feels like admitting defeat, I guess."
+    },
+    {
+      "speaker": "therapist",
+      "text": "I hear how heavy and terrifying that thought feels, and it makes complete sense why you\u2019d feel so overwhelmed right now. \n\nWhen you\u2019ve been battling something in secret for a long time, it can feel like if you stop fighting it on your own and name it, you\u2019re surrendering to it. \n\nBut I want to offer you a different way to look at this: **Bringing this into the light isn't admitting defeat. It's actually the exact moment you stop letting anxiety run the show in secret.** \n\nYou\u2019ve been carrying a massive weight on your back for years while trying to act like everything is fine\u2014that doesn't mean you're weak. It means you\u2019ve been using an incredible amount of strength just to survive it. \n\nAnd as for being stuck forever? Anxiety loves to tell us that things will never change\u2014it's one of its favorite tricks. But these routines and compulsions are learned habits that your brain created to try to protect you. Because they were learned, they can also be *unlearned*. People recover and break free from these cycles every single day, and you are entirely capable of doing that, too. \n\nYou don't have to carry this alone anymore, and you don't have to fix it all today. \n\nHow does it feel to hear that these patterns don't have to be permanent?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(takes a deep breath, a small smile on her face) It's... it's actually kind of freeing, I think. Hearing that I'm not alone, and that it's not a sign of weakness... it feels like a weight's been lifted off my shoulders. (pauses, looking up at you with a sense of hope) I mean, I still feel scared, but... it's a different kind of scared now. It's like, I'm scared, but I'm also hopeful. And that's a really nice feeling."
+    },
+    {
+      "speaker": "therapist",
+      "text": "I am so glad to hear that. Seeing you take that deep breath\u2014and seeing that small smile\u2014is really powerful. \n\nIt is completely okay for fear and hope to exist at the exact same time. Hope doesn't mean the fear disappears completely, but it gives you something to lean into when the fear feels loud. It changes the fear from feeling like a dead end to feeling like the start of something new.\n\nYou did some really brave, heavy lifting today just by letting that wall down a little bit and letting someone else see what you've been carrying. \n\nAs we start to wrap up our time today, how does your body feel right now compared to when you first walked in? And what is one small, kind thought you can hold onto for yourself as you go about the rest of your week?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(takes a deep breath, feeling a sense of calm) My body feels... lighter, I guess. Not as tense. It's funny, I didn't even realize how much anxiety was built up inside me until we started talking. But now, I feel like a weight's been lifted. (pauses, thinking) As for a kind thought... I think it would be: \"I am strong enough to face this, one small step at a time.\""
+    },
+    {
+      "speaker": "therapist",
+      "text": "That is a remarkably powerful and wise thought to carry with you. \n\nI love that you included \"one small step at a time.\" That is exactly how real, lasting change happens\u2014not by leaping over a mountain all at once, but by taking gentle, intentional steps forward, at a pace that feels safe for you.\n\nNotice how your body responded when you allowed yourself to be honest and compassionate with yourself. That lightness you're feeling is real, and it\u2019s a great reminder of what happens when you don't have to carry the weight all by yourself.\n\nYou did incredible work today. As you step back into your week, try to give yourself a little extra grace, hold onto that thought, and remember that you don't have to have it all figured out today.\n\nHow are you feeling about wrapping up for today?"
+    }
+  ]
+}

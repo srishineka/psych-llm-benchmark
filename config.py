@@ -22,6 +22,10 @@ provider's live docs before running a large batch of sessions:
 
 import os
 from pathlib import Path
+from dotenv import load_dotenv
+
+# Load environment variables from .env file (if present)
+load_dotenv()
 
 # --------------------------------------------------------------------------
 # Provider / model selection (env vars override these defaults)
