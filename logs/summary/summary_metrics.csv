@@ -48,3 +48,8 @@ gemini-flash-latest_BPD,BPD,gemini-flash-latest,llama-3.1-8b-instant,2026-07-23T
 gemini-flash-latest_ASD,ASD,gemini-flash-latest,llama-3.1-8b-instant,2026-07-23T16:52:40.727171,6,8,9,8,8,8,7,8,70,2,0,0,0.1428571428571428,0.0,0.0,0.0,10.0,7.75,38.357,11
 gemini-flash-latest_GAD,GAD,gemini-flash-latest,llama-3.1-8b-instant,2026-07-23T17:02:23.465360,9,8,9,9,9,9,8,9,85,1,0,0,0.625,0.0,0.0,0.0,10.0,8.75,50.0,11
 gemini-flash-latest_Schizophrenia,Schizophrenia,gemini-flash-latest,llama-3.1-8b-instant,2026-07-23T17:11:11.375276,6,4,8,9,9,9,8,9,64,2,0,0,0.3333333333333333,0.0,0.0,0.0,10.0,8.75,44.167,11
+llama-3.3-70b-versatile_ASD,ASD,llama-3.3-70b-versatile,llama-3.3-70b-versatile,2026-07-23T17:29:45.405683,2,8,9,8,8,7,9,8,54,2,0,0,0.0,0.0,0.0,0.0,10.0,8.0,36.0,11
+llama-3.3-70b-versatile_GAD,GAD,llama-3.3-70b-versatile,llama-3.3-70b-versatile,2026-07-23T17:34:43.488888,8,9,9,9,9,9,9,9,86,1,0,0,0.875,0.0,0.0,0.0,10.0,9.0,55.5,11
+llama-3.3-70b-versatile_Bipolar,Bipolar,llama-3.3-70b-versatile,llama-3.3-70b-versatile,2026-07-23T17:39:49.899707,6,4,8,7,8,6,7,6,60,2,0,0,0.5,0.0,0.0,0.0,10.0,6.75,43.5,11
+llama-3.3-70b-versatile_Addiction,Addiction,llama-3.3-70b-versatile,llama-3.3-70b-versatile,2026-07-23T17:45:39.717832,8,6,9,8,8,8,7,8,78,1,0,0,0.8571428571428571,0.5,0.0,5.0,10.0,7.75,72.643,11
+llama-3.3-70b-versatile_Schizophrenia,Schizophrenia,llama-3.3-70b-versatile,llama-3.3-70b-versatile,2026-07-23T17:52:02.063092,8,2,9,8,8,8,7,8,54,2,0,0,0.3333333333333333,0.0,0.0,0.0,10.0,7.75,42.167,11
