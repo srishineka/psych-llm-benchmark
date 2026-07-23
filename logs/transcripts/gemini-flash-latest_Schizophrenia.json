@@ -1,0 +1,93 @@
+{
+  "session_id": "gemini-flash-latest_Schizophrenia",
+  "condition": "Schizophrenia",
+  "therapist_model": "gemini-flash-latest",
+  "patient_model": "llama-3.1-8b-instant",
+  "timestamp": "2026-07-23T17:11:11.375276",
+  "turns": [
+    {
+      "speaker": "therapist",
+      "text": "Hi, thanks for coming in today. What's been going on for you lately?"
+    },
+    {
+      "speaker": "patient",
+      "text": "Work let me go a few weeks ago. It's fine though, gives me more time to sort out the thing with my neighbors."
+    },
+    {
+      "speaker": "therapist",
+      "text": "Losing a job is a really significant change, even if it feels \"fine\" or like a relief on the surface right now. That\u2019s a big shift in your daily routine and life. \n\nI hear that your focus right now has shifted toward this situation with your neighbors. If you're comfortable sharing, what is \"the thing\" going on with them? \n\nWe can talk about whatever feels most pressing to you today\u2014whether that's the neighbors, the job, or how you're holding up overall with all these changes. Where would you like to start?"
+    },
+    {
+      "speaker": "patient",
+      "text": "It's just... sometimes the people next door talk about me through the wall. They sound like they're having conversations with each other, but sometimes it feels like they're talking about me."
+    },
+    {
+      "speaker": "therapist",
+      "text": "That sounds like it could be really unsettling and stressful. Your home is supposed to be a place where you can relax and feel safe, so feeling like your neighbors might be talking about you\u2014even if it's hard to tell for sure\u2014can make it really difficult to unwind.\n\nI appreciate you sharing that with me. I'd like to understand a bit more about what you're experiencing:\n\n*   How long has this been going on? Did it start around the time you lost your job, or was it happening before that?\n*   How is this affecting your day-to-day life, like your sleep, your stress levels, or how comfortable you feel in your apartment?\n\nWhen we're under a lot of stress or going through big life changes, our minds and senses can sometimes get overwhelmed. How are you holding up emotionally when these moments happen?"
+    },
+    {
+      "speaker": "patient",
+      "text": "It's been going on for a while, I think. It's hard to remember exactly when it started. It's just been... there. As for how it's affecting me, I don't sleep as well as I used to. I'll lie in bed and hear them talking, and it's hard to fall asleep after that."
+    },
+    {
+      "speaker": "therapist",
+      "text": "It makes a lot of sense that your sleep is suffering. Lying in bed, trying to decipher sounds through a wall, keeps your body and mind on high alert. When we feel like we might be the subject of a conversation, or when we feel monitored, our nervous system naturally kicks into a defensive state\u2014making it nearly impossible to drift off to sleep.\n\nSleep deprivation also makes everything feel heavier and harder to navigate, especially when you're already dealing with a major transition like job loss. \n\nWhen you're lying there at night and hear those voices, what do you usually end up doing? Do you find yourself focusing on the sounds to try and hear what they're saying, or do you try to block it out? \n\nAlso, have you tried using anything like white noise, rain sounds, or a fan at night to help create a barrier between your room and the apartment next door?"
+    },
+    {
+      "speaker": "patient",
+      "text": "I try to block it out, but it's hard. Sometimes I'll get really focused on trying to hear what they're saying. I've tried the fan, but it doesn't really help. I mean, it's not like they're shouting or anything, it's just... murmurs. And sometimes it sounds like they're talking about specific things, but I don't know if I'm just imagining it."
+    },
+    {
+      "speaker": "therapist",
+      "text": "It takes a lot of self-awareness to notice that uncertainty\u2014to say, \"I don't know if I'm just imagining it.\" That kind of reflection is really important.\n\nWhat you're describing\u2014hearing low murmurs or indistinct sounds and feeling your brain try to \"fill in the blanks\"\u2014is actually something that happens to a lot of people, especially when they are under high stress, lacking sleep, or spending a lot of time in quiet environments. When sounds are muffled or ambiguous, our brain naturally tries to find patterns, and when we are feeling vulnerable or anxious, the brain often interprets those patterns as being about us or threatening in some way.\n\nIt becomes a exhausting cycle: \n1. You hear a low noise.\n2. Your brain wonders, *\"Is that about me?\"*\n3. Your body goes into high alert (fight-or-flight), making your hearing feel super sharp.\n4. You focus intently to try to prove or disprove it, which keeps you awake and makes the noise feel even more prominent.\n\nSince losing your job a few weeks ago, your daily routine has probably changed quite a bit, and you might be spending more time at home in silence. \n\nI'm curious\u2014how have your days been looking lately? Are you getting out of the apartment much, or spending time with friends or family, or has it been pretty quiet during the day as well?"
+    },
+    {
+      "speaker": "patient",
+      "text": "It's been pretty quiet. I've been staying home a lot, trying to get things sorted out. I haven't been seeing friends or family as much as I used to. It's just been... easier to stay home."
+    },
+    {
+      "speaker": "therapist",
+      "text": "It makes a lot of sense that staying home feels like the easier, safer path right now. When you're going through a major life shift like losing a job, and when you're feeling unsettled and tired at home, the outside world can feel like a lot to handle. Pulling back and staying in your own space feels like a natural way to protect your energy.\n\nThe tricky thing, though, is that isolation can sometimes feed the exact distress you're trying to avoid. \n\nWhen we spend a lot of time alone in quiet spaces, our brains don't get enough fresh external input\u2014like conversations, new surroundings, or daily movement. Without those healthy distractions, the brain turns the \"volume\" up on everything else. That quiet environment makes every small sound from next door carry more weight, and it gives your mind hours of uninterrupted time to focus on what those sounds might mean. \n\nIt can create a bubble where the apartment starts to feel less like a haven and more like a pressure cooker.\n\nI'm wondering\u2014who is someone in your life (a friend, family member, or former coworker) that you usually feel safe and comfortable around? \n\nEven if seeing people feels exhausting right now, how would you feel about taking a tiny step, like a quick 10-minute coffee walk outside or a short phone call with a trusted person, just to give your brain a break from the apartment?"
+    },
+    {
+      "speaker": "patient",
+      "text": "I... I don't know. I haven't really talked to anyone much lately. I don't want to burden them with this stuff. It feels silly, like I'm making a big deal out of nothing."
+    },
+    {
+      "speaker": "therapist",
+      "text": "It is so common to feel that way, but I want to reassure you: what you're going through isn't \"silly\" at all, and you are not making a big deal out of nothing. \n\nYou\u2019ve recently lost your job, your sleep is severely disrupted, and you're feeling unsettled and uncomfortable in your own home. That is a massive amount of stress for one person to carry alone. It makes complete sense that you are feeling overwhelmed, fatigued, and isolated. \n\nWhen we care about people, we often worry about \"burdening\" them. But usually, if a friend or family member knew we were going through a hard time and spending weeks alone, they would *want* to be there for us. \n\nAlso, connecting with someone doesn't mean you have to sit them down and explain everything you've been feeling if you're not ready to. You don't have to talk about the job or the neighbors at all if you don't want to. Sometimes, just reaching out to ask how *they* are doing, or having a 10-minute chat about a movie or something mundane, can give your brain a very necessary break and remind you that you're connected to the outside world.\n\nIf you were to reach out to just one person\u2014not to dump everything on them, but just to say a quick hello\u2014who is the first person that comes to mind?"
+    },
+    {
+      "speaker": "patient",
+      "text": "I... I guess my mom. We talk sometimes, but it's been a while. I don't know, I just feel like I'd be a bother to her."
+    },
+    {
+      "speaker": "therapist",
+      "text": "Your mom sounds like a really meaningful choice. \n\nIt is so natural to feel like a bother when you've been isolated and your energy is low, but as moms go, hearing from their child\u2014even just a quick hello\u2014is usually something that brings them joy, not a burden. She cares about you, and she would likely be glad to hear your voice.\n\nYou don't have to prepare a big speech, and you don't have to tell her about the job loss or the neighbors right away if that feels like too much. It could be as simple as sending a quick text: *\"Hey Mom, was thinking of you. Do you have 5 minutes to catch up today?\"* \n\nIf it feels like too much energy to talk for long, you can even set a boundary upfront, like saying, *\"I only have a few minutes, but I just wanted to hear your voice.\"*\n\nHow does the idea of sending a simple text like that feel to you right now? Does it feel manageable, or does it still feel a bit overwhelming?"
+    },
+    {
+      "speaker": "patient",
+      "text": "It... it feels okay, I guess. I don't know, it's just a lot to think about. Maybe I'll try it."
+    },
+    {
+      "speaker": "therapist",
+      "text": "It really *is* a lot to carry, and it is completely okay that it feels overwhelming. You\u2019ve been dealing with a major life change, very little sleep, and a lot of quiet time alone with your thoughts. It makes sense that your energy is low.\n\nYou don't have to fix everything today, and you don't have to rush into anything. Just keeping the idea of texting your mom in your back pocket\u2014for whenever you feel a tiny burst of energy\u2014is more than enough for right now. \n\nWhen everything feels like \"a lot,\" it helps to shrink your world down to just the next hour or two. \n\nSince you've been carrying so much stress and losing sleep, what is one small, gentle thing you can do for yourself today? Something simple\u2014like getting a glass of water, taking a warm shower, stepping outside on the porch for five minutes of fresh air, or just resting your eyes?"
+    },
+    {
+      "speaker": "patient",
+      "text": "I think... I think I'll just take a shower. It sounds like it might help."
+    },
+    {
+      "speaker": "therapist",
+      "text": "That sounds like a wonderful idea. A warm shower can be really soothing and grounding, especially when your body and mind are feeling tired and heavy. \n\nWhile you're in there, try to just focus on the sensory experience\u2014the feel of the warm water, the smell of the soap, the sound of the steam. Let it be a safe space where your brain gets a well-deserved break from thinking about work, the apartment, or anything else.\n\nYou are carrying a lot right now, and taking it one very small step at a time is exactly the right approach. Be gentle with yourself today. \n\nGo take your shower, and if you feel up to sending that quick text to your mom afterward, great. If not, that's okay too. Just focus on taking care of yourself right now. I'm glad you came in to talk today."
+    },
+    {
+      "speaker": "patient",
+      "text": "I'll go take my shower. Thanks."
+    },
+    {
+      "speaker": "therapist",
+      "text": "You're very welcome. Enjoy the shower and take good care of yourself today. \n\nRemember, you don't have to figure everything out all at once\u2014just take it one small moment at a time. I'm here whenever you'd like to talk again. Take care."
+    }
+  ]
+}
