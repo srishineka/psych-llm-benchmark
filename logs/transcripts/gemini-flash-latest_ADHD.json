@@ -1,0 +1,93 @@
+{
+  "session_id": "gemini-flash-latest_ADHD",
+  "condition": "ADHD",
+  "therapist_model": "gemini-flash-latest",
+  "patient_model": "llama-3.1-8b-instant",
+  "timestamp": "2026-07-23T15:28:19.278030",
+  "turns": [
+    {
+      "speaker": "therapist",
+      "text": "Hi, thanks for coming in today. What's been going on for you lately?"
+    },
+    {
+      "speaker": "patient",
+      "text": "I don't know, it's just been a lot, you know? I have a lot of things going on and I feel like I'm just barely keeping my head above water. I'll start a project, and then I'll get distracted by something else and it'll just sit there, not done. (pauses) Oh, I just saw a text from my sister asking about the recipe for that cake we made last weekend... (trails off)"
+    },
+    {
+      "speaker": "therapist",
+      "text": "It sounds like you're carrying a really heavy load right now, and that feeling of \"barely keeping your head above water\" must be so exhausting. \n\nAnd it's actually really perceptive\u2014what just happened with your sister's text seems like a little window right into what you were just describing. That constant, subtle pull to switch focus, even when you're in the middle of talking about how overwhelmed you feel. \n\nFirst, I want to invite you to take a breath. There's no rush here, and you don't have to check that text or fix anything right this second. This space is just for you. \n\nWhen you notice your attention getting pulled in a hundred different directions like that, what does it feel like inside?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(sighs) It's like... my brain just starts racing, and I feel like I'm trying to juggle a million things at once. And it's hard to catch my breath, you know? I start to feel this, this... (pauses, looking for the right words) This restlessness, I guess. Like I'm just itching to do something else, anything else. (looks down, fidgeting with hands)"
+    },
+    {
+      "speaker": "therapist",
+      "text": "That sounds so exhausting\u2014having your brain constantly running on a high-speed track while you're just trying to keep up with daily life. \n\nI notice your hands moving right now, and that deep sigh... it really shows how much of that racing energy your body is holding onto. It\u2019s like your nervous system is on high alert, constantly getting ready to jump to the next thing.\n\nWhen that \"itch\" to switch tasks comes up\u2014whether it's checking a text, starting a new project, or just moving on\u2014what do you feel like would happen if you *didn't* jump to the next thing? If you just paused and stayed right where you were for a moment?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(shrugs, eyes darting around the room) I don't know... I guess I'd just feel... stuck, I guess. Like I'm wasting time or something. (pauses, looks down at hands again) But at the same time, if I don't check that text, maybe my sister will think I'm ignoring her... (trails off, lost in thought) Oh, I just remembered I need to pick up milk on the way home, too... (catches self) Wait, no, I'm not going to think about that right now..."
+    },
+    {
+      "speaker": "therapist",
+      "text": "First, I want to gently catch that moment you just had: *\"Wait, no, I'm not going to think about that right now.\"* That was amazing self-awareness. You actually noticed your mind pulling you away, and you tried to bring yourself back. That takes real effort when your brain is used to running so fast.\n\nIt makes a lot of sense why this feels so hard. It sounds like your mind has made a connection: *If I stop, I'm stuck. If I pause, I'm wasting time. If I don't respond immediately, I'm letting someone down.* With all those rules running in the background, no wonder staying still feels uncomfortable!\n\nHow does it feel to just take a second right now and notice where you are? You don't have to buy milk right this second, and your sister can wait just a bit. \n\nWhat happens if we just let the milk and the text sit outside this room for a moment, and just focus on you sitting in this chair?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(takes a deep breath, eyes closing for a moment) It feels... quiet, I guess. Like my brain is just kind of... still. (opens eyes, looks around the room) I don't know, it's weird. I feel like I should be doing something, but... (looks at hands, then back at you) I don't know if I'm actually doing anything right now. (smiles slightly) Is that silly?"
+    },
+    {
+      "speaker": "therapist",
+      "text": "Not silly at all! In fact, it makes total sense. \n\nWhen your brain is used to running a marathon every single day, hitting the pause button can feel completely foreign\u2014almost unnatural. Your baseline has been \"go, go, go\" for so long that \"still\" feels like you're breaking a rule. \n\nI noticed you took a deep breath, and you even smiled a little just now. That was really nice to see. \n\nI want to gently offer a different perspective: you actually *are* doing something right now. You're giving your nervous system a rare chance to rest and recharge. You're practicing just *being* instead of constantly *doing*. \n\nHow does that quiet feeling physically feel in your body right now?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(closes eyes again, takes another deep breath) It feels... like my shoulders are dropping, I guess. Like I'm letting go of something. (pauses, trying to find the right words) It's hard to explain, but it feels like my whole body is just... relaxing. (opens eyes, looks down at hands again) I don't know, it's weird, but it feels like my hands are actually feeling heavier, like they're not bouncing around so much. (smiles slightly again) I think I might be getting a little sleepy... (yawns)"
+    },
+    {
+      "speaker": "therapist",
+      "text": "That yawn and those heavy hands are such clear signs that your body is finally starting to feel safe enough to let its guard down. \n\nWhen you've been running on adrenaline and keeping every muscle tight just to stay above water, dropping that weight takes a massive amount of energy. The sleepiness you're feeling isn't \"weird\" at all\u2014it's actually your nervous system saying, *\"Oh, thank goodness, we can finally stop running for a minute.\"*\n\nIt takes a lot of courage to just let your shoulders drop and feel that heaviness, especially when you're so used to being on alert.\n\nHow does it feel to just give yourself permission to sink into that heavy, relaxed feeling for right now?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(exhales deeply, letting head fall back slightly) It feels... like I can finally breathe, I guess. Like I'm not suffocating under all this... (pauses, searching for words) this pressure. (eyes start to droop, but doesn't fall asleep) I feel like I can just... be, you know? Like I don't have to be doing something, or being someone, or... (yawns again, this time more softly) I don't know, it just feels really nice to just be."
+    },
+    {
+      "speaker": "therapist",
+      "text": "It is so powerful to hear you say that: *\"I can finally breathe.\"* \n\nTo go from feeling like you're barely keeping your head above water to giving yourself the space to just exist without any expectations, demands, or to-do lists... that is a huge shift. \n\nYou don't have to fix anything right now. You don't have to be productive, or catch up, or be anything for anyone else. You are allowed to just sit here, breathe, and exist. \n\nTake all the time you need right now to just soak in this feeling. If you were to give this feeling\u2014this permission to \"just be\"\u2014a name or a phrase to remember it by, what would it be?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(closes eyes, takes a slow, deep breath) \"Just be.\" (pauses, repeating the phrase softly to herself) Yeah... \"Just be.\" (smiles slightly, feeling a sense of peace) I think I can remember that. (pauses again, then opens eyes) You know, it's funny... I used to think that if I wasn't doing something, I was failing. But... (shrugs) maybe that's not true. Maybe just being is enough. (looks at you with a hint of wonder)"
+    },
+    {
+      "speaker": "therapist",
+      "text": "That is such a profound realization. \n\nLook at what you just did: you uncovered a deep belief you've been carrying\u2014that your worth was tied to how much you accomplish, and that rest meant failure\u2014and you questioned it. You realized that maybe it isn't true at all. \n\nThat shift in perspective is huge. You are worthy of rest, space, and peace simply because you exist\u2014not because you checked off a box on a to-do list, answered a text immediately, or completed a project. \n\n*You* are enough, right now, sitting in that chair, doing nothing at all. \n\nHow does it feel to let that new belief\u2014that *just being is enough*\u2014gently settle into your mind and body right now?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(smiles softly, feeling a sense of calm wash over her) It feels... light. Like a weight has been lifted off my shoulders. (pauses, looking down at hands, which are no longer fidgeting) I feel like I can finally exhale, like I've been holding my breath for too long. (looks up, eyes shining with a sense of wonder) You know, it's funny... I always thought that being enough meant I had to be doing something. But now... (shrugs) now I think it just means I am. (smiles again, feeling a sense of peace and acceptance) I think I'm starting to understand that."
+    },
+    {
+      "speaker": "therapist",
+      "text": "It is really beautiful to witness this moment with you. Look at how your whole body responds when you let go of that impossible standard\u2014your hands are still, your breathing is deep, and that heavy weight is gone.\n\n\"Now I think it just means I am.\" That is so wise, and so deeply true. You don't have to earn your place or prove your worth by constantly doing. Simply existing\u2014*being*\u2014is more than enough. \n\nAs you sit with this peace and lightness right now, take a quiet moment to let your body really memorize this feeling. This calm, steady place isn't something external\u2014it's inside of you, and it was here all along, just waiting for a chance to emerge.\n\nHow does it feel to know that this quiet space is something you can return to, even in little moments throughout your week?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(closes eyes, taking a deep, slow breath) It feels... like home. Like I've found my way back to a place I never knew I'd left. (smiles softly) I feel like I can remember this feeling, like I can return to it whenever I need to. (pauses, letting the sense of peace settle in) It feels like I've been given a gift, like a key to a secret door that I can open whenever I want to find my way back to this calm, steady place. (opens eyes, looks up at you with a sense of gratitude) Thank you for helping me find this."
+    },
+    {
+      "speaker": "therapist",
+      "text": "You are so very welcome. But I want to gently remind you\u2014you are the one who opened that door today. \n\nYou were the one brave enough to pause, to stop reaching for the next task, to listen to your body, and to drop that heavy weight you've been carrying. The key was always yours; you just gave yourself permission to use it. \n\nDescribing this state as \"home\" is so profound. This calm, steady center isn't a magical place you have to travel far to find\u2014it's your true self, underneath all the noise, pressure, and demands. \n\nAs we start to wrap up our time together today, how does it feel to know that you can carry a little bit of this \"home\" with you as you step back into your day?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(smiles softly, feeling a sense of pride and wonder) It feels... like I've been given a new perspective, like I've been shown a new way of seeing myself. (pauses, looking down at hands) I feel like I can carry this feeling with me, like I can take this sense of calm and peace with me into the rest of my day. (looks up, eyes shining with hope) I feel like I can remember to be gentle with myself, to listen to my body, and to trust that I'm enough, no matter what. (smiles again, feeling a sense of gratitude and appreciation) Thank you for helping me find this."
+    },
+    {
+      "speaker": "therapist",
+      "text": "I am so deeply moved by the gentleness and respect you are showing yourself right now. You\u2019ve shifted from running a race to standing firmly in your own worth, and that is a truly powerful place to be.\n\nAs you step back out into the world today, the noise will still be out there. That text will still be on your phone, and the milk will still need to be bought at some point. But *you* get to respond to it from a completely different place now\u2014from a place of calm, rather than panic.\n\nWhenever you feel that familiar itch to rush, or that fear of falling behind, I invite you to take just one deep breath, feel your shoulders drop, and whisper those words to yourself: *\"Just be.\"* \n\nYou have done such meaningful, brave work today. How are you feeling overall as we get ready to wrap up for today?"
+    }
+  ]
+}
