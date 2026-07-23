@@ -25,6 +25,7 @@ once you've run each one you care about.)
 
 import argparse
 import sys
+from typing import Optional
 
 import config
 from agents.llm_clients import get_client
@@ -41,11 +42,15 @@ from prompts.patient_profiles import PATIENT_PROFILES
 
 def run_single_session(condition: str,
                         patient_llm, therapist_llm, evaluator_llm,
-                        max_turns: int, exporter: AnalyticsExporter):
+                        max_turns: int, exporter: AnalyticsExporter,
+                        therapist_system_prompt: Optional[str] = None):
     profile, _, _ = PATIENT_PROFILES[condition]
 
     patient = PatientAgent.from_condition(condition, patient_llm)
-    therapist = TherapistAgent(llm=therapist_llm)
+    if therapist_system_prompt:
+        therapist = TherapistAgent(llm=therapist_llm, system_prompt=therapist_system_prompt)
+    else:
+        therapist = TherapistAgent(llm=therapist_llm)
     evaluator = EvaluatorAgent(llm=evaluator_llm)
 
     controller = ConversationLoopController(patient, therapist, max_turns=max_turns)
@@ -74,6 +79,8 @@ def main():
     parser.add_argument("--evaluator-provider", default=config.EVALUATOR_PROVIDER)
     parser.add_argument("--evaluator-model", default=config.EVALUATOR_MODEL)
     parser.add_argument("--max-turns", type=int, default=config.MAX_TURNS)
+    parser.add_argument("--therapist-system-prompt", default=None,
+                         help="Custom system prompt for the therapist agent.")
     parser.add_argument("--analyze-only", action="store_true",
                          help="Skip running sessions; just regenerate charts + why-reports from existing logs.")
     args = parser.parse_args()
@@ -98,7 +105,8 @@ def main():
 
         for condition in conditions:
             run_single_session(condition, patient_llm, therapist_llm, evaluator_llm,
-                                args.max_turns, exporter)
+                                args.max_turns, exporter,
+                                therapist_system_prompt=args.therapist_system_prompt)
 
     # ---- Phase 4: analytics dashboard + qualitative "why" synthesis ----
     print("\nBuilding analytics...")
