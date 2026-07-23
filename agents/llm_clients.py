@@ -121,11 +121,17 @@ class GeminiClient(LLMClient):
                 )
                 
                 if is_key_error and self.api_keys and len(self.api_keys) > 1:
+                    print(f"\n[GeminiClient] Error hit on key index {idx}: {err_str}")
+                    
+                    # If it's a rate limit, sleep briefly to cooldown
+                    if any(x in err_str or x in err_str.lower() for x in ["429", "resource_exhausted", "quota"]):
+                        print("[GeminiClient] Rate limit detected. Sleeping 2 seconds for cooldown...")
+                        time.sleep(2)
+                        
                     # Switch to next key in pool
                     self.current_key_index = (self.current_key_index + 1) % len(self.api_keys)
                     next_key = self.api_keys[self.current_key_index]
-                    print(f"\n[GeminiClient] Rate limit or auth error hit on key index {idx}. "
-                          f"Rotating to key index {self.current_key_index}...")
+                    print(f"[GeminiClient] Rotating to key index {self.current_key_index}...")
                     self.client = self._genai.Client(api_key=next_key)
                     continue
                 else:
