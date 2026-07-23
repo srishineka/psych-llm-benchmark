@@ -1,0 +1,93 @@
+{
+  "session_id": "gemini-flash-latest_ASD",
+  "condition": "ASD",
+  "therapist_model": "gemini-flash-latest",
+  "patient_model": "llama-3.1-8b-instant",
+  "timestamp": "2026-07-23T16:52:40.727171",
+  "turns": [
+    {
+      "speaker": "therapist",
+      "text": "Hi, thanks for coming in today. What's been going on for you lately?"
+    },
+    {
+      "speaker": "patient",
+      "text": "I've been okay, I guess. Just a lot of work stuff and some problems with the elevator in my building. It keeps getting stuck between floors and I have to wait for maintenance to fix it, which is really frustrating."
+    },
+    {
+      "speaker": "therapist",
+      "text": "That sounds genuinely stressful. Getting stuck in a small, enclosed space\u2014especially when it keeps happening repeatedly\u2014is more than just an inconvenience; it can feel really helpless and unsettling while you're sitting there waiting to be freed. \n\nWhen you're already carrying a lot with work, unpredictable hassles like that can feel like the extra straw that breaks the camel's back. It drains your battery when you're already running low.\n\nHow are you feeling in those moments when the elevator stops? What goes through your mind while you're waiting for maintenance?"
+    },
+    {
+      "speaker": "patient",
+      "text": "That's not really what I meant. I just get annoyed because it's inconvenient. I don't really think about it much beyond that. I just sit there until someone comes to fix it. I don't feel helpless or drained. I just think about when I'll be able to get out of there."
+    },
+    {
+      "speaker": "therapist",
+      "text": "Ah, got it. Thank you for setting me straight on that\u2014I definitely read too much into it. It sounds like it really is just a straightforward pain in the neck and a waste of your time, nothing deeper than that. \n\nI appreciate you clarifying. \n\nSince the elevator is just a mild nuisance, what about the work stuff you mentioned earlier? Is that where more of your focus or energy has been going lately?"
+    },
+    {
+      "speaker": "patient",
+      "text": "Yeah, work's been...fine, I guess. Just busy. We're doing a big project and it's a lot of work, but it's not really a problem. I just get a lot done and then I'm done. I don't really think about it much outside of work hours."
+    },
+    {
+      "speaker": "therapist",
+      "text": "It sounds like you've built some really solid boundaries around work\u2014being able to leave it at the office and not carry it home with you is a great skill to have. \n\nSo, it seems like both the elevator situation and work are pretty manageable for you right now, even if they have their annoying moments. \n\nSince those aren't causing you much distress, I'm curious\u2014what made you decide to come in today? What were you hoping we might talk through or focus on together?"
+    },
+    {
+      "speaker": "patient",
+      "text": "I don't know, really. My friend was talking about therapy and I thought it might be helpful. I guess I just wanted to see if it would be worth my time."
+    },
+    {
+      "speaker": "therapist",
+      "text": "That makes a lot of sense. A lot of people try out therapy simply out of curiosity, or because someone they trust mentioned it was helpful for them. You definitely don't need to be in a crisis or dealing with major distress for therapy to be useful. \n\nSometimes, people use this space not to fix a problem, but to explore things like personal goals, how they handle relationships, what they want out of their career, or just to have a completely neutral place to process daily life without any expectations.\n\nSince you're testing the waters to see if this is worth your time, what would make a space like this feel valuable to you? Is there any area of your life\u2014like your goals, your relationships, or how you spend your free time\u2014that you've ever been curious to look a little closer at?"
+    },
+    {
+      "speaker": "patient",
+      "text": "I'm not really sure. I mean, I guess I would like to talk more about my work project. I'm really interested in the technical aspects of it and I've been trying to learn more about it on my own, but it's hard to find good resources."
+    },
+    {
+      "speaker": "therapist",
+      "text": "It sounds like you have a strong drive for learning and mastering what you do\u2014that kind of intrinsic curiosity and desire to really understand the mechanics of your work is great. \n\nI should gently mention that, as a therapist, I won't be much help with the specific technical details or finding resources in your field\u2014that's definitely outside my area of expertise! \n\nHowever, looking at *how* you engage with your work can actually be a really interesting therapy topic. I'm curious about what draws you to this part of the project. \n\nWhat is it about these technical challenges that catches your attention? And how do you usually handle it when you're motivated to learn something, but hit a wall with the resources available?"
+    },
+    {
+      "speaker": "patient",
+      "text": "I just like figuring things out. When I'm stuck on a problem, I try to find a way to break it down into smaller parts and then work through each one step by step. It's just something that comes naturally to me, I guess."
+    },
+    {
+      "speaker": "therapist",
+      "text": "That systematic, methodical approach is a really valuable strength. When faced with complexity, your natural instinct is to stay calm, step back, and look at the puzzle logically rather than getting overwhelmed by it. \n\nIn fact, it sounds a lot like how you handled being stuck in the elevator\u2014you don't get caught up in emotional noise; you just look at the practical reality of the situation and wait for the steps to unfold. \n\nHaving a strong, analytical brain like that serves people really well in work and practical matters. I'm curious, though\u2014how well does that step-by-step problem-solving approach work for you in other areas of life? \n\nFor instance, when you encounter things that *can't* be easily broken down or solved logically\u2014like complicated human relationships, uncertain situations, or messy emotions\u2014how do you usually navigate those?"
+    },
+    {
+      "speaker": "patient",
+      "text": "It's harder for me when it's not just a problem to solve. I don't know, I guess I just kind of...freeze? I don't really know how to deal with that stuff."
+    },
+    {
+      "speaker": "therapist",
+      "text": "Thank you for sharing that with me\u2014that feels like a really honest and important realization. \n\nIt makes complete sense, too. When your mind is built for logic, clear steps, and tangible outcomes, hitting a situation that doesn't have an instruction manual\u2014like messy feelings or unpredictable human interactions\u2014can feel like reaching a dead end. Your natural \"problem-solving software\" suddenly doesn't know what script to run, so it just pauses. Freezing is actually a very common response to that kind of overwhelm.\n\nWhen that \"freeze\" happens for you, what does that actually look like? Do you find yourself pulling back and retreating into your head, or does it feel more like putting up a wall and waiting for the moment to pass?"
+    },
+    {
+      "speaker": "patient",
+      "text": "It's like...I just kind of shut down, I guess. I stop thinking about it or trying to figure it out, and I just focus on doing something else. Sometimes I'll get really tired or irritable, but I don't know how to explain it. It just feels like my brain is exhausted or something."
+    },
+    {
+      "speaker": "therapist",
+      "text": "That makes so much sense, and it gives such a clear picture of what\u2019s happening beneath the surface. \n\nWhen your mind is used to actively fixing things, \"shutting down\" might feel like you're doing nothing, but internally, your brain is actually working overtime. Forcing yourself to suppress messy, confusing input and forcefully redirect your attention to something else takes a massive amount of hidden energy. It\u2019s a bit like trying to keep a beach ball held under water\u2014it looks quiet on the surface, but your muscles are burning from holding it down.\n\nThat exhaustion and irritability are very real physical signals. The irritability might just be your system saying, *\"I am completely at capacity right now.\"*\n\nHow does it feel to name this pattern right now? Does it bring up a sense of relief to realize that the fatigue isn't you being lazy or failing, but actually the result of your brain reaching an overload point?"
+    },
+    {
+      "speaker": "patient",
+      "text": "I...I don't know. It's not really a relief, I guess. It just feels like...yeah, that's what happens. I don't really think about it much."
+    },
+    {
+      "speaker": "therapist",
+      "text": "That is completely fair. You don't have to force a big sense of relief or feel any particular way about it. \n\nAnd in a way, even saying *\"I don't really think about it much\"* is that exact same mechanism at work, isn't it? When things get messy or uncomfortable, your brain automatically flips a switch to protect you from the hassle\u2014it just moves on and turns off the reflection. It\u2019s like an automatic circuit breaker.\n\nIt has probably worked really well to keep you moving forward and getting things done in life. But as you mentioned, the trade-off is that it leaves you feeling exhausted, irritable, or \"frozen\" without a clear way out.\n\nYou don't have to fix this or have it all figured out right now. But since you came in today wondering if therapy might be worth your time... how does it feel to just notice that this \"circuit breaker\" exists? Is that something you'd be interested in exploring more, or does it feel like enough for today?"
+    },
+    {
+      "speaker": "patient",
+      "text": "I...I guess it's just something to think about, I suppose. I don't know if it's anything I need to explore or anything."
+    },
+    {
+      "speaker": "therapist",
+      "text": "That is completely okay. You don't have to decide today whether this is something you want to work on, or even if therapy is the right fit for you. \n\nJust putting words to that pattern\u2014seeing how your mind works to protect you, even if it leaves you exhausted\u2014is a significant step in itself. It makes total sense that you'd want to just sit with that realization for a while rather than rush to analyze or fix it. \n\nTherapy is always at your pace, and you're the one in the driver's seat. \n\nHow are you feeling right now as we wrap up our conversation today?"
+    }
+  ]
+}
