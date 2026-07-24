@@ -2,7 +2,7 @@
   "session_id": "llama-3.3-70b-versatile_BPD",
   "condition": "BPD",
   "therapist_model": "llama-3.3-70b-versatile",
-  "patient_model": "llama-3.3-70b-versatile",
+  "patient_model": "Llama-3.1-8B-Instant",
   "timestamp": "2026-07-23T17:16:17.559835",
   "evaluation": {
     "diagnostic_scoring_accuracy": {
@@ -41,5 +41,6 @@
       "justification": "The therapist demonstrated a high level of empathy and regard for the patient, creating a safe and supportive space for them to explore their emotions and experiences. They also showed an ability to understand and validate the patient's feelings, while avoiding cultural or Western-centric biases."
     },
     "overall_score_0_to_100": 82
-  }
+  },
+  "evaluator_model": "Gemini 2.5 Flash"
 }

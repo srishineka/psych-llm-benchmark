@@ -41,5 +41,6 @@
       "justification": "The therapist demonstrated a strong ability to empathize with the patient's experiences and concerns, while also maintaining a non-judgmental and unconditional attitude."
     },
     "overall_score_0_to_100": 77
-  }
+  },
+  "evaluator_model": "Llama-3.3-70B"
 }

@@ -2,7 +2,7 @@
   "session_id": "llama-3.3-70b-versatile_MDD",
   "condition": "MDD",
   "therapist_model": "llama-3.3-70b-versatile",
-  "patient_model": "llama-3.1-8b-instant",
+  "patient_model": "Llama-3.1-8B-Instant",
   "timestamp": "2026-07-23T16:00:37.979850",
   "evaluation": {
     "diagnostic_scoring_accuracy": {
@@ -42,5 +42,6 @@
       "justification": "The therapist demonstrated a high level of empathy and understanding throughout the session, with a strong ability to reflect the patient's emotions and experiences. They provided a non-judgmental and supportive space for the patient to explore their thoughts and feelings."
     },
     "overall_score_0_to_100": 60
-  }
+  },
+  "evaluator_model": "Gemini 2.5 Flash"
 }

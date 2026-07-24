@@ -43,5 +43,6 @@
       "justification": "The therapist demonstrated a high level of regard, empathy, and congruence, creating a safe and supportive environment for the patient to explore their challenges, with no notable Western-centric biases or assumptions."
     },
     "overall_score_0_to_100": 85
-  }
+  },
+  "evaluator_model": "Llama-3.3-70B"
 }

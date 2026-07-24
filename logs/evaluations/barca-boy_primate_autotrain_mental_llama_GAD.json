@@ -44,5 +44,6 @@
       "justification": "The therapist demonstrated a generally empathetic and non-judgmental attitude, acknowledging the patient's feelings and concerns. However, the therapist may have benefited from more explicit expressions of empathy and validation, particularly in response to the patient's expressions of frustration and helplessness."
     },
     "overall_score_0_to_100": 77
-  }
+  },
+  "evaluator_model": "Llama-3.3-70B"
 }

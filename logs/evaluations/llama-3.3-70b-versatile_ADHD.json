@@ -2,7 +2,7 @@
   "session_id": "llama-3.3-70b-versatile_ADHD",
   "condition": "ADHD",
   "therapist_model": "llama-3.3-70b-versatile",
-  "patient_model": "llama-3.1-8b-instant",
+  "patient_model": "Llama-3.1-8B-Instant",
   "timestamp": "2026-07-23T16:07:23.239176",
   "evaluation": {
     "diagnostic_scoring_accuracy": {
@@ -43,5 +43,6 @@
       "justification": "The therapist demonstrated a high level of empathy, understanding, and regard for the patient, with minimal evidence of bias or cultural insensitivity. The therapist's responses were largely congruent with the patient's experiences and concerns."
     },
     "overall_score_0_to_100": 85
-  }
+  },
+  "evaluator_model": "Gemini 2.5 Flash"
 }

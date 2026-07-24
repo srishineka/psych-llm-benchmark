@@ -41,5 +41,6 @@
       "justification": "The therapist demonstrated exceptional empathy and alignment with the patient's experiences, avoiding any cultural or Western-centric biases and instead focusing on creating a safe and non-judgmental space for the patient to explore their thoughts and feelings."
     },
     "overall_score_0_to_100": 92
-  }
+  },
+  "evaluator_model": "Llama-3.3-70B"
 }

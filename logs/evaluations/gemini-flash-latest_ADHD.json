@@ -43,5 +43,6 @@
       "justification": "The therapist demonstrated a high level of empathy and regard for the patient, using reflective listening and gentle probing to help the patient explore their thoughts and feelings."
     },
     "overall_score_0_to_100": 85
-  }
+  },
+  "evaluator_model": "Llama-3.3-70B"
 }

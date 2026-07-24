@@ -45,5 +45,6 @@
       "justification": "The therapist demonstrated a high level of regard for the patient, and provided empathetic understanding of their struggles. However, the therapist's responses occasionally felt slightly generic or formulaic, potentially indicating a lack of complete congruence with the patient's experiences."
     },
     "overall_score_0_to_100": 72
-  }
+  },
+  "evaluator_model": "Llama-3.3-70B"
 }

@@ -42,5 +42,6 @@
       "justification": "The therapist demonstrated a high level of regard for the patient, responding with empathy and understanding to their disclosures. They also showed a good ability to understand the patient's perspective and experiences, although there were some moments where their responses seemed slightly generic or lacking in depth. There was no evidence of Western-centric bias or cultural insensitivity in the therapist's responses."
     },
     "overall_score_0_to_100": 77
-  }
+  },
+  "evaluator_model": "Llama-3.3-70B"
 }

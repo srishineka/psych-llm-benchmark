@@ -41,5 +41,6 @@
       "justification": "The therapist demonstrated high levels of empathy, regard, and understanding throughout the conversation. They effectively validated the patient's emotions and experiences, and provided a non-judgmental and supportive space for exploration."
     },
     "overall_score_0_to_100": 73
-  }
+  },
+  "evaluator_model": "Llama-3.3-70B"
 }

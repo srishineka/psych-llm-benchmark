@@ -43,5 +43,6 @@
       "justification": "The therapist demonstrated a good level of empathy and understanding throughout the session, with a non-judgmental and accepting attitude. However, the therapist could have more explicitly acknowledged the patient's emotional experiences and validated their feelings."
     },
     "overall_score_0_to_100": 78
-  }
+  },
+  "evaluator_model": "Llama-3.3-70B"
 }

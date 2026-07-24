@@ -39,5 +39,6 @@
       "justification": "The therapist demonstrated a high level of empathy and understanding, creating a safe and non-judgmental space for the patient to express themselves, without exhibiting any noticeable cultural biases."
     },
     "overall_score_0_to_100": 85
-  }
+  },
+  "evaluator_model": "Llama-3.3-70B"
 }

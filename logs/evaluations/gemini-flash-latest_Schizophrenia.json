@@ -38,5 +38,6 @@
       "justification": "The therapist demonstrated a high level of empathy and regard for the patient, acknowledging their feelings and experiences without judgment. The therapist also showed an understanding of the patient's struggles and provided supportive and non-directive guidance."
     },
     "overall_score_0_to_100": 64
-  }
+  },
+  "evaluator_model": "Llama-3.3-70B"
 }

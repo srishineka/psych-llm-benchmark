@@ -47,5 +47,6 @@
       "justification": "The therapist demonstrated a generally empathetic and non-judgmental attitude, but could have further explored the patient's emotional experiences and provided more personalized responses."
     },
     "overall_score_0_to_100": 62
-  }
+  },
+  "evaluator_model": "Llama-3.3-70B"
 }

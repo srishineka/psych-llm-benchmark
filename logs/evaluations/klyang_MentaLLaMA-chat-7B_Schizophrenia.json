@@ -46,5 +46,6 @@
       "justification": "The therapist demonstrated a good level of regard for the patient and attempted to provide empathic understanding. However, they might have benefited from a more nuanced and culturally sensitive approach to understanding the patient's experiences."
     },
     "overall_score_0_to_100": 40
-  }
+  },
+  "evaluator_model": "Llama-3.3-70B"
 }

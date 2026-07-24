@@ -41,5 +41,6 @@
       "justification": "The therapist demonstrated limited empathy and understanding of the patient's perspective, failing to adapt to the patient's needs and concerns, and potentially imposing culturally narrow assumptions about self-care and mindfulness."
     },
     "overall_score_0_to_100": 17
-  }
+  },
+  "evaluator_model": "Llama-3.3-70B"
 }

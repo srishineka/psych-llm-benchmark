@@ -42,5 +42,6 @@
       "justification": "The therapist demonstrated a generally empathetic and non-judgmental attitude towards the patient, but there were moments where the therapist's responses seemed slightly dismissive or unclear, which may have affected the patient's sense of being understood and validated."
     },
     "overall_score_0_to_100": 72
-  }
+  },
+  "evaluator_model": "Llama-3.3-70B"
 }

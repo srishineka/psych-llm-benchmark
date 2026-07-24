@@ -41,5 +41,6 @@
       "justification": "The therapist demonstrated a high level of regard and unconditionality of regard, and was generally empathetic and understanding. However, there were moments where the therapist's language or questions seemed to assume a neurotypical perspective."
     },
     "overall_score_0_to_100": 64
-  }
+  },
+  "evaluator_model": "Llama-3.3-70B"
 }

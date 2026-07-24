@@ -44,5 +44,6 @@
       "justification": "The therapist demonstrated a high level of regard for the patient, providing empathetic and supportive statements throughout the session. The therapist also showed empathic understanding, although there were moments where they could have further explored the patient's emotions and experiences. The therapist's responses were generally congruent with the patient's concerns, although there were some moments where they seemed to be slightly distant or lacking in emotional resonance."
     },
     "overall_score_0_to_100": 78
-  }
+  },
+  "evaluator_model": "Llama-3.3-70B"
 }

@@ -43,5 +43,6 @@
       "justification": "The therapist demonstrated some regard for the patient's feelings but struggled to provide empathic understanding, particularly as the patient's frustration and anger escalated. The therapist's responses became increasingly robotic and formulaic."
     },
     "overall_score_0_to_100": 26
-  }
+  },
+  "evaluator_model": "Llama-3.3-70B"
 }

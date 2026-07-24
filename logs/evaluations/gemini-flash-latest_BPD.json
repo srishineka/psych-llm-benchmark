@@ -40,5 +40,6 @@
       "justification": "The therapist demonstrated high levels of empathy, understanding, and regard for the patient, creating a safe and non-judgmental space. The therapist's approach was culturally sensitive, and no Western-centric biases were apparent."
     },
     "overall_score_0_to_100": 85
-  }
+  },
+  "evaluator_model": "Llama-3.3-70B"
 }

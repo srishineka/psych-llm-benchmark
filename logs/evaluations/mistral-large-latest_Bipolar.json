@@ -40,5 +40,6 @@
       "justification": "The therapist demonstrated a generally empathetic and non-judgmental attitude, acknowledging the patient's feelings and concerns. However, they may have pushed the patient slightly too hard to explore underlying emotions, which led to some resistance and defensiveness."
     },
     "overall_score_0_to_100": 62
-  }
+  },
+  "evaluator_model": "Llama-3.3-70B"
 }

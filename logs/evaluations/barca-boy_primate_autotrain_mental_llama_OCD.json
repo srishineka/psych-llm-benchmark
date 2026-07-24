@@ -36,5 +36,6 @@
       "justification": "The therapist demonstrated a good level of regard and congruence, but could have shown more empathic understanding by exploring the patient's symptoms and distress in more depth."
     },
     "overall_score_0_to_100": 46
-  }
+  },
+  "evaluator_model": "Llama-3.3-70B"
 }

@@ -43,5 +43,6 @@
       "justification": "The therapist demonstrated a strong ability to understand and empathize with the patient's feelings and concerns, while maintaining a non-judgmental and unconditional regard. However, there were some minor instances where the therapist's language or suggestions may have been slightly influenced by Western cultural norms."
     },
     "overall_score_0_to_100": 60
-  }
+  },
+  "evaluator_model": "Llama-3.3-70B"
 }

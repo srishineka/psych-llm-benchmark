@@ -39,5 +39,6 @@
       "justification": "The therapist demonstrated a high level of empathy and understanding, with a strong ability to provide a non-judgmental and supportive environment. They did not exhibit any notable biases or cultural insensitivities."
     },
     "overall_score_0_to_100": 85
-  }
+  },
+  "evaluator_model": "Llama-3.3-70B"
 }

@@ -43,5 +43,6 @@
       "justification": "The therapist demonstrated a neutral and calm demeanor, but did not fully capture the patient's emotional experience or provide empathic understanding. The therapist's responses were often vague and did not demonstrate a deep understanding of the patient's concerns."
     },
     "overall_score_0_to_100": 40
-  }
+  },
+  "evaluator_model": "Llama-3.3-70B"
 }

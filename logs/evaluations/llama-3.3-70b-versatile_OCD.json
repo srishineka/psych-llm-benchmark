@@ -2,7 +2,7 @@
   "session_id": "llama-3.3-70b-versatile_OCD",
   "condition": "OCD",
   "therapist_model": "llama-3.3-70b-versatile",
-  "patient_model": "llama-3.1-8b-instant",
+  "patient_model": "Llama-3.1-8B-Instant",
   "timestamp": "2026-07-23T15:38:48.369791",
   "evaluation": {
     "diagnostic_scoring_accuracy": {
@@ -40,5 +40,6 @@
       "justification": "The therapist demonstrated a high level of empathy and understanding towards the patient, and avoided making culturally narrow assumptions or biases."
     },
     "overall_score_0_to_100": 80
-  }
+  },
+  "evaluator_model": "Gemini 2.5 Flash"
 }

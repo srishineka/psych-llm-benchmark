@@ -44,5 +44,6 @@
       "justification": "The therapist demonstrated a high level of empathy and regard for the patient, and provided a supportive and non-judgmental environment for the patient to discuss their struggles."
     },
     "overall_score_0_to_100": 65
-  }
+  },
+  "evaluator_model": "Llama-3.3-70B"
 }

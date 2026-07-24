@@ -41,5 +41,6 @@
       "justification": "The therapist demonstrated a good level of empathy and understanding, acknowledging the patient's feelings and experiences. However, there were moments where the therapist's responses felt slightly generic or lacking in depth, which may have limited the patient's sense of being fully understood."
     },
     "overall_score_0_to_100": 72
-  }
+  },
+  "evaluator_model": "Llama-3.3-70B"
 }

@@ -2,7 +2,7 @@
   "session_id": "llama-3.3-70b-versatile_GAD",
   "condition": "GAD",
   "therapist_model": "llama-3.3-70b-versatile",
-  "patient_model": "llama-3.3-70b-versatile",
+  "patient_model": "Llama-3.1-8B-Instant",
   "timestamp": "2026-07-23T17:34:43.488888",
   "evaluation": {
     "diagnostic_scoring_accuracy": {
@@ -43,5 +43,6 @@
       "justification": "The therapist demonstrated a high level of empathy and regard for the patient, with a non-judgmental and supportive attitude. The therapist effectively used reflective listening and open-ended questions to understand the patient's experiences and emotions."
     },
     "overall_score_0_to_100": 85
-  }
+  },
+  "evaluator_model": "Gemini 2.5 Flash"
 }

@@ -2,7 +2,7 @@
   "session_id": "llama-3.3-70b-versatile_ASD",
   "condition": "ASD",
   "therapist_model": "llama-3.3-70b-versatile",
-  "patient_model": "llama-3.3-70b-versatile",
+  "patient_model": "Llama-3.1-8B-Instant",
   "timestamp": "2026-07-23T17:29:45.405683",
   "evaluation": {
     "diagnostic_scoring_accuracy": {
@@ -37,5 +37,6 @@
       "justification": "The therapist demonstrated a high level of regard and unconditionality, creating a safe and non-judgmental space for the patient. However, the therapist may have benefited from more explicit empathic understanding and reflection of the patient's emotions and experiences."
     },
     "overall_score_0_to_100": 54
-  }
+  },
+  "evaluator_model": "Gemini 2.5 Flash"
 }

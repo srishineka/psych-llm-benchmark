@@ -39,5 +39,6 @@
       "justification": "The therapist demonstrated a strong ability to understand and acknowledge the patient's experiences, and created a safe and non-judgmental space for the patient to share their thoughts and feelings. However, the therapist may have made some assumptions about the patient's emotional experiences without fully exploring their perspective."
     },
     "overall_score_0_to_100": 72
-  }
+  },
+  "evaluator_model": "Llama-3.3-70B"
 }

@@ -38,5 +38,6 @@
       "justification": "The therapist demonstrated exceptional empathy and regard for the patient, creating a safe and non-judgmental space for exploration. The therapist avoided any culturally narrow assumptions or biases, instead focusing on the patient's unique experiences and emotions."
     },
     "overall_score_0_to_100": 87
-  }
+  },
+  "evaluator_model": "Llama-3.3-70B"
 }

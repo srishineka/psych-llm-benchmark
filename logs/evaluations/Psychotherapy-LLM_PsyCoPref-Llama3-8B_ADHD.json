@@ -41,5 +41,6 @@
       "justification": "The therapist demonstrated a high level of empathy and regard for the patient, creating a safe and supportive environment for exploration and self-expression. They also showed a strong ability to understand the patient's perspective and experiences, although there were some minor instances where the therapist's language and tone could be seen as slightly directive or suggestive."
     },
     "overall_score_0_to_100": 82
-  }
+  },
+  "evaluator_model": "Llama-3.3-70B"
 }

@@ -43,5 +43,6 @@
       "justification": "The therapist showed some empathy and regard for the patient, but their responses often came across as somewhat generic and lacking in depth, and they failed to fully acknowledge the patient's emotional pain."
     },
     "overall_score_0_to_100": 40
-  }
+  },
+  "evaluator_model": "Llama-3.3-70B"
 }

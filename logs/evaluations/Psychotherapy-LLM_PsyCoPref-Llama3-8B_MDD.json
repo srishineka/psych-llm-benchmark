@@ -41,5 +41,6 @@
       "justification": "The therapist demonstrated empathetic understanding and regard for the patient's feelings, but may have slightly overemphasized the importance of taking small steps towards goals."
     },
     "overall_score_0_to_100": 65
-  }
+  },
+  "evaluator_model": "Llama-3.3-70B"
 }

@@ -42,5 +42,6 @@
       "justification": "The therapist demonstrated a high level of regard and empathic understanding, creating a safe and non-judgmental space for the patient. However, they may have struggled with congruence at times, as they occasionally provided slightly generic responses that did not fully capture the patient's emotional nuance."
     },
     "overall_score_0_to_100": 63
-  }
+  },
+  "evaluator_model": "Llama-3.3-70B"
 }

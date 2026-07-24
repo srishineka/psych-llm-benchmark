@@ -41,5 +41,6 @@
       "justification": "The therapist demonstrated a high level of empathy and understanding throughout the session, with a non-judgmental and unconditional regard for the patient's experiences. They effectively acknowledged and validated the patient's emotions, and provided a supportive and congruent response to their concerns."
     },
     "overall_score_0_to_100": 82
-  }
+  },
+  "evaluator_model": "Llama-3.3-70B"
 }

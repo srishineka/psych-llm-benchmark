@@ -44,5 +44,6 @@
       "justification": "The therapist demonstrated a strong capacity for empathy and regard, consistently acknowledging and validating the patient's emotions and experiences. The therapist's responses were generally free from cultural or Western-centric biases, and they maintained a non-judgmental and supportive attitude throughout the conversation."
     },
     "overall_score_0_to_100": 64
-  }
+  },
+  "evaluator_model": "Llama-3.3-70B"
 }

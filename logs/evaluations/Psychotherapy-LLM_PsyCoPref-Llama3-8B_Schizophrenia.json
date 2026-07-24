@@ -41,5 +41,6 @@
       "justification": "The therapist demonstrated a generally empathetic and non-judgmental attitude, acknowledging the patient's feelings and experiences. However, the therapist could have further explored the patient's cultural background and potential biases to ensure a more tailored and sensitive approach."
     },
     "overall_score_0_to_100": 62
-  }
+  },
+  "evaluator_model": "Llama-3.3-70B"
 }

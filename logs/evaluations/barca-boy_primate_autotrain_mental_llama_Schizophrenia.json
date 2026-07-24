@@ -39,5 +39,6 @@
       "justification": "The therapist demonstrated a moderate level of empathy, but struggled to fully understand and align with the patient's experiences and concerns."
     },
     "overall_score_0_to_100": 36
-  }
+  },
+  "evaluator_model": "Llama-3.3-70B"
 }

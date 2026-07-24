@@ -45,5 +45,6 @@
       "justification": "The therapist demonstrated a high level of empathy and regard for the patient, avoiding judgmental language and focusing on supportive and encouraging statements."
     },
     "overall_score_0_to_100": 75
-  }
+  },
+  "evaluator_model": "Llama-3.3-70B"
 }
