@@ -31,7 +31,7 @@ ALL_CONDITIONS = config.ALL_CONDITIONS  # The 9 canonical conditions
 
 def collect_all_evaluations():
     """
-    Walk every log_*/…/evaluations/*.json, load each evaluation,
+    Walk every log_*/…/evaluations/*.json and logs/evaluations/*.json, load each evaluation,
     and deduplicate by session_id (keep last).  Also loads the matching
     transcript if available so we can recompute formula metrics.
     """
@@ -39,6 +39,9 @@ def collect_all_evaluations():
 
     eval_files = glob.glob(
         os.path.join(str(BASE_DIR), "log_*", "**", "evaluations", "*.json"),
+        recursive=True,
+    ) + glob.glob(
+        os.path.join(str(BASE_DIR), "logs", "evaluations", "*.json"),
         recursive=True,
     )
 
@@ -52,10 +55,14 @@ def collect_all_evaluations():
         if not sid:
             continue
 
-        # Try to find matching transcript JSON using the actual session_id
+        # Try to find matching transcript JSON using the actual session_id or filename
         eval_dir = os.path.dirname(fp)
         run_dir = os.path.dirname(eval_dir)
-        transcript_path = os.path.join(run_dir, "transcripts", f"{sid}.json")
+        if os.path.basename(run_dir) == "logs":
+            transcript_path = os.path.join(run_dir, "transcripts", os.path.basename(fp))
+        else:
+            transcript_path = os.path.join(run_dir, "transcripts", f"{sid}.json")
+            
         turns = []
         if os.path.isfile(transcript_path):
             with open(transcript_path) as f:
@@ -184,17 +191,24 @@ def copy_to_common_logs(records):
     """
     Copy the correct (deduplicated) evaluation and transcript JSONs
     from the scattered log_* directories into the common logs/ folder.
-    Clears the target directories first to remove stale files.
+    Clears the target directories of files that are not active.
     """
     eval_dir = str(config.EVALUATIONS_DIR)
     trans_dir = str(config.TRANSCRIPTS_DIR)
 
-    # Clear existing files (keep .gitkeep)
+    # Clear target files that are NOT in the deduplicated records (to preserve active files)
+    keep_filenames = set()
+    for sid, rec in records.items():
+        safe_model = rec['therapist_model'].replace("/", "_").replace("\\", "_")
+        safe_cond = rec['condition'].replace(" ", "_")
+        keep_filenames.add(f"{safe_model}_{safe_cond}.json")
+
     for d in (eval_dir, trans_dir):
         for f in os.listdir(d):
             if f == ".gitkeep":
                 continue
-            os.remove(os.path.join(d, f))
+            if f not in keep_filenames:
+                os.remove(os.path.join(d, f))
 
     eval_count = 0
     trans_count = 0
@@ -207,14 +221,24 @@ def copy_to_common_logs(records):
 
         # Copy evaluation JSON
         src_eval = rec.get("source_eval_path")
-        if src_eval and os.path.isfile(src_eval):
-            shutil.copy2(src_eval, os.path.join(eval_dir, fname))
+        target_eval = os.path.join(eval_dir, fname)
+        if src_eval and os.path.abspath(src_eval) != os.path.abspath(target_eval):
+            if os.path.isfile(src_eval):
+                shutil.copy2(src_eval, target_eval)
+                eval_count += 1
+        elif src_eval and os.path.isfile(src_eval):
             eval_count += 1
 
         # Copy transcript JSON
         src_trans = rec.get("source_transcript_path")
-        if src_trans and os.path.isfile(src_trans):
-            shutil.copy2(src_trans, os.path.join(trans_dir, fname))
+        target_trans = os.path.join(trans_dir, fname)
+        if src_trans and os.path.abspath(src_trans) != os.path.abspath(target_trans):
+            if os.path.isfile(src_trans):
+                shutil.copy2(src_trans, target_trans)
+                trans_count += 1
+            else:
+                missing_trans.append(f"{rec['therapist_model']}/{rec['condition']}")
+        elif src_trans and os.path.isfile(src_trans):
             trans_count += 1
         else:
             missing_trans.append(f"{rec['therapist_model']}/{rec['condition']}")
@@ -229,15 +253,10 @@ def copy_to_common_logs(records):
 def combine_why_reports():
     """
     Finds all generated why_reports from partial batches and combines them
-    by model into logs/why_reports.
+    by model into config.WHY_REPORTS_DIR.
     """
-    out_dir = os.path.join(str(BASE_DIR), "logs", "why_reports")
+    out_dir = str(config.WHY_REPORTS_DIR)
     os.makedirs(out_dir, exist_ok=True)
-    
-    # Clear old files
-    for f in os.listdir(out_dir):
-        if f.endswith(".md"):
-            os.remove(os.path.join(out_dir, f))
 
     reports = glob.glob(os.path.join(str(BASE_DIR), "log_*", "**", "why_reports", "*.md"), recursive=True)
     models = defaultdict(list)
