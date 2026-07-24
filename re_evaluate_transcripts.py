@@ -81,6 +81,7 @@ def main():
                     "patient_model": transcript.patient_model,
                     "timestamp": transcript.timestamp,
                     "evaluation": evaluation,
+                    "evaluator_model": args.evaluator_model
                 }, f, indent=2)
 
             # Update the summary row in summary_metrics.csv

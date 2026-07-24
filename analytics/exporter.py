@@ -41,7 +41,7 @@ class AnalyticsExporter:
             }, f, indent=2)
         return path
 
-    def export_evaluation(self, transcript: SessionTranscript, evaluation: Dict) -> str:
+    def export_evaluation(self, transcript: SessionTranscript, evaluation: Dict, evaluator_model: str = "Unknown") -> str:
         path = os.path.join(self.evaluations_dir, f"{transcript.session_id}.json")
         with open(path, "w") as f:
             json.dump({
@@ -51,6 +51,7 @@ class AnalyticsExporter:
                 "patient_model": transcript.patient_model,
                 "timestamp": transcript.timestamp,
                 "evaluation": evaluation,
+                "evaluator_model": evaluator_model
             }, f, indent=2)
         return path
 
@@ -106,9 +107,9 @@ class AnalyticsExporter:
             writer.writerow(row)
         return self.summary_csv_path
 
-    def export_all(self, transcript: SessionTranscript, evaluation: Dict) -> Dict[str, str]:
+    def export_all(self, transcript: SessionTranscript, evaluation: Dict, evaluator_model: str = "Unknown") -> Dict[str, str]:
         return {
             "transcript_path": self.export_transcript(transcript),
-            "evaluation_path": self.export_evaluation(transcript, evaluation),
+            "evaluation_path": self.export_evaluation(transcript, evaluation, evaluator_model),
             "summary_csv_path": self.append_summary_row(transcript, evaluation),
         }

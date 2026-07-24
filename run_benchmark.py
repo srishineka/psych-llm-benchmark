@@ -61,7 +61,7 @@ def run_single_session(condition: str,
     )
 
     evaluation = evaluator.evaluate(transcript, hidden_profile=profile)
-    paths = exporter.export_all(transcript, evaluation)
+    paths = exporter.export_all(transcript, evaluation, evaluator_model=evaluator_llm.model_name)
 
     print(f"  [{condition}] overall_score={evaluation.get('overall_score_0_to_100')} "
           f"-> {paths['transcript_path']}")
