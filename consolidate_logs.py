@@ -223,18 +223,31 @@ def copy_to_common_logs(records):
     eval_dir = str(config.EVALUATIONS_DIR)
     trans_dir = str(config.TRANSCRIPTS_DIR)
 
-    # Clear target files that are NOT in the deduplicated records
+    os.makedirs(eval_dir, exist_ok=True)
+    os.makedirs(trans_dir, exist_ok=True)
+
     keep_filenames = set()
+
+    # Step 1: Copy every deduplicated session to a clean {model}_{condition}.json filename
     for sid, rec in records.items():
-        keep_filenames.add(f"{sid}.json")
         safe_model = rec['therapist_model'].replace("/", "_").replace("\\", "_")
         safe_cond = rec['condition'].replace(" ", "_")
-        keep_filenames.add(f"{safe_model}_{safe_cond}.json")
-        if rec.get("source_eval_path"):
-            keep_filenames.add(os.path.basename(rec["source_eval_path"]))
-        if rec.get("source_transcript_path"):
-            keep_filenames.add(os.path.basename(rec["source_transcript_path"]))
+        std_filename = f"{safe_model}_{safe_cond}.json"
+        keep_filenames.add(std_filename)
 
+        eval_src = rec["source_eval_path"]
+        eval_dst = os.path.join(eval_dir, std_filename)
+        if os.path.abspath(eval_src) != os.path.abspath(eval_dst):
+            if os.path.isfile(eval_src):
+                shutil.copy2(eval_src, eval_dst)
+
+        trans_src = rec.get("source_transcript_path")
+        if trans_src and os.path.isfile(trans_src):
+            trans_dst = os.path.join(trans_dir, std_filename)
+            if os.path.abspath(trans_src) != os.path.abspath(trans_dst):
+                shutil.copy2(trans_src, trans_dst)
+
+    # Step 2: Delete any file in target directories that is NOT in our 72 standardized filenames
     for target_dir in [eval_dir, trans_dir]:
         if os.path.exists(target_dir):
             for existing_file in os.listdir(target_dir):
@@ -245,22 +258,7 @@ def copy_to_common_logs(records):
                     except Exception as e:
                         print(f"Warning: Could not remove stale file {file_to_remove}: {e}")
 
-    os.makedirs(eval_dir, exist_ok=True)
-    os.makedirs(trans_dir, exist_ok=True)
-
-    for sid, rec in records.items():
-        eval_src = rec["source_eval_path"]
-        eval_dst = os.path.join(eval_dir, f"{sid}.json")
-        if os.path.abspath(eval_src) != os.path.abspath(eval_dst):
-            shutil.copy2(eval_src, eval_dst)
-
-        trans_src = rec["source_transcript_path"]
-        if trans_src and os.path.isfile(trans_src):
-            trans_dst = os.path.join(trans_dir, f"{sid}.json")
-            if os.path.abspath(trans_src) != os.path.abspath(trans_dst):
-                shutil.copy2(trans_src, trans_dst)
-
-    print(f"Copied to common logs/:\n  Evaluations: {len(records)} -> {eval_dir}\n  Transcripts: {len(records)} -> {trans_dir}")
+    print(f"Copied clean standardized logs and removed duplicates/UUID files:\n  Evaluations: {len(records)} -> {eval_dir}\n  Transcripts: {len(records)} -> {trans_dir}")
 
 
 def combine_why_reports():
