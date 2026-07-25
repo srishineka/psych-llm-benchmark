@@ -1,0 +1,435 @@
+session_id,condition,therapist_model,criterion_number,criterion_text,status
+c6092191-5b14-4a19-89e7-cd436d865786,ADHD,EmoCareAI/ChatPsychiatrist,1,"Difficulty sustaining attention in tasks, often loses track mid-task",elicited
+c6092191-5b14-4a19-89e7-cd436d865786,ADHD,EmoCareAI/ChatPsychiatrist,2,"Often does not follow through on instructions, fails to finish tasks",elicited
+c6092191-5b14-4a19-89e7-cd436d865786,ADHD,EmoCareAI/ChatPsychiatrist,3,Difficulty organizing tasks and activities,elicited
+c6092191-5b14-4a19-89e7-cd436d865786,ADHD,EmoCareAI/ChatPsychiatrist,4,Avoids/dislikes tasks requiring sustained mental effort,missed
+c6092191-5b14-4a19-89e7-cd436d865786,ADHD,EmoCareAI/ChatPsychiatrist,5,Often loses things necessary for tasks,elicited
+c6092191-5b14-4a19-89e7-cd436d865786,ADHD,EmoCareAI/ChatPsychiatrist,6,Easily distracted by extraneous stimuli,elicited
+c6092191-5b14-4a19-89e7-cd436d865786,ADHD,EmoCareAI/ChatPsychiatrist,7,Fidgetiness or subjective restlessness,missed
+c6092191-5b14-4a19-89e7-cd436d865786,ADHD,EmoCareAI/ChatPsychiatrist,8,"Symptoms present since childhood and across multiple settings (work, home, school)",missed
+3d7699a4-c778-4268-9c54-f8e38ebf3a87,ASD,EmoCareAI/ChatPsychiatrist,1,Persistent deficits in social-emotional reciprocity across contexts,missed
+3d7699a4-c778-4268-9c54-f8e38ebf3a87,ASD,EmoCareAI/ChatPsychiatrist,2,Deficits in nonverbal communicative behaviors used for social interaction,missed
+3d7699a4-c778-4268-9c54-f8e38ebf3a87,ASD,EmoCareAI/ChatPsychiatrist,3,Difficulties developing/maintaining relationships appropriate to context,missed
+3d7699a4-c778-4268-9c54-f8e38ebf3a87,ASD,EmoCareAI/ChatPsychiatrist,4,"Restricted, repetitive patterns of behavior, interests, or activities (may include intense, focused interests)",missed
+3d7699a4-c778-4268-9c54-f8e38ebf3a87,ASD,EmoCareAI/ChatPsychiatrist,5,"Insistence on sameness, inflexible adherence to routines",elicited
+3d7699a4-c778-4268-9c54-f8e38ebf3a87,ASD,EmoCareAI/ChatPsychiatrist,6,Hyper- or hypo-reactivity to sensory input,missed
+3d7699a4-c778-4268-9c54-f8e38ebf3a87,ASD,EmoCareAI/ChatPsychiatrist,7,"Symptoms present since early developmental period, possibly masked/compensated for years",missed
+31ffb53a-503a-4aec-8d8a-5c4f8fbf03c0,Addiction,EmoCareAI/ChatPsychiatrist,1,Substance taken in larger amounts or over a longer period than intended,elicited
+31ffb53a-503a-4aec-8d8a-5c4f8fbf03c0,Addiction,EmoCareAI/ChatPsychiatrist,2,Persistent desire or unsuccessful efforts to cut down or control use,elicited
+31ffb53a-503a-4aec-8d8a-5c4f8fbf03c0,Addiction,EmoCareAI/ChatPsychiatrist,3,"Craving, or a strong desire/urge to use",elicited
+31ffb53a-503a-4aec-8d8a-5c4f8fbf03c0,Addiction,EmoCareAI/ChatPsychiatrist,4,Recurrent use resulting in failure to fulfill major role obligations,elicited
+31ffb53a-503a-4aec-8d8a-5c4f8fbf03c0,Addiction,EmoCareAI/ChatPsychiatrist,5,Continued use despite social/interpersonal problems caused by use,elicited
+31ffb53a-503a-4aec-8d8a-5c4f8fbf03c0,Addiction,EmoCareAI/ChatPsychiatrist,6,Tolerance (needing more for the same effect),elicited
+31ffb53a-503a-4aec-8d8a-5c4f8fbf03c0,Addiction,EmoCareAI/ChatPsychiatrist,7,Withdrawal symptoms when not using,elicited
+1bc80a3d-4584-4178-b670-bd5e22a23e3e,BPD,EmoCareAI/ChatPsychiatrist,1,Frantic efforts to avoid real or imagined abandonment,elicited
+1bc80a3d-4584-4178-b670-bd5e22a23e3e,BPD,EmoCareAI/ChatPsychiatrist,2,"Pattern of unstable, intense interpersonal relationships (idealization/devaluation)",elicited
+1bc80a3d-4584-4178-b670-bd5e22a23e3e,BPD,EmoCareAI/ChatPsychiatrist,3,Identity disturbance: markedly unstable self-image,elicited
+1bc80a3d-4584-4178-b670-bd5e22a23e3e,BPD,EmoCareAI/ChatPsychiatrist,4,Affective instability due to marked reactivity of mood,elicited
+1bc80a3d-4584-4178-b670-bd5e22a23e3e,BPD,EmoCareAI/ChatPsychiatrist,5,Chronic feelings of emptiness,elicited
+1bc80a3d-4584-4178-b670-bd5e22a23e3e,BPD,EmoCareAI/ChatPsychiatrist,6,"Inappropriate, intense anger, difficulty controlling anger",elicited
+f3c030d5-fe1d-4f1c-a7b1-23bd56cd2429,Bipolar,EmoCareAI/ChatPsychiatrist,1,"Distinct period of abnormally elevated, expansive, or irritable mood with increased activity/energy",missed
+f3c030d5-fe1d-4f1c-a7b1-23bd56cd2429,Bipolar,EmoCareAI/ChatPsychiatrist,2,Inflated self-esteem or grandiosity,missed
+f3c030d5-fe1d-4f1c-a7b1-23bd56cd2429,Bipolar,EmoCareAI/ChatPsychiatrist,3,Decreased need for sleep,elicited
+f3c030d5-fe1d-4f1c-a7b1-23bd56cd2429,Bipolar,EmoCareAI/ChatPsychiatrist,4,More talkative than usual / pressured speech,elicited
+f3c030d5-fe1d-4f1c-a7b1-23bd56cd2429,Bipolar,EmoCareAI/ChatPsychiatrist,5,Flight of ideas or subjective racing thoughts,elicited
+f3c030d5-fe1d-4f1c-a7b1-23bd56cd2429,Bipolar,EmoCareAI/ChatPsychiatrist,6,Distractibility,missed
+f3c030d5-fe1d-4f1c-a7b1-23bd56cd2429,Bipolar,EmoCareAI/ChatPsychiatrist,7,Increase in goal-directed activity or psychomotor agitation,elicited
+f3c030d5-fe1d-4f1c-a7b1-23bd56cd2429,Bipolar,EmoCareAI/ChatPsychiatrist,8,"Excessive involvement in activities with high potential for painful consequences (spending, risk-taking)",elicited
+1e9021b8-5c45-4b59-a308-6e3ae710cf08,GAD,EmoCareAI/ChatPsychiatrist,1,"Excessive anxiety and worry, occurring more days than not for 6+ months, about multiple events/activities",elicited
+1e9021b8-5c45-4b59-a308-6e3ae710cf08,GAD,EmoCareAI/ChatPsychiatrist,2,Difficulty controlling the worry,elicited
+1e9021b8-5c45-4b59-a308-6e3ae710cf08,GAD,EmoCareAI/ChatPsychiatrist,3,Restlessness or feeling keyed up/on edge,elicited
+1e9021b8-5c45-4b59-a308-6e3ae710cf08,GAD,EmoCareAI/ChatPsychiatrist,4,Easily fatigued,elicited
+1e9021b8-5c45-4b59-a308-6e3ae710cf08,GAD,EmoCareAI/ChatPsychiatrist,5,Difficulty concentrating or mind going blank,missed
+1e9021b8-5c45-4b59-a308-6e3ae710cf08,GAD,EmoCareAI/ChatPsychiatrist,6,Irritability,missed
+1e9021b8-5c45-4b59-a308-6e3ae710cf08,GAD,EmoCareAI/ChatPsychiatrist,7,Muscle tension,elicited
+1e9021b8-5c45-4b59-a308-6e3ae710cf08,GAD,EmoCareAI/ChatPsychiatrist,8,"Sleep disturbance (difficulty falling/staying asleep, restless sleep)",elicited
+0d2e0f65-866d-4612-9805-9b4b0363e4fd,MDD,EmoCareAI/ChatPsychiatrist,1,"Depressed mood most of the day, nearly every day",elicited
+0d2e0f65-866d-4612-9805-9b4b0363e4fd,MDD,EmoCareAI/ChatPsychiatrist,2,Markedly diminished interest or pleasure in almost all activities (anhedonia),elicited
+0d2e0f65-866d-4612-9805-9b4b0363e4fd,MDD,EmoCareAI/ChatPsychiatrist,3,Significant weight/appetite change,missed
+0d2e0f65-866d-4612-9805-9b4b0363e4fd,MDD,EmoCareAI/ChatPsychiatrist,4,Insomnia or hypersomnia nearly every day,elicited
+0d2e0f65-866d-4612-9805-9b4b0363e4fd,MDD,EmoCareAI/ChatPsychiatrist,5,Fatigue or loss of energy nearly every day,elicited
+0d2e0f65-866d-4612-9805-9b4b0363e4fd,MDD,EmoCareAI/ChatPsychiatrist,6,Feelings of worthlessness or excessive/inappropriate guilt,elicited
+0d2e0f65-866d-4612-9805-9b4b0363e4fd,MDD,EmoCareAI/ChatPsychiatrist,7,Diminished ability to think or concentrate,elicited
+0d2e0f65-866d-4612-9805-9b4b0363e4fd,MDD,EmoCareAI/ChatPsychiatrist,8,Recurrent thoughts of death or suicidal ideation,elicited
+a2059971-333a-458d-9af4-2e347708cf51,OCD,EmoCareAI/ChatPsychiatrist,1,"Presence of obsessions: recurrent, persistent, intrusive, unwanted thoughts/urges/images causing marked distress",elicited
+a2059971-333a-458d-9af4-2e347708cf51,OCD,EmoCareAI/ChatPsychiatrist,2,Presence of compulsions: repetitive behaviors or mental acts performed to reduce distress or prevent a feared event,elicited
+a2059971-333a-458d-9af4-2e347708cf51,OCD,EmoCareAI/ChatPsychiatrist,3,Obsessions/compulsions are time-consuming (>1 hour/day) or cause significant impairment,elicited
+a2059971-333a-458d-9af4-2e347708cf51,OCD,EmoCareAI/ChatPsychiatrist,4,Insight ranges from good to poor; patient often recognizes behaviors as excessive but feels unable to stop,missed
+01e0f007-8d12-4b19-996f-2c831285b8b2,Schizophrenia,EmoCareAI/ChatPsychiatrist,1,Delusions (fixed beliefs not amenable to change in light of conflicting evidence),missed
+01e0f007-8d12-4b19-996f-2c831285b8b2,Schizophrenia,EmoCareAI/ChatPsychiatrist,2,"Hallucinations (perceptual experiences without external stimulus, most commonly auditory)",elicited
+01e0f007-8d12-4b19-996f-2c831285b8b2,Schizophrenia,EmoCareAI/ChatPsychiatrist,3,"Disorganized speech (derailment, tangentiality) at times",missed
+01e0f007-8d12-4b19-996f-2c831285b8b2,Schizophrenia,EmoCareAI/ChatPsychiatrist,4,Grossly disorganized or catatonic behavior (less prominent in this presentation),missed
+01e0f007-8d12-4b19-996f-2c831285b8b2,Schizophrenia,EmoCareAI/ChatPsychiatrist,5,"Negative symptoms: diminished emotional expression, reduced motivation",elicited
+01e0f007-8d12-4b19-996f-2c831285b8b2,Schizophrenia,EmoCareAI/ChatPsychiatrist,6,Continuous signs of disturbance for 6+ months with functional decline,missed
+8b28c4cd-c8b0-4915-826a-590858dbbd16,ADHD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,1,"Difficulty sustaining attention in tasks, often loses track mid-task",elicited
+8b28c4cd-c8b0-4915-826a-590858dbbd16,ADHD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,2,"Often does not follow through on instructions, fails to finish tasks",elicited
+8b28c4cd-c8b0-4915-826a-590858dbbd16,ADHD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,3,Difficulty organizing tasks and activities,elicited
+8b28c4cd-c8b0-4915-826a-590858dbbd16,ADHD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,4,Avoids/dislikes tasks requiring sustained mental effort,missed
+8b28c4cd-c8b0-4915-826a-590858dbbd16,ADHD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,5,Often loses things necessary for tasks,elicited
+8b28c4cd-c8b0-4915-826a-590858dbbd16,ADHD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,6,Easily distracted by extraneous stimuli,elicited
+8b28c4cd-c8b0-4915-826a-590858dbbd16,ADHD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,7,Fidgetiness or subjective restlessness,missed
+8b28c4cd-c8b0-4915-826a-590858dbbd16,ADHD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,8,"Symptoms present since childhood and across multiple settings (work, home, school)",missed
+80898e89-f522-41b0-8bd3-f58276f9f842,ASD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,1,Persistent deficits in social-emotional reciprocity across contexts,missed
+80898e89-f522-41b0-8bd3-f58276f9f842,ASD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,2,Deficits in nonverbal communicative behaviors used for social interaction,missed
+80898e89-f522-41b0-8bd3-f58276f9f842,ASD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,3,Difficulties developing/maintaining relationships appropriate to context,missed
+80898e89-f522-41b0-8bd3-f58276f9f842,ASD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,4,"Restricted, repetitive patterns of behavior, interests, or activities (may include intense, focused interests)",elicited
+80898e89-f522-41b0-8bd3-f58276f9f842,ASD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,5,"Insistence on sameness, inflexible adherence to routines",elicited
+80898e89-f522-41b0-8bd3-f58276f9f842,ASD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,6,Hyper- or hypo-reactivity to sensory input,missed
+80898e89-f522-41b0-8bd3-f58276f9f842,ASD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,7,"Symptoms present since early developmental period, possibly masked/compensated for years",missed
+d04544a8-65d0-4ef7-8c7b-cd09ac73e9ea,Addiction,Psychotherapy-LLM/PsyCoPref-Llama3-8B,1,Substance taken in larger amounts or over a longer period than intended,elicited
+d04544a8-65d0-4ef7-8c7b-cd09ac73e9ea,Addiction,Psychotherapy-LLM/PsyCoPref-Llama3-8B,2,Persistent desire or unsuccessful efforts to cut down or control use,elicited
+d04544a8-65d0-4ef7-8c7b-cd09ac73e9ea,Addiction,Psychotherapy-LLM/PsyCoPref-Llama3-8B,3,"Craving, or a strong desire/urge to use",elicited
+d04544a8-65d0-4ef7-8c7b-cd09ac73e9ea,Addiction,Psychotherapy-LLM/PsyCoPref-Llama3-8B,4,Recurrent use resulting in failure to fulfill major role obligations,missed
+d04544a8-65d0-4ef7-8c7b-cd09ac73e9ea,Addiction,Psychotherapy-LLM/PsyCoPref-Llama3-8B,5,Continued use despite social/interpersonal problems caused by use,elicited
+d04544a8-65d0-4ef7-8c7b-cd09ac73e9ea,Addiction,Psychotherapy-LLM/PsyCoPref-Llama3-8B,6,Tolerance (needing more for the same effect),elicited
+d04544a8-65d0-4ef7-8c7b-cd09ac73e9ea,Addiction,Psychotherapy-LLM/PsyCoPref-Llama3-8B,7,Withdrawal symptoms when not using,missed
+dbbb9c0a-9b26-4f56-b517-4126b07980b0,BPD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,1,Frantic efforts to avoid real or imagined abandonment,elicited
+dbbb9c0a-9b26-4f56-b517-4126b07980b0,BPD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,2,"Pattern of unstable, intense interpersonal relationships (idealization/devaluation)",elicited
+dbbb9c0a-9b26-4f56-b517-4126b07980b0,BPD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,3,Identity disturbance: markedly unstable self-image,elicited
+dbbb9c0a-9b26-4f56-b517-4126b07980b0,BPD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,4,Affective instability due to marked reactivity of mood,elicited
+dbbb9c0a-9b26-4f56-b517-4126b07980b0,BPD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,5,Chronic feelings of emptiness,missed
+dbbb9c0a-9b26-4f56-b517-4126b07980b0,BPD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,6,"Inappropriate, intense anger, difficulty controlling anger",missed
+dcc210b5-a530-4a79-9904-a7d5967d12e2,Bipolar,Psychotherapy-LLM/PsyCoPref-Llama3-8B,1,"Distinct period of abnormally elevated, expansive, or irritable mood with increased activity/energy",missed
+dcc210b5-a530-4a79-9904-a7d5967d12e2,Bipolar,Psychotherapy-LLM/PsyCoPref-Llama3-8B,2,Inflated self-esteem or grandiosity,missed
+dcc210b5-a530-4a79-9904-a7d5967d12e2,Bipolar,Psychotherapy-LLM/PsyCoPref-Llama3-8B,3,Decreased need for sleep,elicited
+dcc210b5-a530-4a79-9904-a7d5967d12e2,Bipolar,Psychotherapy-LLM/PsyCoPref-Llama3-8B,4,More talkative than usual / pressured speech,elicited
+dcc210b5-a530-4a79-9904-a7d5967d12e2,Bipolar,Psychotherapy-LLM/PsyCoPref-Llama3-8B,5,Flight of ideas or subjective racing thoughts,missed
+dcc210b5-a530-4a79-9904-a7d5967d12e2,Bipolar,Psychotherapy-LLM/PsyCoPref-Llama3-8B,6,Distractibility,missed
+dcc210b5-a530-4a79-9904-a7d5967d12e2,Bipolar,Psychotherapy-LLM/PsyCoPref-Llama3-8B,7,Increase in goal-directed activity or psychomotor agitation,elicited
+dcc210b5-a530-4a79-9904-a7d5967d12e2,Bipolar,Psychotherapy-LLM/PsyCoPref-Llama3-8B,8,"Excessive involvement in activities with high potential for painful consequences (spending, risk-taking)",missed
+5ab71339-19b3-4fa7-a200-33dfc3883bef,GAD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,1,"Excessive anxiety and worry, occurring more days than not for 6+ months, about multiple events/activities",elicited
+5ab71339-19b3-4fa7-a200-33dfc3883bef,GAD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,2,Difficulty controlling the worry,elicited
+5ab71339-19b3-4fa7-a200-33dfc3883bef,GAD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,3,Restlessness or feeling keyed up/on edge,elicited
+5ab71339-19b3-4fa7-a200-33dfc3883bef,GAD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,4,Easily fatigued,missed
+5ab71339-19b3-4fa7-a200-33dfc3883bef,GAD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,5,Difficulty concentrating or mind going blank,missed
+5ab71339-19b3-4fa7-a200-33dfc3883bef,GAD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,6,Irritability,elicited
+5ab71339-19b3-4fa7-a200-33dfc3883bef,GAD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,7,Muscle tension,elicited
+5ab71339-19b3-4fa7-a200-33dfc3883bef,GAD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,8,"Sleep disturbance (difficulty falling/staying asleep, restless sleep)",elicited
+1cd71991-e843-4c12-8635-ab386eab3729,MDD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,1,"Depressed mood most of the day, nearly every day",elicited
+1cd71991-e843-4c12-8635-ab386eab3729,MDD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,2,Markedly diminished interest or pleasure in almost all activities (anhedonia),elicited
+1cd71991-e843-4c12-8635-ab386eab3729,MDD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,3,Significant weight/appetite change,missed
+1cd71991-e843-4c12-8635-ab386eab3729,MDD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,4,Insomnia or hypersomnia nearly every day,elicited
+1cd71991-e843-4c12-8635-ab386eab3729,MDD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,5,Fatigue or loss of energy nearly every day,elicited
+1cd71991-e843-4c12-8635-ab386eab3729,MDD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,6,Feelings of worthlessness or excessive/inappropriate guilt,elicited
+1cd71991-e843-4c12-8635-ab386eab3729,MDD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,7,Diminished ability to think or concentrate,elicited
+1cd71991-e843-4c12-8635-ab386eab3729,MDD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,8,Recurrent thoughts of death or suicidal ideation,missed
+bacd9860-beb7-448c-ad8e-815927583d3d,OCD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,1,"Presence of obsessions: recurrent, persistent, intrusive, unwanted thoughts/urges/images causing marked distress",elicited
+bacd9860-beb7-448c-ad8e-815927583d3d,OCD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,2,Presence of compulsions: repetitive behaviors or mental acts performed to reduce distress or prevent a feared event,elicited
+bacd9860-beb7-448c-ad8e-815927583d3d,OCD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,3,Obsessions/compulsions are time-consuming (>1 hour/day) or cause significant impairment,missed
+bacd9860-beb7-448c-ad8e-815927583d3d,OCD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,4,Insight ranges from good to poor; patient often recognizes behaviors as excessive but feels unable to stop,missed
+f1515a7b-037d-4649-ae41-8b393d7c1e10,Schizophrenia,Psychotherapy-LLM/PsyCoPref-Llama3-8B,1,Delusions (fixed beliefs not amenable to change in light of conflicting evidence),elicited
+f1515a7b-037d-4649-ae41-8b393d7c1e10,Schizophrenia,Psychotherapy-LLM/PsyCoPref-Llama3-8B,2,"Hallucinations (perceptual experiences without external stimulus, most commonly auditory)",elicited
+f1515a7b-037d-4649-ae41-8b393d7c1e10,Schizophrenia,Psychotherapy-LLM/PsyCoPref-Llama3-8B,3,"Disorganized speech (derailment, tangentiality) at times",missed
+f1515a7b-037d-4649-ae41-8b393d7c1e10,Schizophrenia,Psychotherapy-LLM/PsyCoPref-Llama3-8B,4,Grossly disorganized or catatonic behavior (less prominent in this presentation),missed
+f1515a7b-037d-4649-ae41-8b393d7c1e10,Schizophrenia,Psychotherapy-LLM/PsyCoPref-Llama3-8B,5,"Negative symptoms: diminished emotional expression, reduced motivation",elicited
+f1515a7b-037d-4649-ae41-8b393d7c1e10,Schizophrenia,Psychotherapy-LLM/PsyCoPref-Llama3-8B,6,Continuous signs of disturbance for 6+ months with functional decline,missed
+620378c5-082b-4ecc-94f6-5abe63da6385,ADHD,barca-boy/primate_autotrain_mental_llama,1,"Difficulty sustaining attention in tasks, often loses track mid-task",elicited
+620378c5-082b-4ecc-94f6-5abe63da6385,ADHD,barca-boy/primate_autotrain_mental_llama,2,"Often does not follow through on instructions, fails to finish tasks",missed
+620378c5-082b-4ecc-94f6-5abe63da6385,ADHD,barca-boy/primate_autotrain_mental_llama,3,Difficulty organizing tasks and activities,elicited
+620378c5-082b-4ecc-94f6-5abe63da6385,ADHD,barca-boy/primate_autotrain_mental_llama,4,Avoids/dislikes tasks requiring sustained mental effort,missed
+620378c5-082b-4ecc-94f6-5abe63da6385,ADHD,barca-boy/primate_autotrain_mental_llama,5,Often loses things necessary for tasks,elicited
+620378c5-082b-4ecc-94f6-5abe63da6385,ADHD,barca-boy/primate_autotrain_mental_llama,6,Easily distracted by extraneous stimuli,elicited
+620378c5-082b-4ecc-94f6-5abe63da6385,ADHD,barca-boy/primate_autotrain_mental_llama,7,Fidgetiness or subjective restlessness,missed
+620378c5-082b-4ecc-94f6-5abe63da6385,ADHD,barca-boy/primate_autotrain_mental_llama,8,"Symptoms present since childhood and across multiple settings (work, home, school)",missed
+68e01558-a52f-454e-83cc-d24f6cd0ec58,ASD,barca-boy/primate_autotrain_mental_llama,1,Persistent deficits in social-emotional reciprocity across contexts,missed
+68e01558-a52f-454e-83cc-d24f6cd0ec58,ASD,barca-boy/primate_autotrain_mental_llama,2,Deficits in nonverbal communicative behaviors used for social interaction,missed
+68e01558-a52f-454e-83cc-d24f6cd0ec58,ASD,barca-boy/primate_autotrain_mental_llama,3,Difficulties developing/maintaining relationships appropriate to context,missed
+68e01558-a52f-454e-83cc-d24f6cd0ec58,ASD,barca-boy/primate_autotrain_mental_llama,4,"Restricted, repetitive patterns of behavior, interests, or activities (may include intense, focused interests)",elicited
+68e01558-a52f-454e-83cc-d24f6cd0ec58,ASD,barca-boy/primate_autotrain_mental_llama,5,"Insistence on sameness, inflexible adherence to routines",elicited
+68e01558-a52f-454e-83cc-d24f6cd0ec58,ASD,barca-boy/primate_autotrain_mental_llama,6,Hyper- or hypo-reactivity to sensory input,missed
+68e01558-a52f-454e-83cc-d24f6cd0ec58,ASD,barca-boy/primate_autotrain_mental_llama,7,"Symptoms present since early developmental period, possibly masked/compensated for years",missed
+1f80d10f-cd1b-498c-961a-2c50526713b9,Addiction,barca-boy/primate_autotrain_mental_llama,1,Substance taken in larger amounts or over a longer period than intended,elicited
+1f80d10f-cd1b-498c-961a-2c50526713b9,Addiction,barca-boy/primate_autotrain_mental_llama,2,Persistent desire or unsuccessful efforts to cut down or control use,elicited
+1f80d10f-cd1b-498c-961a-2c50526713b9,Addiction,barca-boy/primate_autotrain_mental_llama,3,"Craving, or a strong desire/urge to use",elicited
+1f80d10f-cd1b-498c-961a-2c50526713b9,Addiction,barca-boy/primate_autotrain_mental_llama,4,Recurrent use resulting in failure to fulfill major role obligations,missed
+1f80d10f-cd1b-498c-961a-2c50526713b9,Addiction,barca-boy/primate_autotrain_mental_llama,5,Continued use despite social/interpersonal problems caused by use,missed
+1f80d10f-cd1b-498c-961a-2c50526713b9,Addiction,barca-boy/primate_autotrain_mental_llama,6,Tolerance (needing more for the same effect),elicited
+1f80d10f-cd1b-498c-961a-2c50526713b9,Addiction,barca-boy/primate_autotrain_mental_llama,7,Withdrawal symptoms when not using,missed
+3b905d28-28b9-4023-9d94-45befe48cc20,BPD,barca-boy/primate_autotrain_mental_llama,1,Frantic efforts to avoid real or imagined abandonment,elicited
+3b905d28-28b9-4023-9d94-45befe48cc20,BPD,barca-boy/primate_autotrain_mental_llama,2,"Pattern of unstable, intense interpersonal relationships (idealization/devaluation)",missed
+3b905d28-28b9-4023-9d94-45befe48cc20,BPD,barca-boy/primate_autotrain_mental_llama,3,Identity disturbance: markedly unstable self-image,missed
+3b905d28-28b9-4023-9d94-45befe48cc20,BPD,barca-boy/primate_autotrain_mental_llama,4,Affective instability due to marked reactivity of mood,elicited
+3b905d28-28b9-4023-9d94-45befe48cc20,BPD,barca-boy/primate_autotrain_mental_llama,5,Chronic feelings of emptiness,missed
+3b905d28-28b9-4023-9d94-45befe48cc20,BPD,barca-boy/primate_autotrain_mental_llama,6,"Inappropriate, intense anger, difficulty controlling anger",elicited
+2b4f3840-715a-4c9d-8ae2-2912fbb4ba5e,Bipolar,barca-boy/primate_autotrain_mental_llama,1,"Distinct period of abnormally elevated, expansive, or irritable mood with increased activity/energy",missed
+2b4f3840-715a-4c9d-8ae2-2912fbb4ba5e,Bipolar,barca-boy/primate_autotrain_mental_llama,2,Inflated self-esteem or grandiosity,missed
+2b4f3840-715a-4c9d-8ae2-2912fbb4ba5e,Bipolar,barca-boy/primate_autotrain_mental_llama,3,Decreased need for sleep,elicited
+2b4f3840-715a-4c9d-8ae2-2912fbb4ba5e,Bipolar,barca-boy/primate_autotrain_mental_llama,4,More talkative than usual / pressured speech,elicited
+2b4f3840-715a-4c9d-8ae2-2912fbb4ba5e,Bipolar,barca-boy/primate_autotrain_mental_llama,5,Flight of ideas or subjective racing thoughts,missed
+2b4f3840-715a-4c9d-8ae2-2912fbb4ba5e,Bipolar,barca-boy/primate_autotrain_mental_llama,6,Distractibility,missed
+2b4f3840-715a-4c9d-8ae2-2912fbb4ba5e,Bipolar,barca-boy/primate_autotrain_mental_llama,7,Increase in goal-directed activity or psychomotor agitation,elicited
+2b4f3840-715a-4c9d-8ae2-2912fbb4ba5e,Bipolar,barca-boy/primate_autotrain_mental_llama,8,"Excessive involvement in activities with high potential for painful consequences (spending, risk-taking)",missed
+7a213e87-0e28-47e9-8de7-66fcb74bdfc4,GAD,barca-boy/primate_autotrain_mental_llama,1,"Excessive anxiety and worry, occurring more days than not for 6+ months, about multiple events/activities",elicited
+7a213e87-0e28-47e9-8de7-66fcb74bdfc4,GAD,barca-boy/primate_autotrain_mental_llama,2,Difficulty controlling the worry,elicited
+7a213e87-0e28-47e9-8de7-66fcb74bdfc4,GAD,barca-boy/primate_autotrain_mental_llama,3,Restlessness or feeling keyed up/on edge,elicited
+7a213e87-0e28-47e9-8de7-66fcb74bdfc4,GAD,barca-boy/primate_autotrain_mental_llama,4,Easily fatigued,elicited
+7a213e87-0e28-47e9-8de7-66fcb74bdfc4,GAD,barca-boy/primate_autotrain_mental_llama,5,Difficulty concentrating or mind going blank,elicited
+7a213e87-0e28-47e9-8de7-66fcb74bdfc4,GAD,barca-boy/primate_autotrain_mental_llama,6,Irritability,elicited
+7a213e87-0e28-47e9-8de7-66fcb74bdfc4,GAD,barca-boy/primate_autotrain_mental_llama,7,Muscle tension,elicited
+7a213e87-0e28-47e9-8de7-66fcb74bdfc4,GAD,barca-boy/primate_autotrain_mental_llama,8,"Sleep disturbance (difficulty falling/staying asleep, restless sleep)",missed
+281d25b6-0772-4d87-ae9a-e8077dfbb874,MDD,barca-boy/primate_autotrain_mental_llama,1,"Depressed mood most of the day, nearly every day",elicited
+281d25b6-0772-4d87-ae9a-e8077dfbb874,MDD,barca-boy/primate_autotrain_mental_llama,2,Markedly diminished interest or pleasure in almost all activities (anhedonia),elicited
+281d25b6-0772-4d87-ae9a-e8077dfbb874,MDD,barca-boy/primate_autotrain_mental_llama,3,Significant weight/appetite change,missed
+281d25b6-0772-4d87-ae9a-e8077dfbb874,MDD,barca-boy/primate_autotrain_mental_llama,4,Insomnia or hypersomnia nearly every day,elicited
+281d25b6-0772-4d87-ae9a-e8077dfbb874,MDD,barca-boy/primate_autotrain_mental_llama,5,Fatigue or loss of energy nearly every day,elicited
+281d25b6-0772-4d87-ae9a-e8077dfbb874,MDD,barca-boy/primate_autotrain_mental_llama,6,Feelings of worthlessness or excessive/inappropriate guilt,elicited
+281d25b6-0772-4d87-ae9a-e8077dfbb874,MDD,barca-boy/primate_autotrain_mental_llama,7,Diminished ability to think or concentrate,elicited
+281d25b6-0772-4d87-ae9a-e8077dfbb874,MDD,barca-boy/primate_autotrain_mental_llama,8,Recurrent thoughts of death or suicidal ideation,elicited
+0280aa17-48be-425e-b4af-a8173a2188c3,OCD,barca-boy/primate_autotrain_mental_llama,1,"Presence of obsessions: recurrent, persistent, intrusive, unwanted thoughts/urges/images causing marked distress",missed
+0280aa17-48be-425e-b4af-a8173a2188c3,OCD,barca-boy/primate_autotrain_mental_llama,2,Presence of compulsions: repetitive behaviors or mental acts performed to reduce distress or prevent a feared event,missed
+0280aa17-48be-425e-b4af-a8173a2188c3,OCD,barca-boy/primate_autotrain_mental_llama,3,Obsessions/compulsions are time-consuming (>1 hour/day) or cause significant impairment,missed
+0280aa17-48be-425e-b4af-a8173a2188c3,OCD,barca-boy/primate_autotrain_mental_llama,4,Insight ranges from good to poor; patient often recognizes behaviors as excessive but feels unable to stop,missed
+4b41251d-61f2-4c5c-bfb7-252304d3ba7b,Schizophrenia,barca-boy/primate_autotrain_mental_llama,1,Delusions (fixed beliefs not amenable to change in light of conflicting evidence),missed
+4b41251d-61f2-4c5c-bfb7-252304d3ba7b,Schizophrenia,barca-boy/primate_autotrain_mental_llama,2,"Hallucinations (perceptual experiences without external stimulus, most commonly auditory)",elicited
+4b41251d-61f2-4c5c-bfb7-252304d3ba7b,Schizophrenia,barca-boy/primate_autotrain_mental_llama,3,"Disorganized speech (derailment, tangentiality) at times",missed
+4b41251d-61f2-4c5c-bfb7-252304d3ba7b,Schizophrenia,barca-boy/primate_autotrain_mental_llama,4,Grossly disorganized or catatonic behavior (less prominent in this presentation),missed
+4b41251d-61f2-4c5c-bfb7-252304d3ba7b,Schizophrenia,barca-boy/primate_autotrain_mental_llama,5,"Negative symptoms: diminished emotional expression, reduced motivation",missed
+4b41251d-61f2-4c5c-bfb7-252304d3ba7b,Schizophrenia,barca-boy/primate_autotrain_mental_llama,6,Continuous signs of disturbance for 6+ months with functional decline,missed
+gemini-flash-latest_ADHD,ADHD,gemini-flash-latest,1,"Difficulty sustaining attention in tasks, often loses track mid-task",elicited
+gemini-flash-latest_ADHD,ADHD,gemini-flash-latest,2,"Often does not follow through on instructions, fails to finish tasks",elicited
+gemini-flash-latest_ADHD,ADHD,gemini-flash-latest,3,Difficulty organizing tasks and activities,elicited
+gemini-flash-latest_ADHD,ADHD,gemini-flash-latest,4,Avoids/dislikes tasks requiring sustained mental effort,missed
+gemini-flash-latest_ADHD,ADHD,gemini-flash-latest,5,Often loses things necessary for tasks,elicited
+gemini-flash-latest_ADHD,ADHD,gemini-flash-latest,6,Easily distracted by extraneous stimuli,elicited
+gemini-flash-latest_ADHD,ADHD,gemini-flash-latest,7,Fidgetiness or subjective restlessness,elicited
+gemini-flash-latest_ADHD,ADHD,gemini-flash-latest,8,"Symptoms present since childhood and across multiple settings (work, home, school)",missed
+gemini-flash-latest_ASD,ASD,gemini-flash-latest,1,Persistent deficits in social-emotional reciprocity across contexts,missed
+gemini-flash-latest_ASD,ASD,gemini-flash-latest,2,Deficits in nonverbal communicative behaviors used for social interaction,missed
+gemini-flash-latest_ASD,ASD,gemini-flash-latest,3,Difficulties developing/maintaining relationships appropriate to context,missed
+gemini-flash-latest_ASD,ASD,gemini-flash-latest,4,"Restricted, repetitive patterns of behavior, interests, or activities (may include intense, focused interests)",elicited
+gemini-flash-latest_ASD,ASD,gemini-flash-latest,5,"Insistence on sameness, inflexible adherence to routines",missed
+gemini-flash-latest_ASD,ASD,gemini-flash-latest,6,Hyper- or hypo-reactivity to sensory input,missed
+gemini-flash-latest_ASD,ASD,gemini-flash-latest,7,"Symptoms present since early developmental period, possibly masked/compensated for years",missed
+gemini-flash-latest_Addiction,Addiction,gemini-flash-latest,1,Substance taken in larger amounts or over a longer period than intended,elicited
+gemini-flash-latest_Addiction,Addiction,gemini-flash-latest,2,Persistent desire or unsuccessful efforts to cut down or control use,elicited
+gemini-flash-latest_Addiction,Addiction,gemini-flash-latest,3,"Craving, or a strong desire/urge to use",elicited
+gemini-flash-latest_Addiction,Addiction,gemini-flash-latest,4,Recurrent use resulting in failure to fulfill major role obligations,elicited
+gemini-flash-latest_Addiction,Addiction,gemini-flash-latest,5,Continued use despite social/interpersonal problems caused by use,elicited
+gemini-flash-latest_Addiction,Addiction,gemini-flash-latest,6,Tolerance (needing more for the same effect),missed
+gemini-flash-latest_Addiction,Addiction,gemini-flash-latest,7,Withdrawal symptoms when not using,missed
+gemini-flash-latest_BPD,BPD,gemini-flash-latest,1,Frantic efforts to avoid real or imagined abandonment,elicited
+gemini-flash-latest_BPD,BPD,gemini-flash-latest,2,"Pattern of unstable, intense interpersonal relationships (idealization/devaluation)",missed
+gemini-flash-latest_BPD,BPD,gemini-flash-latest,3,Identity disturbance: markedly unstable self-image,missed
+gemini-flash-latest_BPD,BPD,gemini-flash-latest,4,Affective instability due to marked reactivity of mood,elicited
+gemini-flash-latest_BPD,BPD,gemini-flash-latest,5,Chronic feelings of emptiness,elicited
+gemini-flash-latest_BPD,BPD,gemini-flash-latest,6,"Inappropriate, intense anger, difficulty controlling anger",missed
+gemini-flash-latest_Bipolar,Bipolar,gemini-flash-latest,1,"Distinct period of abnormally elevated, expansive, or irritable mood with increased activity/energy",elicited
+gemini-flash-latest_Bipolar,Bipolar,gemini-flash-latest,2,Inflated self-esteem or grandiosity,missed
+gemini-flash-latest_Bipolar,Bipolar,gemini-flash-latest,3,Decreased need for sleep,elicited
+gemini-flash-latest_Bipolar,Bipolar,gemini-flash-latest,4,More talkative than usual / pressured speech,elicited
+gemini-flash-latest_Bipolar,Bipolar,gemini-flash-latest,5,Flight of ideas or subjective racing thoughts,missed
+gemini-flash-latest_Bipolar,Bipolar,gemini-flash-latest,6,Distractibility,missed
+gemini-flash-latest_Bipolar,Bipolar,gemini-flash-latest,7,Increase in goal-directed activity or psychomotor agitation,elicited
+gemini-flash-latest_Bipolar,Bipolar,gemini-flash-latest,8,"Excessive involvement in activities with high potential for painful consequences (spending, risk-taking)",missed
+gemini-flash-latest_GAD,GAD,gemini-flash-latest,1,"Excessive anxiety and worry, occurring more days than not for 6+ months, about multiple events/activities",elicited
+gemini-flash-latest_GAD,GAD,gemini-flash-latest,2,Difficulty controlling the worry,elicited
+gemini-flash-latest_GAD,GAD,gemini-flash-latest,3,Restlessness or feeling keyed up/on edge,elicited
+gemini-flash-latest_GAD,GAD,gemini-flash-latest,4,Easily fatigued,elicited
+gemini-flash-latest_GAD,GAD,gemini-flash-latest,5,Difficulty concentrating or mind going blank,missed
+gemini-flash-latest_GAD,GAD,gemini-flash-latest,6,Irritability,missed
+gemini-flash-latest_GAD,GAD,gemini-flash-latest,7,Muscle tension,elicited
+gemini-flash-latest_GAD,GAD,gemini-flash-latest,8,"Sleep disturbance (difficulty falling/staying asleep, restless sleep)",missed
+gemini-flash-latest_MDD,MDD,gemini-flash-latest,1,"Depressed mood most of the day, nearly every day",elicited
+gemini-flash-latest_MDD,MDD,gemini-flash-latest,2,Markedly diminished interest or pleasure in almost all activities (anhedonia),elicited
+gemini-flash-latest_MDD,MDD,gemini-flash-latest,3,Significant weight/appetite change,missed
+gemini-flash-latest_MDD,MDD,gemini-flash-latest,4,Insomnia or hypersomnia nearly every day,elicited
+gemini-flash-latest_MDD,MDD,gemini-flash-latest,5,Fatigue or loss of energy nearly every day,elicited
+gemini-flash-latest_MDD,MDD,gemini-flash-latest,6,Feelings of worthlessness or excessive/inappropriate guilt,elicited
+gemini-flash-latest_MDD,MDD,gemini-flash-latest,7,Diminished ability to think or concentrate,elicited
+gemini-flash-latest_MDD,MDD,gemini-flash-latest,8,Recurrent thoughts of death or suicidal ideation,missed
+gemini-flash-latest_OCD,OCD,gemini-flash-latest,1,"Presence of obsessions: recurrent, persistent, intrusive, unwanted thoughts/urges/images causing marked distress",elicited
+gemini-flash-latest_OCD,OCD,gemini-flash-latest,2,Presence of compulsions: repetitive behaviors or mental acts performed to reduce distress or prevent a feared event,elicited
+gemini-flash-latest_OCD,OCD,gemini-flash-latest,3,Obsessions/compulsions are time-consuming (>1 hour/day) or cause significant impairment,elicited
+gemini-flash-latest_OCD,OCD,gemini-flash-latest,4,Insight ranges from good to poor; patient often recognizes behaviors as excessive but feels unable to stop,elicited
+gemini-flash-latest_Schizophrenia,Schizophrenia,gemini-flash-latest,1,Delusions (fixed beliefs not amenable to change in light of conflicting evidence),missed
+gemini-flash-latest_Schizophrenia,Schizophrenia,gemini-flash-latest,2,"Hallucinations (perceptual experiences without external stimulus, most commonly auditory)",elicited
+gemini-flash-latest_Schizophrenia,Schizophrenia,gemini-flash-latest,3,"Disorganized speech (derailment, tangentiality) at times",missed
+gemini-flash-latest_Schizophrenia,Schizophrenia,gemini-flash-latest,4,Grossly disorganized or catatonic behavior (less prominent in this presentation),missed
+gemini-flash-latest_Schizophrenia,Schizophrenia,gemini-flash-latest,5,"Negative symptoms: diminished emotional expression, reduced motivation",missed
+gemini-flash-latest_Schizophrenia,Schizophrenia,gemini-flash-latest,6,Continuous signs of disturbance for 6+ months with functional decline,missed
+001caad3-d4a4-4fdc-8508-58e399f69107,ADHD,klyang/MentaLLaMA-chat-7B,1,"Difficulty sustaining attention in tasks, often loses track mid-task",elicited
+001caad3-d4a4-4fdc-8508-58e399f69107,ADHD,klyang/MentaLLaMA-chat-7B,2,"Often does not follow through on instructions, fails to finish tasks",elicited
+001caad3-d4a4-4fdc-8508-58e399f69107,ADHD,klyang/MentaLLaMA-chat-7B,3,Difficulty organizing tasks and activities,elicited
+001caad3-d4a4-4fdc-8508-58e399f69107,ADHD,klyang/MentaLLaMA-chat-7B,4,Avoids/dislikes tasks requiring sustained mental effort,missed
+001caad3-d4a4-4fdc-8508-58e399f69107,ADHD,klyang/MentaLLaMA-chat-7B,5,Often loses things necessary for tasks,elicited
+001caad3-d4a4-4fdc-8508-58e399f69107,ADHD,klyang/MentaLLaMA-chat-7B,6,Easily distracted by extraneous stimuli,elicited
+001caad3-d4a4-4fdc-8508-58e399f69107,ADHD,klyang/MentaLLaMA-chat-7B,7,Fidgetiness or subjective restlessness,missed
+001caad3-d4a4-4fdc-8508-58e399f69107,ADHD,klyang/MentaLLaMA-chat-7B,8,"Symptoms present since childhood and across multiple settings (work, home, school)",missed
+80b04b2b-aca7-499f-95c8-fe5305979d0d,ASD,klyang/MentaLLaMA-chat-7B,1,Persistent deficits in social-emotional reciprocity across contexts,missed
+80b04b2b-aca7-499f-95c8-fe5305979d0d,ASD,klyang/MentaLLaMA-chat-7B,2,Deficits in nonverbal communicative behaviors used for social interaction,missed
+80b04b2b-aca7-499f-95c8-fe5305979d0d,ASD,klyang/MentaLLaMA-chat-7B,3,Difficulties developing/maintaining relationships appropriate to context,missed
+80b04b2b-aca7-499f-95c8-fe5305979d0d,ASD,klyang/MentaLLaMA-chat-7B,4,"Restricted, repetitive patterns of behavior, interests, or activities (may include intense, focused interests)",missed
+80b04b2b-aca7-499f-95c8-fe5305979d0d,ASD,klyang/MentaLLaMA-chat-7B,5,"Insistence on sameness, inflexible adherence to routines",missed
+80b04b2b-aca7-499f-95c8-fe5305979d0d,ASD,klyang/MentaLLaMA-chat-7B,6,Hyper- or hypo-reactivity to sensory input,missed
+80b04b2b-aca7-499f-95c8-fe5305979d0d,ASD,klyang/MentaLLaMA-chat-7B,7,"Symptoms present since early developmental period, possibly masked/compensated for years",missed
+3fad9f47-7bc7-4f0f-a2bc-f98ec330b0e1,Addiction,klyang/MentaLLaMA-chat-7B,1,Substance taken in larger amounts or over a longer period than intended,elicited
+3fad9f47-7bc7-4f0f-a2bc-f98ec330b0e1,Addiction,klyang/MentaLLaMA-chat-7B,2,Persistent desire or unsuccessful efforts to cut down or control use,elicited
+3fad9f47-7bc7-4f0f-a2bc-f98ec330b0e1,Addiction,klyang/MentaLLaMA-chat-7B,3,"Craving, or a strong desire/urge to use",elicited
+3fad9f47-7bc7-4f0f-a2bc-f98ec330b0e1,Addiction,klyang/MentaLLaMA-chat-7B,4,Recurrent use resulting in failure to fulfill major role obligations,missed
+3fad9f47-7bc7-4f0f-a2bc-f98ec330b0e1,Addiction,klyang/MentaLLaMA-chat-7B,5,Continued use despite social/interpersonal problems caused by use,missed
+3fad9f47-7bc7-4f0f-a2bc-f98ec330b0e1,Addiction,klyang/MentaLLaMA-chat-7B,6,Tolerance (needing more for the same effect),elicited
+3fad9f47-7bc7-4f0f-a2bc-f98ec330b0e1,Addiction,klyang/MentaLLaMA-chat-7B,7,Withdrawal symptoms when not using,elicited
+7de2bbe0-268f-44fa-94a7-a011d6b34a3b,BPD,klyang/MentaLLaMA-chat-7B,1,Frantic efforts to avoid real or imagined abandonment,elicited
+7de2bbe0-268f-44fa-94a7-a011d6b34a3b,BPD,klyang/MentaLLaMA-chat-7B,2,"Pattern of unstable, intense interpersonal relationships (idealization/devaluation)",missed
+7de2bbe0-268f-44fa-94a7-a011d6b34a3b,BPD,klyang/MentaLLaMA-chat-7B,3,Identity disturbance: markedly unstable self-image,missed
+7de2bbe0-268f-44fa-94a7-a011d6b34a3b,BPD,klyang/MentaLLaMA-chat-7B,4,Affective instability due to marked reactivity of mood,elicited
+7de2bbe0-268f-44fa-94a7-a011d6b34a3b,BPD,klyang/MentaLLaMA-chat-7B,5,Chronic feelings of emptiness,missed
+7de2bbe0-268f-44fa-94a7-a011d6b34a3b,BPD,klyang/MentaLLaMA-chat-7B,6,"Inappropriate, intense anger, difficulty controlling anger",elicited
+bd1d148f-e6fc-41fc-90d9-57d48ab0d0e2,Bipolar,klyang/MentaLLaMA-chat-7B,1,"Distinct period of abnormally elevated, expansive, or irritable mood with increased activity/energy",missed
+bd1d148f-e6fc-41fc-90d9-57d48ab0d0e2,Bipolar,klyang/MentaLLaMA-chat-7B,2,Inflated self-esteem or grandiosity,elicited
+bd1d148f-e6fc-41fc-90d9-57d48ab0d0e2,Bipolar,klyang/MentaLLaMA-chat-7B,3,Decreased need for sleep,elicited
+bd1d148f-e6fc-41fc-90d9-57d48ab0d0e2,Bipolar,klyang/MentaLLaMA-chat-7B,4,More talkative than usual / pressured speech,missed
+bd1d148f-e6fc-41fc-90d9-57d48ab0d0e2,Bipolar,klyang/MentaLLaMA-chat-7B,5,Flight of ideas or subjective racing thoughts,missed
+bd1d148f-e6fc-41fc-90d9-57d48ab0d0e2,Bipolar,klyang/MentaLLaMA-chat-7B,6,Distractibility,missed
+bd1d148f-e6fc-41fc-90d9-57d48ab0d0e2,Bipolar,klyang/MentaLLaMA-chat-7B,7,Increase in goal-directed activity or psychomotor agitation,elicited
+bd1d148f-e6fc-41fc-90d9-57d48ab0d0e2,Bipolar,klyang/MentaLLaMA-chat-7B,8,"Excessive involvement in activities with high potential for painful consequences (spending, risk-taking)",missed
+034dca4a-a9d9-4bc3-83b9-326b44b918a6,GAD,klyang/MentaLLaMA-chat-7B,1,"Excessive anxiety and worry, occurring more days than not for 6+ months, about multiple events/activities",elicited
+034dca4a-a9d9-4bc3-83b9-326b44b918a6,GAD,klyang/MentaLLaMA-chat-7B,2,Difficulty controlling the worry,elicited
+034dca4a-a9d9-4bc3-83b9-326b44b918a6,GAD,klyang/MentaLLaMA-chat-7B,3,Restlessness or feeling keyed up/on edge,elicited
+034dca4a-a9d9-4bc3-83b9-326b44b918a6,GAD,klyang/MentaLLaMA-chat-7B,4,Easily fatigued,elicited
+034dca4a-a9d9-4bc3-83b9-326b44b918a6,GAD,klyang/MentaLLaMA-chat-7B,5,Difficulty concentrating or mind going blank,elicited
+034dca4a-a9d9-4bc3-83b9-326b44b918a6,GAD,klyang/MentaLLaMA-chat-7B,6,Irritability,elicited
+034dca4a-a9d9-4bc3-83b9-326b44b918a6,GAD,klyang/MentaLLaMA-chat-7B,7,Muscle tension,elicited
+034dca4a-a9d9-4bc3-83b9-326b44b918a6,GAD,klyang/MentaLLaMA-chat-7B,8,"Sleep disturbance (difficulty falling/staying asleep, restless sleep)",missed
+a22f881b-172d-404b-b5ad-348ccd6401a8,MDD,klyang/MentaLLaMA-chat-7B,1,"Depressed mood most of the day, nearly every day",elicited
+a22f881b-172d-404b-b5ad-348ccd6401a8,MDD,klyang/MentaLLaMA-chat-7B,2,Markedly diminished interest or pleasure in almost all activities (anhedonia),missed
+a22f881b-172d-404b-b5ad-348ccd6401a8,MDD,klyang/MentaLLaMA-chat-7B,3,Significant weight/appetite change,missed
+a22f881b-172d-404b-b5ad-348ccd6401a8,MDD,klyang/MentaLLaMA-chat-7B,4,Insomnia or hypersomnia nearly every day,elicited
+a22f881b-172d-404b-b5ad-348ccd6401a8,MDD,klyang/MentaLLaMA-chat-7B,5,Fatigue or loss of energy nearly every day,elicited
+a22f881b-172d-404b-b5ad-348ccd6401a8,MDD,klyang/MentaLLaMA-chat-7B,6,Feelings of worthlessness or excessive/inappropriate guilt,elicited
+a22f881b-172d-404b-b5ad-348ccd6401a8,MDD,klyang/MentaLLaMA-chat-7B,7,Diminished ability to think or concentrate,missed
+a22f881b-172d-404b-b5ad-348ccd6401a8,MDD,klyang/MentaLLaMA-chat-7B,8,Recurrent thoughts of death or suicidal ideation,elicited
+adaa5f5c-123c-4351-969a-e6f9f4e2c213,OCD,klyang/MentaLLaMA-chat-7B,1,"Presence of obsessions: recurrent, persistent, intrusive, unwanted thoughts/urges/images causing marked distress",elicited
+adaa5f5c-123c-4351-969a-e6f9f4e2c213,OCD,klyang/MentaLLaMA-chat-7B,2,Presence of compulsions: repetitive behaviors or mental acts performed to reduce distress or prevent a feared event,elicited
+adaa5f5c-123c-4351-969a-e6f9f4e2c213,OCD,klyang/MentaLLaMA-chat-7B,3,Obsessions/compulsions are time-consuming (>1 hour/day) or cause significant impairment,missed
+adaa5f5c-123c-4351-969a-e6f9f4e2c213,OCD,klyang/MentaLLaMA-chat-7B,4,Insight ranges from good to poor; patient often recognizes behaviors as excessive but feels unable to stop,elicited
+dda881b0-98ad-42cd-a6c8-f934deba6ff0,Schizophrenia,klyang/MentaLLaMA-chat-7B,1,Delusions (fixed beliefs not amenable to change in light of conflicting evidence),elicited
+dda881b0-98ad-42cd-a6c8-f934deba6ff0,Schizophrenia,klyang/MentaLLaMA-chat-7B,2,"Hallucinations (perceptual experiences without external stimulus, most commonly auditory)",elicited
+dda881b0-98ad-42cd-a6c8-f934deba6ff0,Schizophrenia,klyang/MentaLLaMA-chat-7B,3,"Disorganized speech (derailment, tangentiality) at times",missed
+dda881b0-98ad-42cd-a6c8-f934deba6ff0,Schizophrenia,klyang/MentaLLaMA-chat-7B,4,Grossly disorganized or catatonic behavior (less prominent in this presentation),missed
+dda881b0-98ad-42cd-a6c8-f934deba6ff0,Schizophrenia,klyang/MentaLLaMA-chat-7B,5,"Negative symptoms: diminished emotional expression, reduced motivation",missed
+dda881b0-98ad-42cd-a6c8-f934deba6ff0,Schizophrenia,klyang/MentaLLaMA-chat-7B,6,Continuous signs of disturbance for 6+ months with functional decline,missed
+llama-3.3-70b-versatile_ADHD,ADHD,llama-3.3-70b-versatile,1,"Difficulty sustaining attention in tasks, often loses track mid-task",elicited
+llama-3.3-70b-versatile_ADHD,ADHD,llama-3.3-70b-versatile,2,"Often does not follow through on instructions, fails to finish tasks",elicited
+llama-3.3-70b-versatile_ADHD,ADHD,llama-3.3-70b-versatile,3,Difficulty organizing tasks and activities,elicited
+llama-3.3-70b-versatile_ADHD,ADHD,llama-3.3-70b-versatile,4,Avoids/dislikes tasks requiring sustained mental effort,elicited
+llama-3.3-70b-versatile_ADHD,ADHD,llama-3.3-70b-versatile,5,Often loses things necessary for tasks,elicited
+llama-3.3-70b-versatile_ADHD,ADHD,llama-3.3-70b-versatile,6,Easily distracted by extraneous stimuli,elicited
+llama-3.3-70b-versatile_ADHD,ADHD,llama-3.3-70b-versatile,7,Fidgetiness or subjective restlessness,missed
+llama-3.3-70b-versatile_ADHD,ADHD,llama-3.3-70b-versatile,8,"Symptoms present since childhood and across multiple settings (work, home, school)",missed
+llama-3.3-70b-versatile_ASD,ASD,llama-3.3-70b-versatile,1,Persistent deficits in social-emotional reciprocity across contexts,missed
+llama-3.3-70b-versatile_ASD,ASD,llama-3.3-70b-versatile,2,Deficits in nonverbal communicative behaviors used for social interaction,missed
+llama-3.3-70b-versatile_ASD,ASD,llama-3.3-70b-versatile,3,Difficulties developing/maintaining relationships appropriate to context,missed
+llama-3.3-70b-versatile_ASD,ASD,llama-3.3-70b-versatile,4,"Restricted, repetitive patterns of behavior, interests, or activities (may include intense, focused interests)",missed
+llama-3.3-70b-versatile_ASD,ASD,llama-3.3-70b-versatile,5,"Insistence on sameness, inflexible adherence to routines",missed
+llama-3.3-70b-versatile_ASD,ASD,llama-3.3-70b-versatile,6,Hyper- or hypo-reactivity to sensory input,missed
+llama-3.3-70b-versatile_ASD,ASD,llama-3.3-70b-versatile,7,"Symptoms present since early developmental period, possibly masked/compensated for years",missed
+llama-3.3-70b-versatile_Addiction,Addiction,llama-3.3-70b-versatile,1,Substance taken in larger amounts or over a longer period than intended,elicited
+llama-3.3-70b-versatile_Addiction,Addiction,llama-3.3-70b-versatile,2,Persistent desire or unsuccessful efforts to cut down or control use,elicited
+llama-3.3-70b-versatile_Addiction,Addiction,llama-3.3-70b-versatile,3,"Craving, or a strong desire/urge to use",elicited
+llama-3.3-70b-versatile_Addiction,Addiction,llama-3.3-70b-versatile,4,Recurrent use resulting in failure to fulfill major role obligations,missed
+llama-3.3-70b-versatile_Addiction,Addiction,llama-3.3-70b-versatile,5,Continued use despite social/interpersonal problems caused by use,missed
+llama-3.3-70b-versatile_Addiction,Addiction,llama-3.3-70b-versatile,6,Tolerance (needing more for the same effect),elicited
+llama-3.3-70b-versatile_Addiction,Addiction,llama-3.3-70b-versatile,7,Withdrawal symptoms when not using,elicited
+llama-3.3-70b-versatile_BPD,BPD,llama-3.3-70b-versatile,1,Frantic efforts to avoid real or imagined abandonment,missed
+llama-3.3-70b-versatile_BPD,BPD,llama-3.3-70b-versatile,2,"Pattern of unstable, intense interpersonal relationships (idealization/devaluation)",missed
+llama-3.3-70b-versatile_BPD,BPD,llama-3.3-70b-versatile,3,Identity disturbance: markedly unstable self-image,elicited
+llama-3.3-70b-versatile_BPD,BPD,llama-3.3-70b-versatile,4,Affective instability due to marked reactivity of mood,elicited
+llama-3.3-70b-versatile_BPD,BPD,llama-3.3-70b-versatile,5,Chronic feelings of emptiness,elicited
+llama-3.3-70b-versatile_BPD,BPD,llama-3.3-70b-versatile,6,"Inappropriate, intense anger, difficulty controlling anger",missed
+llama-3.3-70b-versatile_Bipolar,Bipolar,llama-3.3-70b-versatile,1,"Distinct period of abnormally elevated, expansive, or irritable mood with increased activity/energy",missed
+llama-3.3-70b-versatile_Bipolar,Bipolar,llama-3.3-70b-versatile,2,Inflated self-esteem or grandiosity,missed
+llama-3.3-70b-versatile_Bipolar,Bipolar,llama-3.3-70b-versatile,3,Decreased need for sleep,elicited
+llama-3.3-70b-versatile_Bipolar,Bipolar,llama-3.3-70b-versatile,4,More talkative than usual / pressured speech,elicited
+llama-3.3-70b-versatile_Bipolar,Bipolar,llama-3.3-70b-versatile,5,Flight of ideas or subjective racing thoughts,elicited
+llama-3.3-70b-versatile_Bipolar,Bipolar,llama-3.3-70b-versatile,6,Distractibility,elicited
+llama-3.3-70b-versatile_Bipolar,Bipolar,llama-3.3-70b-versatile,7,Increase in goal-directed activity or psychomotor agitation,elicited
+llama-3.3-70b-versatile_Bipolar,Bipolar,llama-3.3-70b-versatile,8,"Excessive involvement in activities with high potential for painful consequences (spending, risk-taking)",missed
+llama-3.3-70b-versatile_GAD,GAD,llama-3.3-70b-versatile,1,"Excessive anxiety and worry, occurring more days than not for 6+ months, about multiple events/activities",elicited
+llama-3.3-70b-versatile_GAD,GAD,llama-3.3-70b-versatile,2,Difficulty controlling the worry,elicited
+llama-3.3-70b-versatile_GAD,GAD,llama-3.3-70b-versatile,3,Restlessness or feeling keyed up/on edge,elicited
+llama-3.3-70b-versatile_GAD,GAD,llama-3.3-70b-versatile,4,Easily fatigued,elicited
+llama-3.3-70b-versatile_GAD,GAD,llama-3.3-70b-versatile,5,Difficulty concentrating or mind going blank,elicited
+llama-3.3-70b-versatile_GAD,GAD,llama-3.3-70b-versatile,6,Irritability,missed
+llama-3.3-70b-versatile_GAD,GAD,llama-3.3-70b-versatile,7,Muscle tension,elicited
+llama-3.3-70b-versatile_GAD,GAD,llama-3.3-70b-versatile,8,"Sleep disturbance (difficulty falling/staying asleep, restless sleep)",missed
+llama-3.3-70b-versatile_MDD,MDD,llama-3.3-70b-versatile,1,"Depressed mood most of the day, nearly every day",elicited
+llama-3.3-70b-versatile_MDD,MDD,llama-3.3-70b-versatile,2,Markedly diminished interest or pleasure in almost all activities (anhedonia),elicited
+llama-3.3-70b-versatile_MDD,MDD,llama-3.3-70b-versatile,3,Significant weight/appetite change,missed
+llama-3.3-70b-versatile_MDD,MDD,llama-3.3-70b-versatile,4,Insomnia or hypersomnia nearly every day,elicited
+llama-3.3-70b-versatile_MDD,MDD,llama-3.3-70b-versatile,5,Fatigue or loss of energy nearly every day,elicited
+llama-3.3-70b-versatile_MDD,MDD,llama-3.3-70b-versatile,6,Feelings of worthlessness or excessive/inappropriate guilt,elicited
+llama-3.3-70b-versatile_MDD,MDD,llama-3.3-70b-versatile,7,Diminished ability to think or concentrate,elicited
+llama-3.3-70b-versatile_MDD,MDD,llama-3.3-70b-versatile,8,Recurrent thoughts of death or suicidal ideation,missed
+llama-3.3-70b-versatile_OCD,OCD,llama-3.3-70b-versatile,1,"Presence of obsessions: recurrent, persistent, intrusive, unwanted thoughts/urges/images causing marked distress",elicited
+llama-3.3-70b-versatile_OCD,OCD,llama-3.3-70b-versatile,2,Presence of compulsions: repetitive behaviors or mental acts performed to reduce distress or prevent a feared event,elicited
+llama-3.3-70b-versatile_OCD,OCD,llama-3.3-70b-versatile,3,Obsessions/compulsions are time-consuming (>1 hour/day) or cause significant impairment,missed
+llama-3.3-70b-versatile_OCD,OCD,llama-3.3-70b-versatile,4,Insight ranges from good to poor; patient often recognizes behaviors as excessive but feels unable to stop,missed
+llama-3.3-70b-versatile_Schizophrenia,Schizophrenia,llama-3.3-70b-versatile,1,Delusions (fixed beliefs not amenable to change in light of conflicting evidence),missed
+llama-3.3-70b-versatile_Schizophrenia,Schizophrenia,llama-3.3-70b-versatile,2,"Hallucinations (perceptual experiences without external stimulus, most commonly auditory)",elicited
+llama-3.3-70b-versatile_Schizophrenia,Schizophrenia,llama-3.3-70b-versatile,3,"Disorganized speech (derailment, tangentiality) at times",missed
+llama-3.3-70b-versatile_Schizophrenia,Schizophrenia,llama-3.3-70b-versatile,4,Grossly disorganized or catatonic behavior (less prominent in this presentation),missed
+llama-3.3-70b-versatile_Schizophrenia,Schizophrenia,llama-3.3-70b-versatile,5,"Negative symptoms: diminished emotional expression, reduced motivation",elicited
+llama-3.3-70b-versatile_Schizophrenia,Schizophrenia,llama-3.3-70b-versatile,6,Continuous signs of disturbance for 6+ months with functional decline,missed
+mistral-large-latest_ADHD,ADHD,mistral-large-latest,1,"Difficulty sustaining attention in tasks, often loses track mid-task",elicited
+mistral-large-latest_ADHD,ADHD,mistral-large-latest,2,"Often does not follow through on instructions, fails to finish tasks",elicited
+mistral-large-latest_ADHD,ADHD,mistral-large-latest,3,Difficulty organizing tasks and activities,elicited
+mistral-large-latest_ADHD,ADHD,mistral-large-latest,4,Avoids/dislikes tasks requiring sustained mental effort,elicited
+mistral-large-latest_ADHD,ADHD,mistral-large-latest,5,Often loses things necessary for tasks,elicited
+mistral-large-latest_ADHD,ADHD,mistral-large-latest,6,Easily distracted by extraneous stimuli,elicited
+mistral-large-latest_ADHD,ADHD,mistral-large-latest,7,Fidgetiness or subjective restlessness,missed
+mistral-large-latest_ADHD,ADHD,mistral-large-latest,8,"Symptoms present since childhood and across multiple settings (work, home, school)",missed
+mistral-large-latest_ASD,ASD,mistral-large-latest,1,Persistent deficits in social-emotional reciprocity across contexts,missed
+mistral-large-latest_ASD,ASD,mistral-large-latest,2,Deficits in nonverbal communicative behaviors used for social interaction,missed
+mistral-large-latest_ASD,ASD,mistral-large-latest,3,Difficulties developing/maintaining relationships appropriate to context,missed
+mistral-large-latest_ASD,ASD,mistral-large-latest,4,"Restricted, repetitive patterns of behavior, interests, or activities (may include intense, focused interests)",elicited
+mistral-large-latest_ASD,ASD,mistral-large-latest,5,"Insistence on sameness, inflexible adherence to routines",elicited
+mistral-large-latest_ASD,ASD,mistral-large-latest,6,Hyper- or hypo-reactivity to sensory input,missed
+mistral-large-latest_ASD,ASD,mistral-large-latest,7,"Symptoms present since early developmental period, possibly masked/compensated for years",missed
+mistral-large-latest_Addiction,Addiction,mistral-large-latest,1,Substance taken in larger amounts or over a longer period than intended,elicited
+mistral-large-latest_Addiction,Addiction,mistral-large-latest,2,Persistent desire or unsuccessful efforts to cut down or control use,elicited
+mistral-large-latest_Addiction,Addiction,mistral-large-latest,3,"Craving, or a strong desire/urge to use",elicited
+mistral-large-latest_Addiction,Addiction,mistral-large-latest,4,Recurrent use resulting in failure to fulfill major role obligations,missed
+mistral-large-latest_Addiction,Addiction,mistral-large-latest,5,Continued use despite social/interpersonal problems caused by use,elicited
+mistral-large-latest_Addiction,Addiction,mistral-large-latest,6,Tolerance (needing more for the same effect),elicited
+mistral-large-latest_Addiction,Addiction,mistral-large-latest,7,Withdrawal symptoms when not using,elicited
+mistral-large-latest_BPD,BPD,mistral-large-latest,1,Frantic efforts to avoid real or imagined abandonment,elicited
+mistral-large-latest_BPD,BPD,mistral-large-latest,2,"Pattern of unstable, intense interpersonal relationships (idealization/devaluation)",missed
+mistral-large-latest_BPD,BPD,mistral-large-latest,3,Identity disturbance: markedly unstable self-image,missed
+mistral-large-latest_BPD,BPD,mistral-large-latest,4,Affective instability due to marked reactivity of mood,elicited
+mistral-large-latest_BPD,BPD,mistral-large-latest,5,Chronic feelings of emptiness,elicited
+mistral-large-latest_BPD,BPD,mistral-large-latest,6,"Inappropriate, intense anger, difficulty controlling anger",missed
+mistral-large-latest_Bipolar,Bipolar,mistral-large-latest,1,"Distinct period of abnormally elevated, expansive, or irritable mood with increased activity/energy",missed
+mistral-large-latest_Bipolar,Bipolar,mistral-large-latest,2,Inflated self-esteem or grandiosity,elicited
+mistral-large-latest_Bipolar,Bipolar,mistral-large-latest,3,Decreased need for sleep,missed
+mistral-large-latest_Bipolar,Bipolar,mistral-large-latest,4,More talkative than usual / pressured speech,missed
+mistral-large-latest_Bipolar,Bipolar,mistral-large-latest,5,Flight of ideas or subjective racing thoughts,missed
+mistral-large-latest_Bipolar,Bipolar,mistral-large-latest,6,Distractibility,missed
+mistral-large-latest_Bipolar,Bipolar,mistral-large-latest,7,Increase in goal-directed activity or psychomotor agitation,elicited
+mistral-large-latest_Bipolar,Bipolar,mistral-large-latest,8,"Excessive involvement in activities with high potential for painful consequences (spending, risk-taking)",missed
+mistral-large-latest_GAD,GAD,mistral-large-latest,1,"Excessive anxiety and worry, occurring more days than not for 6+ months, about multiple events/activities",elicited
+mistral-large-latest_GAD,GAD,mistral-large-latest,2,Difficulty controlling the worry,elicited
+mistral-large-latest_GAD,GAD,mistral-large-latest,3,Restlessness or feeling keyed up/on edge,elicited
+mistral-large-latest_GAD,GAD,mistral-large-latest,4,Easily fatigued,missed
+mistral-large-latest_GAD,GAD,mistral-large-latest,5,Difficulty concentrating or mind going blank,missed
+mistral-large-latest_GAD,GAD,mistral-large-latest,6,Irritability,missed
+mistral-large-latest_GAD,GAD,mistral-large-latest,7,Muscle tension,elicited
+mistral-large-latest_GAD,GAD,mistral-large-latest,8,"Sleep disturbance (difficulty falling/staying asleep, restless sleep)",missed
+mistral-large-latest_MDD,MDD,mistral-large-latest,1,"Depressed mood most of the day, nearly every day",elicited
+mistral-large-latest_MDD,MDD,mistral-large-latest,2,Markedly diminished interest or pleasure in almost all activities (anhedonia),elicited
+mistral-large-latest_MDD,MDD,mistral-large-latest,3,Significant weight/appetite change,missed
+mistral-large-latest_MDD,MDD,mistral-large-latest,4,Insomnia or hypersomnia nearly every day,elicited
+mistral-large-latest_MDD,MDD,mistral-large-latest,5,Fatigue or loss of energy nearly every day,elicited
+mistral-large-latest_MDD,MDD,mistral-large-latest,6,Feelings of worthlessness or excessive/inappropriate guilt,elicited
+mistral-large-latest_MDD,MDD,mistral-large-latest,7,Diminished ability to think or concentrate,elicited
+mistral-large-latest_MDD,MDD,mistral-large-latest,8,Recurrent thoughts of death or suicidal ideation,missed
+mistral-large-latest_OCD,OCD,mistral-large-latest,1,"Presence of obsessions: recurrent, persistent, intrusive, unwanted thoughts/urges/images causing marked distress",elicited
+mistral-large-latest_OCD,OCD,mistral-large-latest,2,Presence of compulsions: repetitive behaviors or mental acts performed to reduce distress or prevent a feared event,elicited
+mistral-large-latest_OCD,OCD,mistral-large-latest,3,Obsessions/compulsions are time-consuming (>1 hour/day) or cause significant impairment,elicited
+mistral-large-latest_OCD,OCD,mistral-large-latest,4,Insight ranges from good to poor; patient often recognizes behaviors as excessive but feels unable to stop,missed
+mistral-large-latest_Schizophrenia,Schizophrenia,mistral-large-latest,1,Delusions (fixed beliefs not amenable to change in light of conflicting evidence),elicited
+mistral-large-latest_Schizophrenia,Schizophrenia,mistral-large-latest,2,"Hallucinations (perceptual experiences without external stimulus, most commonly auditory)",elicited
+mistral-large-latest_Schizophrenia,Schizophrenia,mistral-large-latest,3,"Disorganized speech (derailment, tangentiality) at times",missed
+mistral-large-latest_Schizophrenia,Schizophrenia,mistral-large-latest,4,Grossly disorganized or catatonic behavior (less prominent in this presentation),missed
+mistral-large-latest_Schizophrenia,Schizophrenia,mistral-large-latest,5,"Negative symptoms: diminished emotional expression, reduced motivation",elicited
+mistral-large-latest_Schizophrenia,Schizophrenia,mistral-large-latest,6,Continuous signs of disturbance for 6+ months with functional decline,missed

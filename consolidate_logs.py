@@ -86,7 +86,7 @@ def collect_all_evaluations():
 
 
 def build_summary_row(record):
-    """Build a flat summary dict from one evaluation record."""
+    """Build a flat summary dict from one evaluation record, and extract mapping rows."""
     evaluation = record["evaluation"]
     diag = evaluation.get("diagnostic_scoring_accuracy", {}) or {}
     safety = evaluation.get("safety_red_line_adherence", {}) or {}
@@ -114,12 +114,36 @@ def build_summary_row(record):
         "bias_flags_count": len(empathy.get("western_centric_bias_flags", []) or []),
     }
 
+    criteria_rows = []
+    risk_rows = []
+
     # Recompute formula metrics consistently
     try:
         formula = compute_formula_metrics(
             record["condition"], record["turns"], evaluation
         )
         row.update(formula.as_dict())
+
+        if hasattr(formula, "criteria_mapping") and formula.criteria_mapping:
+            for idx, (text, status) in enumerate(formula.criteria_mapping, 1):
+                criteria_rows.append({
+                    "session_id": record["session_id"],
+                    "condition": record["condition"],
+                    "therapist_model": record["therapist_model"],
+                    "criterion_number": idx,
+                    "criterion_text": text,
+                    "status": status,
+                })
+        if hasattr(formula, "risk_mapping") and formula.risk_mapping:
+            for idx, (text, status) in enumerate(formula.risk_mapping, 1):
+                risk_rows.append({
+                    "session_id": record["session_id"],
+                    "condition": record["condition"],
+                    "therapist_model": record["therapist_model"],
+                    "risk_marker_number": idx,
+                    "risk_marker_text": text,
+                    "status": status,
+                })
     except Exception as e:
         print(f"  WARNING: Could not compute formula metrics for "
               f"{record['session_id'][:8]}.. ({record['condition']}): {e}")
@@ -135,7 +159,7 @@ def build_summary_row(record):
             "therapist_turns": None,
         })
 
-    return row
+    return row, criteria_rows, risk_rows
 
 
 def deduplicate_per_model(records):
@@ -161,10 +185,13 @@ def deduplicate_per_model(records):
 def write_clean_csv(rows, output_path):
     """Write the clean, consolidated summary CSV."""
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    if not rows:
+        return pd.DataFrame()
 
     df = pd.DataFrame(rows)
     # Sort for readability: by model, then condition
-    df = df.sort_values(["therapist_model", "condition"]).reset_index(drop=True)
+    if "therapist_model" in df.columns and "condition" in df.columns:
+        df = df.sort_values(["therapist_model", "condition"]).reset_index(drop=True)
     df.to_csv(output_path, index=False)
     print(f"Wrote {len(df)} rows to {output_path}")
     return df
@@ -196,58 +223,44 @@ def copy_to_common_logs(records):
     eval_dir = str(config.EVALUATIONS_DIR)
     trans_dir = str(config.TRANSCRIPTS_DIR)
 
-    # Clear target files that are NOT in the deduplicated records (to preserve active files)
+    # Clear target files that are NOT in the deduplicated records
     keep_filenames = set()
     for sid, rec in records.items():
+        keep_filenames.add(f"{sid}.json")
         safe_model = rec['therapist_model'].replace("/", "_").replace("\\", "_")
         safe_cond = rec['condition'].replace(" ", "_")
         keep_filenames.add(f"{safe_model}_{safe_cond}.json")
+        if rec.get("source_eval_path"):
+            keep_filenames.add(os.path.basename(rec["source_eval_path"]))
+        if rec.get("source_transcript_path"):
+            keep_filenames.add(os.path.basename(rec["source_transcript_path"]))
 
-    for d in (eval_dir, trans_dir):
-        for f in os.listdir(d):
-            if f == ".gitkeep":
-                continue
-            if f not in keep_filenames:
-                os.remove(os.path.join(d, f))
+    for target_dir in [eval_dir, trans_dir]:
+        if os.path.exists(target_dir):
+            for existing_file in os.listdir(target_dir):
+                if existing_file.endswith(".json") and existing_file not in keep_filenames:
+                    file_to_remove = os.path.join(target_dir, existing_file)
+                    try:
+                        os.remove(file_to_remove)
+                    except Exception as e:
+                        print(f"Warning: Could not remove stale file {file_to_remove}: {e}")
 
-    eval_count = 0
-    trans_count = 0
-    missing_trans = []
+    os.makedirs(eval_dir, exist_ok=True)
+    os.makedirs(trans_dir, exist_ok=True)
 
-    for sid, rec in sorted(records.items()):
-        safe_model = rec['therapist_model'].replace("/", "_").replace("\\", "_")
-        safe_cond = rec['condition'].replace(" ", "_")
-        fname = f"{safe_model}_{safe_cond}.json"
+    for sid, rec in records.items():
+        eval_src = rec["source_eval_path"]
+        eval_dst = os.path.join(eval_dir, f"{sid}.json")
+        if os.path.abspath(eval_src) != os.path.abspath(eval_dst):
+            shutil.copy2(eval_src, eval_dst)
 
-        # Copy evaluation JSON
-        src_eval = rec.get("source_eval_path")
-        target_eval = os.path.join(eval_dir, fname)
-        if src_eval and os.path.abspath(src_eval) != os.path.abspath(target_eval):
-            if os.path.isfile(src_eval):
-                shutil.copy2(src_eval, target_eval)
-                eval_count += 1
-        elif src_eval and os.path.isfile(src_eval):
-            eval_count += 1
+        trans_src = rec["source_transcript_path"]
+        if trans_src and os.path.isfile(trans_src):
+            trans_dst = os.path.join(trans_dir, f"{sid}.json")
+            if os.path.abspath(trans_src) != os.path.abspath(trans_dst):
+                shutil.copy2(trans_src, trans_dst)
 
-        # Copy transcript JSON
-        src_trans = rec.get("source_transcript_path")
-        target_trans = os.path.join(trans_dir, fname)
-        if src_trans and os.path.abspath(src_trans) != os.path.abspath(target_trans):
-            if os.path.isfile(src_trans):
-                shutil.copy2(src_trans, target_trans)
-                trans_count += 1
-            else:
-                missing_trans.append(f"{rec['therapist_model']}/{rec['condition']}")
-        elif src_trans and os.path.isfile(src_trans):
-            trans_count += 1
-        else:
-            missing_trans.append(f"{rec['therapist_model']}/{rec['condition']}")
-
-    print(f"\nCopied to common logs/:")
-    print(f"  Evaluations: {eval_count} -> {eval_dir}")
-    print(f"  Transcripts: {trans_count} -> {trans_dir}")
-    if missing_trans:
-        print(f"  Missing transcripts ({len(missing_trans)}): {', '.join(missing_trans)}")
+    print(f"Copied to common logs/:\n  Evaluations: {len(records)} -> {eval_dir}\n  Transcripts: {len(records)} -> {trans_dir}")
 
 
 def combine_why_reports():
@@ -304,13 +317,23 @@ def main():
     # Step 4: Build summary rows with consistent formula metrics
     print("\nRecomputing formula metrics for all sessions...")
     rows = []
+    all_criteria_rows = []
+    all_risk_rows = []
     for sid, rec in sorted(records.items()):
-        row = build_summary_row(rec)
+        row, c_rows, r_rows = build_summary_row(rec)
         rows.append(row)
+        all_criteria_rows.extend(c_rows)
+        all_risk_rows.extend(r_rows)
 
-    # Step 5: Write clean consolidated CSV
+    # Step 5: Write clean consolidated CSVs
     output_csv = str(config.SUMMARY_CSV_PATH)
     df = write_clean_csv(rows, output_csv)
+
+    criteria_csv = os.path.join(os.path.dirname(output_csv), "criteria_mapping.csv")
+    write_clean_csv(all_criteria_rows, criteria_csv)
+
+    risk_csv = os.path.join(os.path.dirname(output_csv), "risk_mapping.csv")
+    write_clean_csv(all_risk_rows, risk_csv)
 
     # Step 6: Print coverage report
     print_coverage_report(df)
