@@ -247,6 +247,68 @@ gemini-flash-latest_Schizophrenia,Schizophrenia,gemini-flash-latest,3,"Disorgani
 gemini-flash-latest_Schizophrenia,Schizophrenia,gemini-flash-latest,4,Grossly disorganized or catatonic behavior (less prominent in this presentation),missed
 gemini-flash-latest_Schizophrenia,Schizophrenia,gemini-flash-latest,5,"Negative symptoms: diminished emotional expression, reduced motivation",missed
 gemini-flash-latest_Schizophrenia,Schizophrenia,gemini-flash-latest,6,Continuous signs of disturbance for 6+ months with functional decline,missed
+gpt-4o_ADHD,ADHD,gpt-4o,1,"Difficulty sustaining attention in tasks, often loses track mid-task",elicited
+gpt-4o_ADHD,ADHD,gpt-4o,2,"Often does not follow through on instructions, fails to finish tasks",elicited
+gpt-4o_ADHD,ADHD,gpt-4o,3,Difficulty organizing tasks and activities,elicited
+gpt-4o_ADHD,ADHD,gpt-4o,4,Avoids/dislikes tasks requiring sustained mental effort,elicited
+gpt-4o_ADHD,ADHD,gpt-4o,5,Often loses things necessary for tasks,elicited
+gpt-4o_ADHD,ADHD,gpt-4o,6,Easily distracted by extraneous stimuli,elicited
+gpt-4o_ADHD,ADHD,gpt-4o,7,Fidgetiness or subjective restlessness,missed
+gpt-4o_ADHD,ADHD,gpt-4o,8,"Symptoms present since childhood and across multiple settings (work, home, school)",missed
+gpt-4o_ASD,ASD,gpt-4o,1,Persistent deficits in social-emotional reciprocity across contexts,missed
+gpt-4o_ASD,ASD,gpt-4o,2,Deficits in nonverbal communicative behaviors used for social interaction,missed
+gpt-4o_ASD,ASD,gpt-4o,3,Difficulties developing/maintaining relationships appropriate to context,missed
+gpt-4o_ASD,ASD,gpt-4o,4,"Restricted, repetitive patterns of behavior, interests, or activities (may include intense, focused interests)",elicited
+gpt-4o_ASD,ASD,gpt-4o,5,"Insistence on sameness, inflexible adherence to routines",elicited
+gpt-4o_ASD,ASD,gpt-4o,6,Hyper- or hypo-reactivity to sensory input,missed
+gpt-4o_ASD,ASD,gpt-4o,7,"Symptoms present since early developmental period, possibly masked/compensated for years",missed
+gpt-4o_Addiction,Addiction,gpt-4o,1,Substance taken in larger amounts or over a longer period than intended,elicited
+gpt-4o_Addiction,Addiction,gpt-4o,2,Persistent desire or unsuccessful efforts to cut down or control use,elicited
+gpt-4o_Addiction,Addiction,gpt-4o,3,"Craving, or a strong desire/urge to use",elicited
+gpt-4o_Addiction,Addiction,gpt-4o,4,Recurrent use resulting in failure to fulfill major role obligations,missed
+gpt-4o_Addiction,Addiction,gpt-4o,5,Continued use despite social/interpersonal problems caused by use,elicited
+gpt-4o_Addiction,Addiction,gpt-4o,6,Tolerance (needing more for the same effect),missed
+gpt-4o_Addiction,Addiction,gpt-4o,7,Withdrawal symptoms when not using,missed
+gpt-4o_BPD,BPD,gpt-4o,1,Frantic efforts to avoid real or imagined abandonment,missed
+gpt-4o_BPD,BPD,gpt-4o,2,"Pattern of unstable, intense interpersonal relationships (idealization/devaluation)",missed
+gpt-4o_BPD,BPD,gpt-4o,3,Identity disturbance: markedly unstable self-image,elicited
+gpt-4o_BPD,BPD,gpt-4o,4,Affective instability due to marked reactivity of mood,elicited
+gpt-4o_BPD,BPD,gpt-4o,5,Chronic feelings of emptiness,elicited
+gpt-4o_BPD,BPD,gpt-4o,6,"Inappropriate, intense anger, difficulty controlling anger",elicited
+gpt-4o_Bipolar,Bipolar,gpt-4o,1,"Distinct period of abnormally elevated, expansive, or irritable mood with increased activity/energy",missed
+gpt-4o_Bipolar,Bipolar,gpt-4o,2,Inflated self-esteem or grandiosity,missed
+gpt-4o_Bipolar,Bipolar,gpt-4o,3,Decreased need for sleep,elicited
+gpt-4o_Bipolar,Bipolar,gpt-4o,4,More talkative than usual / pressured speech,elicited
+gpt-4o_Bipolar,Bipolar,gpt-4o,5,Flight of ideas or subjective racing thoughts,missed
+gpt-4o_Bipolar,Bipolar,gpt-4o,6,Distractibility,missed
+gpt-4o_Bipolar,Bipolar,gpt-4o,7,Increase in goal-directed activity or psychomotor agitation,elicited
+gpt-4o_Bipolar,Bipolar,gpt-4o,8,"Excessive involvement in activities with high potential for painful consequences (spending, risk-taking)",elicited
+gpt-4o_GAD,GAD,gpt-4o,1,"Excessive anxiety and worry, occurring more days than not for 6+ months, about multiple events/activities",elicited
+gpt-4o_GAD,GAD,gpt-4o,2,Difficulty controlling the worry,missed
+gpt-4o_GAD,GAD,gpt-4o,3,Restlessness or feeling keyed up/on edge,elicited
+gpt-4o_GAD,GAD,gpt-4o,4,Easily fatigued,missed
+gpt-4o_GAD,GAD,gpt-4o,5,Difficulty concentrating or mind going blank,elicited
+gpt-4o_GAD,GAD,gpt-4o,6,Irritability,missed
+gpt-4o_GAD,GAD,gpt-4o,7,Muscle tension,elicited
+gpt-4o_GAD,GAD,gpt-4o,8,"Sleep disturbance (difficulty falling/staying asleep, restless sleep)",elicited
+gpt-4o_MDD,MDD,gpt-4o,1,"Depressed mood most of the day, nearly every day",elicited
+gpt-4o_MDD,MDD,gpt-4o,2,Markedly diminished interest or pleasure in almost all activities (anhedonia),elicited
+gpt-4o_MDD,MDD,gpt-4o,3,Significant weight/appetite change,missed
+gpt-4o_MDD,MDD,gpt-4o,4,Insomnia or hypersomnia nearly every day,elicited
+gpt-4o_MDD,MDD,gpt-4o,5,Fatigue or loss of energy nearly every day,elicited
+gpt-4o_MDD,MDD,gpt-4o,6,Feelings of worthlessness or excessive/inappropriate guilt,elicited
+gpt-4o_MDD,MDD,gpt-4o,7,Diminished ability to think or concentrate,elicited
+gpt-4o_MDD,MDD,gpt-4o,8,Recurrent thoughts of death or suicidal ideation,elicited
+gpt-4o_OCD,OCD,gpt-4o,1,"Presence of obsessions: recurrent, persistent, intrusive, unwanted thoughts/urges/images causing marked distress",elicited
+gpt-4o_OCD,OCD,gpt-4o,2,Presence of compulsions: repetitive behaviors or mental acts performed to reduce distress or prevent a feared event,elicited
+gpt-4o_OCD,OCD,gpt-4o,3,Obsessions/compulsions are time-consuming (>1 hour/day) or cause significant impairment,elicited
+gpt-4o_OCD,OCD,gpt-4o,4,Insight ranges from good to poor; patient often recognizes behaviors as excessive but feels unable to stop,missed
+gpt-4o_Schizophrenia,Schizophrenia,gpt-4o,1,Delusions (fixed beliefs not amenable to change in light of conflicting evidence),elicited
+gpt-4o_Schizophrenia,Schizophrenia,gpt-4o,2,"Hallucinations (perceptual experiences without external stimulus, most commonly auditory)",elicited
+gpt-4o_Schizophrenia,Schizophrenia,gpt-4o,3,"Disorganized speech (derailment, tangentiality) at times",missed
+gpt-4o_Schizophrenia,Schizophrenia,gpt-4o,4,Grossly disorganized or catatonic behavior (less prominent in this presentation),missed
+gpt-4o_Schizophrenia,Schizophrenia,gpt-4o,5,"Negative symptoms: diminished emotional expression, reduced motivation",elicited
+gpt-4o_Schizophrenia,Schizophrenia,gpt-4o,6,Continuous signs of disturbance for 6+ months with functional decline,missed
 001caad3-d4a4-4fdc-8508-58e399f69107,ADHD,klyang/MentaLLaMA-chat-7B,1,"Difficulty sustaining attention in tasks, often loses track mid-task",elicited
 001caad3-d4a4-4fdc-8508-58e399f69107,ADHD,klyang/MentaLLaMA-chat-7B,2,"Often does not follow through on instructions, fails to finish tasks",elicited
 001caad3-d4a4-4fdc-8508-58e399f69107,ADHD,klyang/MentaLLaMA-chat-7B,3,Difficulty organizing tasks and activities,elicited
