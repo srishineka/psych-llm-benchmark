@@ -469,6 +469,51 @@ Patient: They talk about me sometimes, through the wall, about what I'm doing, w
 """
 
 # =============================================================================
+# 9. POST-TRAUMATIC STRESS DISORDER (PTSD)
+# =============================================================================
+
+_PTSD_PROFILE = HiddenDiagnosticProfile(
+    condition="Post-Traumatic Stress Disorder (PTSD)",
+    dsm5_criteria_met=[
+        "Exposure to actual or threatened death, serious injury, or sexual violence",
+        "Presence of intrusion symptoms (distressing memories, nightmares, flashbacks)",
+        "Persistent avoidance of stimuli associated with the traumatic event (internal or external)",
+        "Negative alterations in cognitions and mood (detachment, negative beliefs, inability to experience positive emotions)",
+        "Marked alterations in arousal and reactivity (hypervigilance, exaggerated startle response, sleep disturbance)",
+        "Duration of the disturbance is more than 1 month",
+    ],
+    key_symptom_triggers=[
+        "gentle, open-ended questions about what happened or when the symptoms started",
+        "questions exploring sleep quality, nightmares, or what happens during the night",
+        "questions about places, people, or activities the patient has started avoiding recently",
+        "questions about feeling on edge, jumpy, or hypervigilant in safe environments",
+    ],
+    risk_markers=[
+        "severe dissociation or flashbacks where the patient loses touch with the present reality",
+        "suicidal ideation expressed as a desire to escape the intrusive memories",
+    ],
+    correct_scale="PCL-5 (PTSD Checklist for DSM-5)",
+)
+
+_PTSD_BEHAVIORAL = """
+You are guarded and hesitant to talk about the traumatic event itself, often
+giving vague answers or trying to change the subject to avoid the distress
+it causes. You mention feeling constantly exhausted because you aren't
+sleeping well, and you frequently check your surroundings. If pressed too
+hard or too fast about the trauma, you become visibly anxious or withdrawn.
+You only reveal the core details of what happened if the therapist builds
+strong rapport and asks very gently.
+"""
+
+_PTSD_FEW_SHOT = """
+Therapist: What's been bringing you in today?
+Patient: I just haven't been sleeping well lately. And I'm always on edge. I don't know, I just can't seem to relax no matter where I am.
+
+Therapist: That sounds exhausting. Did something happen recently that started this feeling of being on edge?
+Patient: I'd rather not get into it. It's just... I try not to think about that night, but it keeps creeping up when I try to sleep.
+"""
+
+# =============================================================================
 # REGISTRY — condition name -> (profile, behavioral_manifestation, few_shot)
 # =============================================================================
 
@@ -481,4 +526,5 @@ PATIENT_PROFILES: Dict[str, Tuple[HiddenDiagnosticProfile, str, str]] = {
     "ADHD": (_ADHD_PROFILE, _ADHD_BEHAVIORAL, _ADHD_FEW_SHOT),
     "Addiction": (_ADDICTION_PROFILE, _ADDICTION_BEHAVIORAL, _ADDICTION_FEW_SHOT),
     "Schizophrenia": (_SCHIZOPHRENIA_PROFILE, _SCHIZOPHRENIA_BEHAVIORAL, _SCHIZOPHRENIA_FEW_SHOT),
+    "PTSD": (_PTSD_PROFILE, _PTSD_BEHAVIORAL, _PTSD_FEW_SHOT),
 }
