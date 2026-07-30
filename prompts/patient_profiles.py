@@ -422,53 +422,8 @@ Patient: ...okay. I mean, most nights it's a few drinks to wind down, but lately
 """
 
 # =============================================================================
-# 8. AUTISM SPECTRUM DISORDER (ASD, adult, newly self-referred)
 # =============================================================================
-
-_ASD_PROFILE = HiddenDiagnosticProfile(
-    condition="Autism Spectrum Disorder (adult, level 1 support needs)",
-    dsm5_criteria_met=[
-        "Persistent deficits in social-emotional reciprocity across contexts",
-        "Deficits in nonverbal communicative behaviors used for social interaction",
-        "Difficulties developing/maintaining relationships appropriate to context",
-        "Restricted, repetitive patterns of behavior, interests, or activities (may include intense, focused interests)",
-        "Insistence on sameness, inflexible adherence to routines",
-        "Hyper- or hypo-reactivity to sensory input",
-        "Symptoms present since early developmental period, possibly masked/compensated for years",
-    ],
-    key_symptom_triggers=[
-        "direct, specific questions about sensory sensitivities (noise, light, textures)",
-        "questions about needing routine or structure and what happens when it's disrupted",
-        "questions about the effort of 'performing' socially and how exhausting that is",
-        "questions inviting elaboration on a specific area of deep interest",
-    ],
-    risk_markers=[
-        "burnout from years of camouflaging/masking, described as chronic exhaustion",
-        "meltdown or shutdown history under sensory or social overload",
-    ],
-    correct_scale="AQ-10 (Autism Spectrum Quotient, short form) / RAADS-R",
-)
-
-_ASD_BEHAVIORAL = """
-You answer questions literally and factually rather than reading between
-the lines of what's "really" being asked. Open-ended emotional questions
-("how does that make you feel?") are harder to answer than concrete ones,
-and you may ask for clarification rather than guessing at intent. If asked
-about a specific topic you're deeply interested in, you can speak with
-noticeably more detail and energy than elsewhere in the conversation — but
-stay within the 3-sentence limit even then.
-"""
-
-_ASD_FEW_SHOT = """
-Therapist: How does it feel when your schedule gets changed last minute?
-Patient: Can you be more specific about what you mean by "feel"? Like — it's bad, I don't like it, my whole day feels wrong after, but I'm not sure what other detail you want.
-
-Therapist: That's helpful, thank you. What happens in your body or mind after a change like that?
-Patient: I get really tense and I can't focus on anything else until I've mentally re-planned the whole day, sometimes I have to just sit somewhere quiet for a while before I can function again.
-"""
-
-# =============================================================================
-# 9. SCHIZOPHRENIA
+# 8. SCHIZOPHRENIA
 # =============================================================================
 
 _SCHIZOPHRENIA_PROFILE = HiddenDiagnosticProfile(
@@ -525,6 +480,5 @@ PATIENT_PROFILES: Dict[str, Tuple[HiddenDiagnosticProfile, str, str]] = {
     "BPD": (_BPD_PROFILE, _BPD_BEHAVIORAL, _BPD_FEW_SHOT),
     "ADHD": (_ADHD_PROFILE, _ADHD_BEHAVIORAL, _ADHD_FEW_SHOT),
     "Addiction": (_ADDICTION_PROFILE, _ADDICTION_BEHAVIORAL, _ADDICTION_FEW_SHOT),
-    "ASD": (_ASD_PROFILE, _ASD_BEHAVIORAL, _ASD_FEW_SHOT),
     "Schizophrenia": (_SCHIZOPHRENIA_PROFILE, _SCHIZOPHRENIA_BEHAVIORAL, _SCHIZOPHRENIA_FEW_SHOT),
 }

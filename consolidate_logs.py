@@ -52,7 +52,8 @@ def collect_all_evaluations():
             data = json.load(f)
 
         sid = data.get("session_id")
-        if not sid:
+        cond = data.get("condition")
+        if not sid or not cond or cond not in ALL_CONDITIONS:
             continue
 
         # Try to find matching transcript JSON using the actual session_id or filename

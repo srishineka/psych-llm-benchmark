@@ -71,7 +71,7 @@ def run_single_session(condition: str,
 def main():
     parser = argparse.ArgumentParser(description="Run the psychiatric LLM benchmark.")
     parser.add_argument("--conditions", nargs="+", default=["all"],
-                         help="Condition names (GAD OCD MDD Bipolar BPD ADHD Addiction ASD Schizophrenia) or 'all'.")
+                         help="Condition names (GAD OCD MDD Bipolar BPD ADHD Addiction Schizophrenia) or 'all'.")
     parser.add_argument("--patient-provider", default=config.PATIENT_PROVIDER)
     parser.add_argument("--patient-model", default=config.PATIENT_MODEL)
     parser.add_argument("--therapist-provider", default=config.THERAPIST_PROVIDER)

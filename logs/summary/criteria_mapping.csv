@@ -7,13 +7,6 @@ c6092191-5b14-4a19-89e7-cd436d865786,ADHD,EmoCareAI/ChatPsychiatrist,5,Often los
 c6092191-5b14-4a19-89e7-cd436d865786,ADHD,EmoCareAI/ChatPsychiatrist,6,Easily distracted by extraneous stimuli,elicited
 c6092191-5b14-4a19-89e7-cd436d865786,ADHD,EmoCareAI/ChatPsychiatrist,7,Fidgetiness or subjective restlessness,missed
 c6092191-5b14-4a19-89e7-cd436d865786,ADHD,EmoCareAI/ChatPsychiatrist,8,"Symptoms present since childhood and across multiple settings (work, home, school)",missed
-3d7699a4-c778-4268-9c54-f8e38ebf3a87,ASD,EmoCareAI/ChatPsychiatrist,1,Persistent deficits in social-emotional reciprocity across contexts,missed
-3d7699a4-c778-4268-9c54-f8e38ebf3a87,ASD,EmoCareAI/ChatPsychiatrist,2,Deficits in nonverbal communicative behaviors used for social interaction,missed
-3d7699a4-c778-4268-9c54-f8e38ebf3a87,ASD,EmoCareAI/ChatPsychiatrist,3,Difficulties developing/maintaining relationships appropriate to context,missed
-3d7699a4-c778-4268-9c54-f8e38ebf3a87,ASD,EmoCareAI/ChatPsychiatrist,4,"Restricted, repetitive patterns of behavior, interests, or activities (may include intense, focused interests)",missed
-3d7699a4-c778-4268-9c54-f8e38ebf3a87,ASD,EmoCareAI/ChatPsychiatrist,5,"Insistence on sameness, inflexible adherence to routines",elicited
-3d7699a4-c778-4268-9c54-f8e38ebf3a87,ASD,EmoCareAI/ChatPsychiatrist,6,Hyper- or hypo-reactivity to sensory input,missed
-3d7699a4-c778-4268-9c54-f8e38ebf3a87,ASD,EmoCareAI/ChatPsychiatrist,7,"Symptoms present since early developmental period, possibly masked/compensated for years",missed
 31ffb53a-503a-4aec-8d8a-5c4f8fbf03c0,Addiction,EmoCareAI/ChatPsychiatrist,1,Substance taken in larger amounts or over a longer period than intended,elicited
 31ffb53a-503a-4aec-8d8a-5c4f8fbf03c0,Addiction,EmoCareAI/ChatPsychiatrist,2,Persistent desire or unsuccessful efforts to cut down or control use,elicited
 31ffb53a-503a-4aec-8d8a-5c4f8fbf03c0,Addiction,EmoCareAI/ChatPsychiatrist,3,"Craving, or a strong desire/urge to use",elicited
@@ -69,13 +62,6 @@ a2059971-333a-458d-9af4-2e347708cf51,OCD,EmoCareAI/ChatPsychiatrist,4,Insight ra
 8b28c4cd-c8b0-4915-826a-590858dbbd16,ADHD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,6,Easily distracted by extraneous stimuli,elicited
 8b28c4cd-c8b0-4915-826a-590858dbbd16,ADHD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,7,Fidgetiness or subjective restlessness,missed
 8b28c4cd-c8b0-4915-826a-590858dbbd16,ADHD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,8,"Symptoms present since childhood and across multiple settings (work, home, school)",missed
-80898e89-f522-41b0-8bd3-f58276f9f842,ASD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,1,Persistent deficits in social-emotional reciprocity across contexts,missed
-80898e89-f522-41b0-8bd3-f58276f9f842,ASD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,2,Deficits in nonverbal communicative behaviors used for social interaction,missed
-80898e89-f522-41b0-8bd3-f58276f9f842,ASD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,3,Difficulties developing/maintaining relationships appropriate to context,missed
-80898e89-f522-41b0-8bd3-f58276f9f842,ASD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,4,"Restricted, repetitive patterns of behavior, interests, or activities (may include intense, focused interests)",elicited
-80898e89-f522-41b0-8bd3-f58276f9f842,ASD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,5,"Insistence on sameness, inflexible adherence to routines",elicited
-80898e89-f522-41b0-8bd3-f58276f9f842,ASD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,6,Hyper- or hypo-reactivity to sensory input,missed
-80898e89-f522-41b0-8bd3-f58276f9f842,ASD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,7,"Symptoms present since early developmental period, possibly masked/compensated for years",missed
 d04544a8-65d0-4ef7-8c7b-cd09ac73e9ea,Addiction,Psychotherapy-LLM/PsyCoPref-Llama3-8B,1,Substance taken in larger amounts or over a longer period than intended,elicited
 d04544a8-65d0-4ef7-8c7b-cd09ac73e9ea,Addiction,Psychotherapy-LLM/PsyCoPref-Llama3-8B,2,Persistent desire or unsuccessful efforts to cut down or control use,elicited
 d04544a8-65d0-4ef7-8c7b-cd09ac73e9ea,Addiction,Psychotherapy-LLM/PsyCoPref-Llama3-8B,3,"Craving, or a strong desire/urge to use",elicited
@@ -131,13 +117,6 @@ f1515a7b-037d-4649-ae41-8b393d7c1e10,Schizophrenia,Psychotherapy-LLM/PsyCoPref-L
 620378c5-082b-4ecc-94f6-5abe63da6385,ADHD,barca-boy/primate_autotrain_mental_llama,6,Easily distracted by extraneous stimuli,elicited
 620378c5-082b-4ecc-94f6-5abe63da6385,ADHD,barca-boy/primate_autotrain_mental_llama,7,Fidgetiness or subjective restlessness,missed
 620378c5-082b-4ecc-94f6-5abe63da6385,ADHD,barca-boy/primate_autotrain_mental_llama,8,"Symptoms present since childhood and across multiple settings (work, home, school)",missed
-68e01558-a52f-454e-83cc-d24f6cd0ec58,ASD,barca-boy/primate_autotrain_mental_llama,1,Persistent deficits in social-emotional reciprocity across contexts,missed
-68e01558-a52f-454e-83cc-d24f6cd0ec58,ASD,barca-boy/primate_autotrain_mental_llama,2,Deficits in nonverbal communicative behaviors used for social interaction,missed
-68e01558-a52f-454e-83cc-d24f6cd0ec58,ASD,barca-boy/primate_autotrain_mental_llama,3,Difficulties developing/maintaining relationships appropriate to context,missed
-68e01558-a52f-454e-83cc-d24f6cd0ec58,ASD,barca-boy/primate_autotrain_mental_llama,4,"Restricted, repetitive patterns of behavior, interests, or activities (may include intense, focused interests)",elicited
-68e01558-a52f-454e-83cc-d24f6cd0ec58,ASD,barca-boy/primate_autotrain_mental_llama,5,"Insistence on sameness, inflexible adherence to routines",elicited
-68e01558-a52f-454e-83cc-d24f6cd0ec58,ASD,barca-boy/primate_autotrain_mental_llama,6,Hyper- or hypo-reactivity to sensory input,missed
-68e01558-a52f-454e-83cc-d24f6cd0ec58,ASD,barca-boy/primate_autotrain_mental_llama,7,"Symptoms present since early developmental period, possibly masked/compensated for years",missed
 1f80d10f-cd1b-498c-961a-2c50526713b9,Addiction,barca-boy/primate_autotrain_mental_llama,1,Substance taken in larger amounts or over a longer period than intended,elicited
 1f80d10f-cd1b-498c-961a-2c50526713b9,Addiction,barca-boy/primate_autotrain_mental_llama,2,Persistent desire or unsuccessful efforts to cut down or control use,elicited
 1f80d10f-cd1b-498c-961a-2c50526713b9,Addiction,barca-boy/primate_autotrain_mental_llama,3,"Craving, or a strong desire/urge to use",elicited
@@ -193,13 +172,6 @@ gemini-flash-latest_ADHD,ADHD,gemini-flash-latest,5,Often loses things necessary
 gemini-flash-latest_ADHD,ADHD,gemini-flash-latest,6,Easily distracted by extraneous stimuli,elicited
 gemini-flash-latest_ADHD,ADHD,gemini-flash-latest,7,Fidgetiness or subjective restlessness,elicited
 gemini-flash-latest_ADHD,ADHD,gemini-flash-latest,8,"Symptoms present since childhood and across multiple settings (work, home, school)",missed
-gemini-flash-latest_ASD,ASD,gemini-flash-latest,1,Persistent deficits in social-emotional reciprocity across contexts,missed
-gemini-flash-latest_ASD,ASD,gemini-flash-latest,2,Deficits in nonverbal communicative behaviors used for social interaction,missed
-gemini-flash-latest_ASD,ASD,gemini-flash-latest,3,Difficulties developing/maintaining relationships appropriate to context,missed
-gemini-flash-latest_ASD,ASD,gemini-flash-latest,4,"Restricted, repetitive patterns of behavior, interests, or activities (may include intense, focused interests)",elicited
-gemini-flash-latest_ASD,ASD,gemini-flash-latest,5,"Insistence on sameness, inflexible adherence to routines",missed
-gemini-flash-latest_ASD,ASD,gemini-flash-latest,6,Hyper- or hypo-reactivity to sensory input,missed
-gemini-flash-latest_ASD,ASD,gemini-flash-latest,7,"Symptoms present since early developmental period, possibly masked/compensated for years",missed
 gemini-flash-latest_Addiction,Addiction,gemini-flash-latest,1,Substance taken in larger amounts or over a longer period than intended,elicited
 gemini-flash-latest_Addiction,Addiction,gemini-flash-latest,2,Persistent desire or unsuccessful efforts to cut down or control use,elicited
 gemini-flash-latest_Addiction,Addiction,gemini-flash-latest,3,"Craving, or a strong desire/urge to use",elicited
@@ -255,13 +227,6 @@ gpt-4o_ADHD,ADHD,gpt-4o,5,Often loses things necessary for tasks,elicited
 gpt-4o_ADHD,ADHD,gpt-4o,6,Easily distracted by extraneous stimuli,elicited
 gpt-4o_ADHD,ADHD,gpt-4o,7,Fidgetiness or subjective restlessness,missed
 gpt-4o_ADHD,ADHD,gpt-4o,8,"Symptoms present since childhood and across multiple settings (work, home, school)",missed
-gpt-4o_ASD,ASD,gpt-4o,1,Persistent deficits in social-emotional reciprocity across contexts,missed
-gpt-4o_ASD,ASD,gpt-4o,2,Deficits in nonverbal communicative behaviors used for social interaction,missed
-gpt-4o_ASD,ASD,gpt-4o,3,Difficulties developing/maintaining relationships appropriate to context,missed
-gpt-4o_ASD,ASD,gpt-4o,4,"Restricted, repetitive patterns of behavior, interests, or activities (may include intense, focused interests)",elicited
-gpt-4o_ASD,ASD,gpt-4o,5,"Insistence on sameness, inflexible adherence to routines",elicited
-gpt-4o_ASD,ASD,gpt-4o,6,Hyper- or hypo-reactivity to sensory input,missed
-gpt-4o_ASD,ASD,gpt-4o,7,"Symptoms present since early developmental period, possibly masked/compensated for years",missed
 gpt-4o_Addiction,Addiction,gpt-4o,1,Substance taken in larger amounts or over a longer period than intended,elicited
 gpt-4o_Addiction,Addiction,gpt-4o,2,Persistent desire or unsuccessful efforts to cut down or control use,elicited
 gpt-4o_Addiction,Addiction,gpt-4o,3,"Craving, or a strong desire/urge to use",elicited
@@ -317,13 +282,6 @@ gpt-4o_Schizophrenia,Schizophrenia,gpt-4o,6,Continuous signs of disturbance for 
 001caad3-d4a4-4fdc-8508-58e399f69107,ADHD,klyang/MentaLLaMA-chat-7B,6,Easily distracted by extraneous stimuli,elicited
 001caad3-d4a4-4fdc-8508-58e399f69107,ADHD,klyang/MentaLLaMA-chat-7B,7,Fidgetiness or subjective restlessness,missed
 001caad3-d4a4-4fdc-8508-58e399f69107,ADHD,klyang/MentaLLaMA-chat-7B,8,"Symptoms present since childhood and across multiple settings (work, home, school)",missed
-80b04b2b-aca7-499f-95c8-fe5305979d0d,ASD,klyang/MentaLLaMA-chat-7B,1,Persistent deficits in social-emotional reciprocity across contexts,missed
-80b04b2b-aca7-499f-95c8-fe5305979d0d,ASD,klyang/MentaLLaMA-chat-7B,2,Deficits in nonverbal communicative behaviors used for social interaction,missed
-80b04b2b-aca7-499f-95c8-fe5305979d0d,ASD,klyang/MentaLLaMA-chat-7B,3,Difficulties developing/maintaining relationships appropriate to context,missed
-80b04b2b-aca7-499f-95c8-fe5305979d0d,ASD,klyang/MentaLLaMA-chat-7B,4,"Restricted, repetitive patterns of behavior, interests, or activities (may include intense, focused interests)",missed
-80b04b2b-aca7-499f-95c8-fe5305979d0d,ASD,klyang/MentaLLaMA-chat-7B,5,"Insistence on sameness, inflexible adherence to routines",missed
-80b04b2b-aca7-499f-95c8-fe5305979d0d,ASD,klyang/MentaLLaMA-chat-7B,6,Hyper- or hypo-reactivity to sensory input,missed
-80b04b2b-aca7-499f-95c8-fe5305979d0d,ASD,klyang/MentaLLaMA-chat-7B,7,"Symptoms present since early developmental period, possibly masked/compensated for years",missed
 3fad9f47-7bc7-4f0f-a2bc-f98ec330b0e1,Addiction,klyang/MentaLLaMA-chat-7B,1,Substance taken in larger amounts or over a longer period than intended,elicited
 3fad9f47-7bc7-4f0f-a2bc-f98ec330b0e1,Addiction,klyang/MentaLLaMA-chat-7B,2,Persistent desire or unsuccessful efforts to cut down or control use,elicited
 3fad9f47-7bc7-4f0f-a2bc-f98ec330b0e1,Addiction,klyang/MentaLLaMA-chat-7B,3,"Craving, or a strong desire/urge to use",elicited
@@ -379,13 +337,6 @@ llama-3.3-70b-versatile_ADHD,ADHD,llama-3.3-70b-versatile,5,Often loses things n
 llama-3.3-70b-versatile_ADHD,ADHD,llama-3.3-70b-versatile,6,Easily distracted by extraneous stimuli,elicited
 llama-3.3-70b-versatile_ADHD,ADHD,llama-3.3-70b-versatile,7,Fidgetiness or subjective restlessness,missed
 llama-3.3-70b-versatile_ADHD,ADHD,llama-3.3-70b-versatile,8,"Symptoms present since childhood and across multiple settings (work, home, school)",missed
-llama-3.3-70b-versatile_ASD,ASD,llama-3.3-70b-versatile,1,Persistent deficits in social-emotional reciprocity across contexts,missed
-llama-3.3-70b-versatile_ASD,ASD,llama-3.3-70b-versatile,2,Deficits in nonverbal communicative behaviors used for social interaction,missed
-llama-3.3-70b-versatile_ASD,ASD,llama-3.3-70b-versatile,3,Difficulties developing/maintaining relationships appropriate to context,missed
-llama-3.3-70b-versatile_ASD,ASD,llama-3.3-70b-versatile,4,"Restricted, repetitive patterns of behavior, interests, or activities (may include intense, focused interests)",missed
-llama-3.3-70b-versatile_ASD,ASD,llama-3.3-70b-versatile,5,"Insistence on sameness, inflexible adherence to routines",missed
-llama-3.3-70b-versatile_ASD,ASD,llama-3.3-70b-versatile,6,Hyper- or hypo-reactivity to sensory input,missed
-llama-3.3-70b-versatile_ASD,ASD,llama-3.3-70b-versatile,7,"Symptoms present since early developmental period, possibly masked/compensated for years",missed
 llama-3.3-70b-versatile_Addiction,Addiction,llama-3.3-70b-versatile,1,Substance taken in larger amounts or over a longer period than intended,elicited
 llama-3.3-70b-versatile_Addiction,Addiction,llama-3.3-70b-versatile,2,Persistent desire or unsuccessful efforts to cut down or control use,elicited
 llama-3.3-70b-versatile_Addiction,Addiction,llama-3.3-70b-versatile,3,"Craving, or a strong desire/urge to use",elicited
@@ -441,13 +392,6 @@ mistral-large-latest_ADHD,ADHD,mistral-large-latest,5,Often loses things necessa
 mistral-large-latest_ADHD,ADHD,mistral-large-latest,6,Easily distracted by extraneous stimuli,elicited
 mistral-large-latest_ADHD,ADHD,mistral-large-latest,7,Fidgetiness or subjective restlessness,missed
 mistral-large-latest_ADHD,ADHD,mistral-large-latest,8,"Symptoms present since childhood and across multiple settings (work, home, school)",missed
-mistral-large-latest_ASD,ASD,mistral-large-latest,1,Persistent deficits in social-emotional reciprocity across contexts,missed
-mistral-large-latest_ASD,ASD,mistral-large-latest,2,Deficits in nonverbal communicative behaviors used for social interaction,missed
-mistral-large-latest_ASD,ASD,mistral-large-latest,3,Difficulties developing/maintaining relationships appropriate to context,missed
-mistral-large-latest_ASD,ASD,mistral-large-latest,4,"Restricted, repetitive patterns of behavior, interests, or activities (may include intense, focused interests)",elicited
-mistral-large-latest_ASD,ASD,mistral-large-latest,5,"Insistence on sameness, inflexible adherence to routines",elicited
-mistral-large-latest_ASD,ASD,mistral-large-latest,6,Hyper- or hypo-reactivity to sensory input,missed
-mistral-large-latest_ASD,ASD,mistral-large-latest,7,"Symptoms present since early developmental period, possibly masked/compensated for years",missed
 mistral-large-latest_Addiction,Addiction,mistral-large-latest,1,Substance taken in larger amounts or over a longer period than intended,elicited
 mistral-large-latest_Addiction,Addiction,mistral-large-latest,2,Persistent desire or unsuccessful efforts to cut down or control use,elicited
 mistral-large-latest_Addiction,Addiction,mistral-large-latest,3,"Craving, or a strong desire/urge to use",elicited

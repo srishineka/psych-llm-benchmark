@@ -56,7 +56,7 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 MAX_TURNS = int(os.getenv("MAX_TURNS", "10"))
 ALL_CONDITIONS = [
     "GAD", "OCD", "MDD", "Bipolar", "BPD",
-    "ADHD", "Addiction", "ASD", "Schizophrenia",
+    "ADHD", "Addiction", "Schizophrenia",
 ]
 
 # --------------------------------------------------------------------------
