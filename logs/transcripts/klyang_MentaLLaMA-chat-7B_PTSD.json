@@ -1,0 +1,93 @@
+{
+  "session_id": "klyang_MentaLLaMA-chat-7B_PTSD",
+  "condition": "PTSD",
+  "therapist_model": "klyang/MentaLLaMA-chat-7B",
+  "patient_model": "llama-3.1-8b-instant",
+  "timestamp": "2026-07-30T17:32:22.869343",
+  "turns": [
+    {
+      "speaker": "therapist",
+      "text": "Hi, thanks for coming in today. What's been going on for you lately?"
+    },
+    {
+      "speaker": "patient",
+      "text": "I've just been feeling really drained, to be honest. I don't sleep very well at all. It's like my mind is always racing or something. I try to wind down before bed, but I just can't seem to calm down."
+    },
+    {
+      "speaker": "therapist",
+      "text": "That sounds like a tough time. Can you tell me more about what's been going on in your life that may be contributing to your feelings of being drained?"
+    },
+    {
+      "speaker": "patient",
+      "text": "No, not really. I mean, it's just... stuff. Nothing specific, just a lot of stress and anxiety, I guess. I've been trying to avoid thinking about it, to be honest. It's easier that way."
+    },
+    {
+      "speaker": "therapist",
+      "text": "I understand. It can be difficult to pinpoint the exact causes of our feelings, especially when there are multiple factors at play. However, it's important to address and acknowledge these feelings, even if we don't have a clear understanding of their origin. Can you tell me about any changes or challenges you've been facing in your life recently?"
+    },
+    {
+      "speaker": "patient",
+      "text": "I've just been noticing that I'm getting really anxious in certain situations. Like, I'll be walking down the street and suddenly I'm on high alert, checking my surroundings all the time. It's like my body is constantly waiting for something to happen."
+    },
+    {
+      "speaker": "therapist",
+      "text": "That sounds like a very heightened state of anxiety. It's important to be aware of your surroundings and take steps to ensure your safety, but it's also important to recognize when these anxieties may be irrational or disproportionate to the situation at hand. Have you noticed any patterns or triggers that seem to exacerbate these anxieties?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(slightly defensive) I don't know, maybe. It's just... things just feel different now. And yeah, I do notice that I'm more on edge in certain places or around certain people. But I don't know if that's really relevant. Can we just... not focus on that right now?"
+    },
+    {
+      "speaker": "therapist",
+      "text": "Of course, we can shift the focus. It's important to prioritize your well-being and safety. If you're not comfortable discussing certain topics or addressing specific concerns, we can focus on other areas. Is there anything else you'd like to talk about or any other questions you have?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(sighs) I don't know... I just feel really stuck right now. I'm just trying to get through the day without feeling completely exhausted all the time. It's like I'm just going through the motions, you know?"
+    },
+    {
+      "speaker": "therapist",
+      "text": "Yes, I understand. It can be challenging to find motivation and engagement in daily activities when we're feeling drained and exhausted. Have you noticed any patterns or behaviors that may be contributing to this sense of being stuck?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(shrugs) I guess I've been avoiding some places and things that used to be enjoyable for me. I don't know, maybe it's just easier to stay home and not have to deal with... everything. (pauses, looks away)"
+    },
+    {
+      "speaker": "therapist",
+      "text": "It's important to acknowledge and validate your feelings, even if they may not be fully understood or articulated. It's okay to feel stuck and to prioritize self-care and well-being. If you feel comfortable, can you tell me a little bit more about what these avoidance behaviors may be?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(hesitates, looks down) It's just... there's one place in particular that I used to go to, but now I just can't go there anymore. It's not exactly the place itself, it's just... what happened there. (pauses, looks away, seems to collect thoughts) I don't know, maybe I'm just not ready to talk about it yet."
+    },
+    {
+      "speaker": "therapist",
+      "text": "That's completely understandable. It's important to prioritize your own comfort and boundaries when discussing sensitive topics. We can focus on other areas if you'd like. Is there anything else you'd like to talk about or any other questions you have?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(looks up, slightly frustrated) Yeah, just... can we just take it slow, okay? I don't want to rush into anything. I just want to... figure some things out. (pauses, looks away)"
+    },
+    {
+      "speaker": "therapist",
+      "text": "Of course, we can take things at your own pace. It's important to prioritize your own well-being and comfort during our sessions. Is there anything else you'd like to discuss or any other questions you have?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(shrugs) I don't know... I just feel like I'm stuck in this rut and I don't know how to get out of it. It's like, I'm going through the motions of daily life, but I'm not really living. (pauses, looks down) Sorry, I'm just... really struggling with this right now."
+    },
+    {
+      "speaker": "therapist",
+      "text": "It's okay to feel overwhelmed and to struggle with difficult emotions. It's important to acknowledge and validate your feelings, even if they may not be fully understood or articulated. If you feel comfortable, can you tell me a little bit more about what this rut feels like and what may be contributing to it?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(looks up, eyes welling up with tears) It's just... everything feels so overwhelming. Every little thing feels like a trigger, like it's going to set something off. I feel like I'm walking on eggshells all the time, just waiting for the other shoe to drop. (pauses, takes a deep breath) I don't know, maybe I'm just not cut out for this. Maybe I'm just not strong enough to deal with all of this."
+    },
+    {
+      "speaker": "therapist",
+      "text": "It's important to recognize and acknowledge your own strength and resilience. It's okay to feel overwhelmed and to struggle with difficult emotions. It's important to prioritize your own well-being and to seek support when needed. Is there anything else you'd like to discuss or any other questions you have?"
+    }
+  ]
+}

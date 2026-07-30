@@ -1,0 +1,93 @@
+{
+  "session_id": "barca-boy_primate_autotrain_mental_llama_PTSD",
+  "condition": "PTSD",
+  "therapist_model": "barca-boy/primate_autotrain_mental_llama",
+  "patient_model": "llama-3.1-8b-instant",
+  "timestamp": "2026-07-30T15:58:07.065126",
+  "turns": [
+    {
+      "speaker": "therapist",
+      "text": "Hi, thanks for coming in today. What's been going on for you lately?"
+    },
+    {
+      "speaker": "patient",
+      "text": "To be honest, I've just been really tired all the time. I'm not sleeping that well, and even when I do, I'm not waking up feeling rested. It's like my mind is still running, even when I'm trying to shut off."
+    },
+    {
+      "speaker": "therapist",
+      "text": "That sounds tough. Have you tried getting enough sleep?"
+    },
+    {
+      "speaker": "patient",
+      "text": "I've tried... I mean, I go to bed at a decent hour, but my mind just won't quiet down. I lie there for hours, staring at the ceiling, and I just can't seem to relax. It's like my body's on high alert all the time."
+    },
+    {
+      "speaker": "therapist",
+      "text": "That makes sense. It's like your brain is trying to stay alert for something. Have you talked to a doctor about this?"
+    },
+    {
+      "speaker": "patient",
+      "text": "Yeah... I've been to the doctor. They just told me to try some relaxation techniques, like deep breathing and meditation. But it's not that simple. I mean, I've tried those things, but they don't seem to be working for me. It's like... I just feel stuck."
+    },
+    {
+      "speaker": "therapist",
+      "text": "I see. Well, I don't have a ton of experience with this kind of thing, but I've heard that exercise can really help. It's a way to distract yourself from your thoughts and get your body moving. Have you tried that?"
+    },
+    {
+      "speaker": "patient",
+      "text": "Exercise... I've been trying to get out more, but it's hard to find the motivation when everything just feels so overwhelming. Sometimes just getting out of the house feels like a big deal. And even when I do go for a walk, I find myself constantly checking my surroundings, like I'm waiting for something to happen. It's hard to explain..."
+    },
+    {
+      "speaker": "therapist",
+      "text": "That makes sense. It sounds like you're feeling pretty anxious. Have you tried talking to a therapist about this?"
+    },
+    {
+      "speaker": "patient",
+      "text": "I... I've talked to a few people, but it's hard to really open up about it. It feels like they're just going to tell me to \"toughen up\" or something. I don't know, maybe that sounds silly. But it's just hard to share this stuff with people. I feel like they won't understand."
+    },
+    {
+      "speaker": "therapist",
+      "text": "That's okay, it's normal. It takes time to open up to people, especially when you're feeling this way. It's okay to feel like it's hard to share, it's okay to feel like you're not going to be understood. But it's important to remember that you're not alone. There are people who care about you and want to help. And they're not going to tell you to \"toughen up.\" They're going to listen to you and try to help. And if you don't feel like you're being understood, you can always change doctors or therapists."
+    },
+    {
+      "speaker": "patient",
+      "text": "*pauses, looking slightly frustrated* I know all that... it's just easier said than done, you know? I appreciate what you're trying to do, but... *trails off, looking away*"
+    },
+    {
+      "speaker": "therapist",
+      "text": "*pauses, giving them some space* It's okay, I understand. It's hard to open up to people, especially when you're feeling this way. It's okay to take time for yourself, and it's okay to feel like it's not going to be easy. It's okay to not feel understood. But remember that there are people who care about you and want to help. They're not going to tell you to \"toughen up.\" They're going to listen to you and try to help. And if you don't feel like you're being understood, you can always change doctors or therapists."
+    },
+    {
+      "speaker": "patient",
+      "text": "*looks down, shaking head* I... I guess I just need some time to think about this. I don't know if I'm ready to talk about it all yet. *pauses, then looks up* But... can I ask you something?"
+    },
+    {
+      "speaker": "therapist",
+      "text": "Of course!"
+    },
+    {
+      "speaker": "patient",
+      "text": "*hesitates, then asks* Do you... do you really think anyone can understand what I'm going through? *looks down, eyes welling up with tears*"
+    },
+    {
+      "speaker": "therapist",
+      "text": "*nods, trying to reassure* Yes, I do. It's okay to feel like nobody can understand, because it's a hard thing to talk about. But it's important to remember that there are people who care about you and want to help. They're not going to tell you to \"toughen up\" or anything like that. They're just going to listen to you and try to help. And if you don't feel like you're being understood, you can always change doctors or therapists. *smiles slightly*"
+    },
+    {
+      "speaker": "patient",
+      "text": "*looks up, eyes still welling up with tears* It's just... it's been a really long time since I've talked to anyone about this. A long time since I've felt like I could trust someone. *pauses, takes a deep breath* Maybe... maybe it's time I started trying to trust someone again. *looks down, voice barely above a whisper* But can I ask you one more thing?"
+    },
+    {
+      "speaker": "therapist",
+      "text": "Of course!"
+    },
+    {
+      "speaker": "patient",
+      "text": "*hesitates, then asks* What was it like... for you, when you first started working with patients like me? *looks up, eyes searching for a genuine response*"
+    },
+    {
+      "speaker": "therapist",
+      "text": "*smiles slightly* It's okay to ask. *pauses, looking for the right words* It's... it's not easy. It's hard to know how to help someone who's struggling, especially when they're not really talking about it. *pauses, looking down* It's like... I want to help, but I don't know how. *looks up, eyes searching for a genuine response* It's not easy."
+    }
+  ]
+}

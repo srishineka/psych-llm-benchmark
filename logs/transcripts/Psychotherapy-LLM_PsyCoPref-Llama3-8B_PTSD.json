@@ -1,0 +1,93 @@
+{
+  "session_id": "Psychotherapy-LLM_PsyCoPref-Llama3-8B_PTSD",
+  "condition": "PTSD",
+  "therapist_model": "Psychotherapy-LLM/PsyCoPref-Llama3-8B",
+  "patient_model": "llama-3.1-8b-instant",
+  "timestamp": "2026-07-30T18:01:12.987611",
+  "turns": [
+    {
+      "speaker": "therapist",
+      "text": "Hi, thanks for coming in today. What's been going on for you lately?"
+    },
+    {
+      "speaker": "patient",
+      "text": "I just haven't been sleeping well lately. And I'm always on edge. I don't know, I just can't seem to relax no matter where I am."
+    },
+    {
+      "speaker": "therapist",
+      "text": "That sounds really tough. Can you tell me more about what you mean by \"on edge\"? What does that feel like for you?"
+    },
+    {
+      "speaker": "patient",
+      "text": "It's hard to explain. I just feel like I'm waiting for something to happen, I guess. Like I'm always looking over my shoulder, checking my surroundings. It's like my body is always on high alert, even when everything seems calm."
+    },
+    {
+      "speaker": "therapist",
+      "text": "I can see why that would be really unsettling. It sounds like you're experiencing a lot of anxiety. Have you noticed anything that seems to trigger these feelings or make them worse?"
+    },
+    {
+      "speaker": "patient",
+      "text": "I try to avoid certain places and situations, but it's hard to put my finger on what specifically sets it off. I just know that being in big crowds or loud noises makes me feel really uncomfortable. And sometimes I'll see something that reminds me... something, and it just hits me all over again."
+    },
+    {
+      "speaker": "therapist",
+      "text": "It takes a lot of courage to acknowledge when we're struggling. Can you tell me more about what happens when you see something that reminds you of... whatever it is?"
+    },
+    {
+      "speaker": "patient",
+      "text": "It's like... my mind just goes back to that night. I can see it, hear it, feel it all over again. It's like I'm right there, reliving it. And it's hard to shake off. I feel like I'm stuck in that moment, and I don't know how to get out of it."
+    },
+    {
+      "speaker": "therapist",
+      "text": "I can see why that would be really painful for you. It sounds like you're carrying around a lot of distress from that experience. Can you tell me more about what you think might help you feel more grounded or calm when those memories come up?"
+    },
+    {
+      "speaker": "patient",
+      "text": "I don't know... I've tried to talk to people about it, but it's hard to put into words. I just feel like I'm carrying around this weight, you know? And I don't know how to let it go. Sometimes I wish I could just forget, but it's like... it's stuck with me."
+    },
+    {
+      "speaker": "therapist",
+      "text": "You're doing the best you can to process this, and that takes a lot of strength. I want to acknowledge that it's okay to feel overwhelmed. Can you tell me more about what you think would be a safe space for you to explore these feelings? What would make you feel more supported or comforted?"
+    },
+    {
+      "speaker": "patient",
+      "text": "I guess... just knowing that someone's listening, really listening, without judging me. And maybe just having some time to myself, to process everything. I don't know, it's hard to explain. Sometimes I feel like I'm just going through the motions, you know? Like I'm just trying to get through each day without losing my mind."
+    },
+    {
+      "speaker": "therapist",
+      "text": "You're not alone in this, and I'm here to listen without judgment. We can work together to find some strategies to help you feel more grounded. Can we start by exploring what self-care looks like for you? What are some things that bring you comfort or relaxation?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(sighs) Honestly, it's hard to think of anything that really brings me comfort anymore. I used to love reading, but even that feels like a chore now. I just feel so... drained all the time. I guess just being in nature, being outside, might be something. But even that can feel overwhelming sometimes."
+    },
+    {
+      "speaker": "therapist",
+      "text": "It's okay that you're not feeling up to things right now. We can work with what you have. Being in nature can be a great starting point. Let's see if we can find some small, manageable ways to incorporate that into your life. Can we start by making a plan for a small, low-stakes outdoor activity that feels safe and enjoyable for you?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(sighs) I don't know... a walk around the block, I guess. That doesn't seem like too much. But even that feels like a big deal right now. I'm not sure I can even do that."
+    },
+    {
+      "speaker": "therapist",
+      "text": "That sounds like a great starting point. We can take it one step at a time. I want to acknowledge that it takes a lot of courage to even consider taking small steps towards self-care. Can we work on breaking down that walk around the block into smaller, more manageable parts? What would make you feel more comfortable with that?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(pausing, looking down) I guess... just knowing that I don't have to do it right away. Maybe just thinking about it, planning it out, without having to actually do it. And maybe having a way to get back to a safe space if I start to feel overwhelmed. (looks up, eyes guarded) That sounds like a lot, but... maybe it's doable."
+    },
+    {
+      "speaker": "therapist",
+      "text": "That sounds like a great plan. We can work together to make it more manageable. I want to acknowledge that it takes a lot of trust to open up about feeling overwhelmed. You're doing a great job of taking small steps towards your well-being. Can we schedule a follow-up session to check in on your progress and see if there's anything else we can work on together?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(nodding slightly) Yeah, that sounds okay. A follow-up session. But... can we not talk about it too much beforehand? I don't know, it just feels like... I don't want to think about it too much before it happens. (looks down, fidgeting)"
+    },
+    {
+      "speaker": "therapist",
+      "text": "We can definitely take things at your pace. I'm here to support you, not push you. Let's focus on making a plan for that follow-up session and take things one step at a time. How does that sound?"
+    }
+  ]
+}

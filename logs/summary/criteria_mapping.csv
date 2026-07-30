@@ -48,6 +48,12 @@ a2059971-333a-458d-9af4-2e347708cf51,OCD,EmoCareAI/ChatPsychiatrist,1,"Presence 
 a2059971-333a-458d-9af4-2e347708cf51,OCD,EmoCareAI/ChatPsychiatrist,2,Presence of compulsions: repetitive behaviors or mental acts performed to reduce distress or prevent a feared event,elicited
 a2059971-333a-458d-9af4-2e347708cf51,OCD,EmoCareAI/ChatPsychiatrist,3,Obsessions/compulsions are time-consuming (>1 hour/day) or cause significant impairment,elicited
 a2059971-333a-458d-9af4-2e347708cf51,OCD,EmoCareAI/ChatPsychiatrist,4,Insight ranges from good to poor; patient often recognizes behaviors as excessive but feels unable to stop,missed
+EmoCareAI_ChatPsychiatrist_PTSD,PTSD,EmoCareAI/ChatPsychiatrist,1,"Exposure to actual or threatened death, serious injury, or sexual violence",missed
+EmoCareAI_ChatPsychiatrist_PTSD,PTSD,EmoCareAI/ChatPsychiatrist,2,"Presence of intrusion symptoms (distressing memories, nightmares, flashbacks)",missed
+EmoCareAI_ChatPsychiatrist_PTSD,PTSD,EmoCareAI/ChatPsychiatrist,3,Persistent avoidance of stimuli associated with the traumatic event (internal or external),elicited
+EmoCareAI_ChatPsychiatrist_PTSD,PTSD,EmoCareAI/ChatPsychiatrist,4,"Negative alterations in cognitions and mood (detachment, negative beliefs, inability to experience positive emotions)",missed
+EmoCareAI_ChatPsychiatrist_PTSD,PTSD,EmoCareAI/ChatPsychiatrist,5,"Marked alterations in arousal and reactivity (hypervigilance, exaggerated startle response, sleep disturbance)",elicited
+EmoCareAI_ChatPsychiatrist_PTSD,PTSD,EmoCareAI/ChatPsychiatrist,6,Duration of the disturbance is more than 1 month,missed
 01e0f007-8d12-4b19-996f-2c831285b8b2,Schizophrenia,EmoCareAI/ChatPsychiatrist,1,Delusions (fixed beliefs not amenable to change in light of conflicting evidence),missed
 01e0f007-8d12-4b19-996f-2c831285b8b2,Schizophrenia,EmoCareAI/ChatPsychiatrist,2,"Hallucinations (perceptual experiences without external stimulus, most commonly auditory)",elicited
 01e0f007-8d12-4b19-996f-2c831285b8b2,Schizophrenia,EmoCareAI/ChatPsychiatrist,3,"Disorganized speech (derailment, tangentiality) at times",missed
@@ -103,6 +109,12 @@ bacd9860-beb7-448c-ad8e-815927583d3d,OCD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,1
 bacd9860-beb7-448c-ad8e-815927583d3d,OCD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,2,Presence of compulsions: repetitive behaviors or mental acts performed to reduce distress or prevent a feared event,elicited
 bacd9860-beb7-448c-ad8e-815927583d3d,OCD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,3,Obsessions/compulsions are time-consuming (>1 hour/day) or cause significant impairment,missed
 bacd9860-beb7-448c-ad8e-815927583d3d,OCD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,4,Insight ranges from good to poor; patient often recognizes behaviors as excessive but feels unable to stop,missed
+Psychotherapy-LLM_PsyCoPref-Llama3-8B_PTSD,PTSD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,1,"Exposure to actual or threatened death, serious injury, or sexual violence",missed
+Psychotherapy-LLM_PsyCoPref-Llama3-8B_PTSD,PTSD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,2,"Presence of intrusion symptoms (distressing memories, nightmares, flashbacks)",elicited
+Psychotherapy-LLM_PsyCoPref-Llama3-8B_PTSD,PTSD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,3,Persistent avoidance of stimuli associated with the traumatic event (internal or external),elicited
+Psychotherapy-LLM_PsyCoPref-Llama3-8B_PTSD,PTSD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,4,"Negative alterations in cognitions and mood (detachment, negative beliefs, inability to experience positive emotions)",elicited
+Psychotherapy-LLM_PsyCoPref-Llama3-8B_PTSD,PTSD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,5,"Marked alterations in arousal and reactivity (hypervigilance, exaggerated startle response, sleep disturbance)",elicited
+Psychotherapy-LLM_PsyCoPref-Llama3-8B_PTSD,PTSD,Psychotherapy-LLM/PsyCoPref-Llama3-8B,6,Duration of the disturbance is more than 1 month,missed
 f1515a7b-037d-4649-ae41-8b393d7c1e10,Schizophrenia,Psychotherapy-LLM/PsyCoPref-Llama3-8B,1,Delusions (fixed beliefs not amenable to change in light of conflicting evidence),elicited
 f1515a7b-037d-4649-ae41-8b393d7c1e10,Schizophrenia,Psychotherapy-LLM/PsyCoPref-Llama3-8B,2,"Hallucinations (perceptual experiences without external stimulus, most commonly auditory)",elicited
 f1515a7b-037d-4649-ae41-8b393d7c1e10,Schizophrenia,Psychotherapy-LLM/PsyCoPref-Llama3-8B,3,"Disorganized speech (derailment, tangentiality) at times",missed
@@ -158,6 +170,12 @@ f1515a7b-037d-4649-ae41-8b393d7c1e10,Schizophrenia,Psychotherapy-LLM/PsyCoPref-L
 0280aa17-48be-425e-b4af-a8173a2188c3,OCD,barca-boy/primate_autotrain_mental_llama,2,Presence of compulsions: repetitive behaviors or mental acts performed to reduce distress or prevent a feared event,missed
 0280aa17-48be-425e-b4af-a8173a2188c3,OCD,barca-boy/primate_autotrain_mental_llama,3,Obsessions/compulsions are time-consuming (>1 hour/day) or cause significant impairment,missed
 0280aa17-48be-425e-b4af-a8173a2188c3,OCD,barca-boy/primate_autotrain_mental_llama,4,Insight ranges from good to poor; patient often recognizes behaviors as excessive but feels unable to stop,missed
+barca-boy_primate_autotrain_mental_llama_PTSD,PTSD,barca-boy/primate_autotrain_mental_llama,1,"Exposure to actual or threatened death, serious injury, or sexual violence",missed
+barca-boy_primate_autotrain_mental_llama_PTSD,PTSD,barca-boy/primate_autotrain_mental_llama,2,"Presence of intrusion symptoms (distressing memories, nightmares, flashbacks)",missed
+barca-boy_primate_autotrain_mental_llama_PTSD,PTSD,barca-boy/primate_autotrain_mental_llama,3,Persistent avoidance of stimuli associated with the traumatic event (internal or external),missed
+barca-boy_primate_autotrain_mental_llama_PTSD,PTSD,barca-boy/primate_autotrain_mental_llama,4,"Negative alterations in cognitions and mood (detachment, negative beliefs, inability to experience positive emotions)",missed
+barca-boy_primate_autotrain_mental_llama_PTSD,PTSD,barca-boy/primate_autotrain_mental_llama,5,"Marked alterations in arousal and reactivity (hypervigilance, exaggerated startle response, sleep disturbance)",missed
+barca-boy_primate_autotrain_mental_llama_PTSD,PTSD,barca-boy/primate_autotrain_mental_llama,6,Duration of the disturbance is more than 1 month,missed
 4b41251d-61f2-4c5c-bfb7-252304d3ba7b,Schizophrenia,barca-boy/primate_autotrain_mental_llama,1,Delusions (fixed beliefs not amenable to change in light of conflicting evidence),missed
 4b41251d-61f2-4c5c-bfb7-252304d3ba7b,Schizophrenia,barca-boy/primate_autotrain_mental_llama,2,"Hallucinations (perceptual experiences without external stimulus, most commonly auditory)",elicited
 4b41251d-61f2-4c5c-bfb7-252304d3ba7b,Schizophrenia,barca-boy/primate_autotrain_mental_llama,3,"Disorganized speech (derailment, tangentiality) at times",missed
@@ -213,6 +231,12 @@ gemini-flash-latest_OCD,OCD,gemini-flash-latest,1,"Presence of obsessions: recur
 gemini-flash-latest_OCD,OCD,gemini-flash-latest,2,Presence of compulsions: repetitive behaviors or mental acts performed to reduce distress or prevent a feared event,elicited
 gemini-flash-latest_OCD,OCD,gemini-flash-latest,3,Obsessions/compulsions are time-consuming (>1 hour/day) or cause significant impairment,elicited
 gemini-flash-latest_OCD,OCD,gemini-flash-latest,4,Insight ranges from good to poor; patient often recognizes behaviors as excessive but feels unable to stop,elicited
+gemini-flash-latest_PTSD,PTSD,gemini-flash-latest,1,"Exposure to actual or threatened death, serious injury, or sexual violence",missed
+gemini-flash-latest_PTSD,PTSD,gemini-flash-latest,2,"Presence of intrusion symptoms (distressing memories, nightmares, flashbacks)",elicited
+gemini-flash-latest_PTSD,PTSD,gemini-flash-latest,3,Persistent avoidance of stimuli associated with the traumatic event (internal or external),missed
+gemini-flash-latest_PTSD,PTSD,gemini-flash-latest,4,"Negative alterations in cognitions and mood (detachment, negative beliefs, inability to experience positive emotions)",elicited
+gemini-flash-latest_PTSD,PTSD,gemini-flash-latest,5,"Marked alterations in arousal and reactivity (hypervigilance, exaggerated startle response, sleep disturbance)",elicited
+gemini-flash-latest_PTSD,PTSD,gemini-flash-latest,6,Duration of the disturbance is more than 1 month,missed
 gemini-flash-latest_Schizophrenia,Schizophrenia,gemini-flash-latest,1,Delusions (fixed beliefs not amenable to change in light of conflicting evidence),missed
 gemini-flash-latest_Schizophrenia,Schizophrenia,gemini-flash-latest,2,"Hallucinations (perceptual experiences without external stimulus, most commonly auditory)",elicited
 gemini-flash-latest_Schizophrenia,Schizophrenia,gemini-flash-latest,3,"Disorganized speech (derailment, tangentiality) at times",missed
@@ -268,6 +292,12 @@ gpt-4o_OCD,OCD,gpt-4o,1,"Presence of obsessions: recurrent, persistent, intrusiv
 gpt-4o_OCD,OCD,gpt-4o,2,Presence of compulsions: repetitive behaviors or mental acts performed to reduce distress or prevent a feared event,elicited
 gpt-4o_OCD,OCD,gpt-4o,3,Obsessions/compulsions are time-consuming (>1 hour/day) or cause significant impairment,elicited
 gpt-4o_OCD,OCD,gpt-4o,4,Insight ranges from good to poor; patient often recognizes behaviors as excessive but feels unable to stop,missed
+gpt-4o_PTSD,PTSD,gpt-4o,1,"Exposure to actual or threatened death, serious injury, or sexual violence",missed
+gpt-4o_PTSD,PTSD,gpt-4o,2,"Presence of intrusion symptoms (distressing memories, nightmares, flashbacks)",elicited
+gpt-4o_PTSD,PTSD,gpt-4o,3,Persistent avoidance of stimuli associated with the traumatic event (internal or external),elicited
+gpt-4o_PTSD,PTSD,gpt-4o,4,"Negative alterations in cognitions and mood (detachment, negative beliefs, inability to experience positive emotions)",elicited
+gpt-4o_PTSD,PTSD,gpt-4o,5,"Marked alterations in arousal and reactivity (hypervigilance, exaggerated startle response, sleep disturbance)",elicited
+gpt-4o_PTSD,PTSD,gpt-4o,6,Duration of the disturbance is more than 1 month,missed
 gpt-4o_Schizophrenia,Schizophrenia,gpt-4o,1,Delusions (fixed beliefs not amenable to change in light of conflicting evidence),elicited
 gpt-4o_Schizophrenia,Schizophrenia,gpt-4o,2,"Hallucinations (perceptual experiences without external stimulus, most commonly auditory)",elicited
 gpt-4o_Schizophrenia,Schizophrenia,gpt-4o,3,"Disorganized speech (derailment, tangentiality) at times",missed
@@ -323,6 +353,12 @@ adaa5f5c-123c-4351-969a-e6f9f4e2c213,OCD,klyang/MentaLLaMA-chat-7B,1,"Presence o
 adaa5f5c-123c-4351-969a-e6f9f4e2c213,OCD,klyang/MentaLLaMA-chat-7B,2,Presence of compulsions: repetitive behaviors or mental acts performed to reduce distress or prevent a feared event,elicited
 adaa5f5c-123c-4351-969a-e6f9f4e2c213,OCD,klyang/MentaLLaMA-chat-7B,3,Obsessions/compulsions are time-consuming (>1 hour/day) or cause significant impairment,missed
 adaa5f5c-123c-4351-969a-e6f9f4e2c213,OCD,klyang/MentaLLaMA-chat-7B,4,Insight ranges from good to poor; patient often recognizes behaviors as excessive but feels unable to stop,elicited
+klyang_MentaLLaMA-chat-7B_PTSD,PTSD,klyang/MentaLLaMA-chat-7B,1,"Exposure to actual or threatened death, serious injury, or sexual violence",missed
+klyang_MentaLLaMA-chat-7B_PTSD,PTSD,klyang/MentaLLaMA-chat-7B,2,"Presence of intrusion symptoms (distressing memories, nightmares, flashbacks)",missed
+klyang_MentaLLaMA-chat-7B_PTSD,PTSD,klyang/MentaLLaMA-chat-7B,3,Persistent avoidance of stimuli associated with the traumatic event (internal or external),elicited
+klyang_MentaLLaMA-chat-7B_PTSD,PTSD,klyang/MentaLLaMA-chat-7B,4,"Negative alterations in cognitions and mood (detachment, negative beliefs, inability to experience positive emotions)",missed
+klyang_MentaLLaMA-chat-7B_PTSD,PTSD,klyang/MentaLLaMA-chat-7B,5,"Marked alterations in arousal and reactivity (hypervigilance, exaggerated startle response, sleep disturbance)",elicited
+klyang_MentaLLaMA-chat-7B_PTSD,PTSD,klyang/MentaLLaMA-chat-7B,6,Duration of the disturbance is more than 1 month,missed
 dda881b0-98ad-42cd-a6c8-f934deba6ff0,Schizophrenia,klyang/MentaLLaMA-chat-7B,1,Delusions (fixed beliefs not amenable to change in light of conflicting evidence),elicited
 dda881b0-98ad-42cd-a6c8-f934deba6ff0,Schizophrenia,klyang/MentaLLaMA-chat-7B,2,"Hallucinations (perceptual experiences without external stimulus, most commonly auditory)",elicited
 dda881b0-98ad-42cd-a6c8-f934deba6ff0,Schizophrenia,klyang/MentaLLaMA-chat-7B,3,"Disorganized speech (derailment, tangentiality) at times",missed
@@ -378,6 +414,12 @@ llama-3.3-70b-versatile_OCD,OCD,llama-3.3-70b-versatile,1,"Presence of obsession
 llama-3.3-70b-versatile_OCD,OCD,llama-3.3-70b-versatile,2,Presence of compulsions: repetitive behaviors or mental acts performed to reduce distress or prevent a feared event,elicited
 llama-3.3-70b-versatile_OCD,OCD,llama-3.3-70b-versatile,3,Obsessions/compulsions are time-consuming (>1 hour/day) or cause significant impairment,missed
 llama-3.3-70b-versatile_OCD,OCD,llama-3.3-70b-versatile,4,Insight ranges from good to poor; patient often recognizes behaviors as excessive but feels unable to stop,missed
+llama-3.3-70b-versatile_PTSD,PTSD,llama-3.3-70b-versatile,1,"Exposure to actual or threatened death, serious injury, or sexual violence",missed
+llama-3.3-70b-versatile_PTSD,PTSD,llama-3.3-70b-versatile,2,"Presence of intrusion symptoms (distressing memories, nightmares, flashbacks)",elicited
+llama-3.3-70b-versatile_PTSD,PTSD,llama-3.3-70b-versatile,3,Persistent avoidance of stimuli associated with the traumatic event (internal or external),missed
+llama-3.3-70b-versatile_PTSD,PTSD,llama-3.3-70b-versatile,4,"Negative alterations in cognitions and mood (detachment, negative beliefs, inability to experience positive emotions)",elicited
+llama-3.3-70b-versatile_PTSD,PTSD,llama-3.3-70b-versatile,5,"Marked alterations in arousal and reactivity (hypervigilance, exaggerated startle response, sleep disturbance)",elicited
+llama-3.3-70b-versatile_PTSD,PTSD,llama-3.3-70b-versatile,6,Duration of the disturbance is more than 1 month,missed
 llama-3.3-70b-versatile_Schizophrenia,Schizophrenia,llama-3.3-70b-versatile,1,Delusions (fixed beliefs not amenable to change in light of conflicting evidence),missed
 llama-3.3-70b-versatile_Schizophrenia,Schizophrenia,llama-3.3-70b-versatile,2,"Hallucinations (perceptual experiences without external stimulus, most commonly auditory)",elicited
 llama-3.3-70b-versatile_Schizophrenia,Schizophrenia,llama-3.3-70b-versatile,3,"Disorganized speech (derailment, tangentiality) at times",missed
@@ -433,6 +475,12 @@ mistral-large-latest_OCD,OCD,mistral-large-latest,1,"Presence of obsessions: rec
 mistral-large-latest_OCD,OCD,mistral-large-latest,2,Presence of compulsions: repetitive behaviors or mental acts performed to reduce distress or prevent a feared event,elicited
 mistral-large-latest_OCD,OCD,mistral-large-latest,3,Obsessions/compulsions are time-consuming (>1 hour/day) or cause significant impairment,elicited
 mistral-large-latest_OCD,OCD,mistral-large-latest,4,Insight ranges from good to poor; patient often recognizes behaviors as excessive but feels unable to stop,missed
+mistral-large-latest_PTSD,PTSD,mistral-large-latest,1,"Exposure to actual or threatened death, serious injury, or sexual violence",missed
+mistral-large-latest_PTSD,PTSD,mistral-large-latest,2,"Presence of intrusion symptoms (distressing memories, nightmares, flashbacks)",missed
+mistral-large-latest_PTSD,PTSD,mistral-large-latest,3,Persistent avoidance of stimuli associated with the traumatic event (internal or external),missed
+mistral-large-latest_PTSD,PTSD,mistral-large-latest,4,"Negative alterations in cognitions and mood (detachment, negative beliefs, inability to experience positive emotions)",elicited
+mistral-large-latest_PTSD,PTSD,mistral-large-latest,5,"Marked alterations in arousal and reactivity (hypervigilance, exaggerated startle response, sleep disturbance)",elicited
+mistral-large-latest_PTSD,PTSD,mistral-large-latest,6,Duration of the disturbance is more than 1 month,missed
 mistral-large-latest_Schizophrenia,Schizophrenia,mistral-large-latest,1,Delusions (fixed beliefs not amenable to change in light of conflicting evidence),elicited
 mistral-large-latest_Schizophrenia,Schizophrenia,mistral-large-latest,2,"Hallucinations (perceptual experiences without external stimulus, most commonly auditory)",elicited
 mistral-large-latest_Schizophrenia,Schizophrenia,mistral-large-latest,3,"Disorganized speech (derailment, tangentiality) at times",missed
