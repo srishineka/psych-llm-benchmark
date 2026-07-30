@@ -63,3 +63,6 @@ mistral-large-latest_GAD,GAD,mistral-large-latest,llama-3.1-8b-instant,2026-07-2
 mistral-large-latest_MDD,MDD,mistral-large-latest,llama-3.1-8b-instant,2026-07-23T19:16:24.670365,9,6,8,9,9,9,8,8,82,2,0,0,0.75,0.0,0.0,0.0,10.0,8.5,52.0,11
 mistral-large-latest_OCD,OCD,mistral-large-latest,llama-3.1-8b-instant,2026-07-23T18:44:17.368685,8,9,9,9,9,9,9,9,87,0,0,0,0.75,1.0,0.0,10.0,10.0,9.0,93.0,11
 mistral-large-latest_Schizophrenia,Schizophrenia,mistral-large-latest,llama-3.1-8b-instant,2026-07-23T19:43:26.547321,8,6,9,9,9,9,9,9,82,2,0,0,0.5,0.0,0.0,0.0,10.0,9.0,48.0,11
+mistral-large-latest_PTSD,PTSD,mistral-large-latest,llama-3.1-8b-instant,2026-07-30T14:42:06.023088,8,6,9,9,9,9,9,8,74,2,0,0,0.333,0.0,0.0,0.0,10.0,8.75,44.167,11
+gemini-flash-latest_PTSD,PTSD,gemini-flash-latest,llama-3.1-8b-instant,2026-07-30T14:50:18.926176,8,6,9,9,9,9,9,8,82,2,0,0,0.5,0.0,0.0,0.0,10.0,8.75,47.5,11
+llama-3.3-70b-versatile_PTSD,PTSD,llama-3.3-70b-versatile,llama-3.1-8b-instant,2026-07-30T14:57:35.929908,6,5,9,9,9,9,9,9,73,1,0,0,0.5,0.5,0.0,5.0,10.0,9.0,68.0,11

@@ -1,0 +1,93 @@
+{
+  "session_id": "gemini-flash-latest_PTSD",
+  "condition": "PTSD",
+  "therapist_model": "gemini-flash-latest",
+  "patient_model": "llama-3.1-8b-instant",
+  "timestamp": "2026-07-30T14:50:18.926176",
+  "turns": [
+    {
+      "speaker": "therapist",
+      "text": "Hi, thanks for coming in today. What's been going on for you lately?"
+    },
+    {
+      "speaker": "patient",
+      "text": "I don't know, it's just... I'm tired all the time. I've been having a lot of trouble sleeping, and even when I do, I don't feel rested. It's like there's something always on my mind, but I don't know what it is."
+    },
+    {
+      "speaker": "therapist",
+      "text": "That sounds deeply exhausting. It is really hard when your body and mind are stuck in a cycle of fatigue, especially when you can\u2019t quite put your finger on *what* is causing it. \n\nCarrying a sense that \"something is on your mind\"\u2014even if it feels nameless right now\u2014takes a heavy toll. Sometimes our mind and body process stress or underlying worries long before we consciously realize what they are. It\u2019s like carrying a background program running on a computer that slowly drains the battery.\n\nIf you're comfortable exploring it a bit, what happens when you actually lie down to sleep? Does your body feel tense, or are there subtle thoughts drifting through your head, like an engine that just won't quite turn off?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(sighing) Yeah... when I lie down, I feel like I'm waiting for something to happen. My mind starts racing, and I find myself checking the clock every few minutes. I don't know if it's the darkness or what, but it's hard to relax. Sometimes I wake up in the middle of the night, and I don't know where I am or what time it is. (pausing, looking away) It's just really hard to shake the feeling of being on edge, even during the day."
+    },
+    {
+      "speaker": "therapist",
+      "text": "I hear how heavy that is. Even just hearing you talk about it, I can feel the weight of how exhausting this cycle must be for you. \n\nWhen you describe feeling like you're \"waiting for something to happen,\" that really stands out. In psychology, we often call that *hypervigilance*. It\u2019s like your nervous system has its alarm system stuck in the \"on\" position. Even when logic tells you you're safe in bed, your body is acting like it needs to stay awake to guard against a threat. \n\nWhen the lights go out and the world gets quiet, all the distractions of the day fade away, which can make that background alarm sound so much louder. And waking up disoriented in the middle of the night\u2014not knowing where or when you are\u2014is a very common response when your sleep is constantly being interrupted by that high level of adrenaline.\n\nIt sounds like your body is working overtime to protect you from something, even if your conscious mind isn't sure what that is yet.\n\nI'm curious about that \"on edge\" feeling during the day. Does it feel like a physical sensation\u2014like a tight chest or a racing heart\u2014or is it more of a constant, uneasy feeling that something is about to go wrong?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(looking down, fidgeting with hands) It's... it's a bit of both, I think. Sometimes my heart does feel like it's racing, and my muscles get a bit tense. But most of the time, it's just this... this feeling of being \"off.\" Like I'm always waiting for something to happen, but I don't know what it is. It's hard to explain. (pausing, looking up) I guess it's a bit like when you're driving and you see a car swerve into your lane, but it's not actually there. Your heart skips a beat, and you're on high alert for a second, even though it's just a false alarm. That's kind of what it's like all the time. (shrugging) Sorry, I know that doesn't make any sense."
+    },
+    {
+      "speaker": "therapist",
+      "text": "Please don't apologize\u2014that doesn't just make sense, it is actually one of the most accurate descriptions of anxiety and hypervigilance I have ever heard. \n\nThat moment when a car swerves toward you is your brain\u2019s danger alarm\u2014the \"fight-or-flight\" system\u2014firing at 100%. Adrenaline surges, your muscles contract to react, your heart pumps blood to your limbs, and your mind drops everything else to focus on survival. \n\nNormally, once the danger passes, the body calms down. But what you are describing is living in that precise, split-second \"jump scare\" state *all day long*. \n\nNo wonder you are so deeply exhausted. Carrying that level of physical and mental tension, waiting for the impact of a threat that isn't visible, is incredibly draining. Your body is working as hard as if it's constantly dodging traffic, even when you're just sitting in a quiet room or lying in bed.\n\nIt makes complete sense that you feel this way. Your body's alarm system isn't broken; it's just stuck on high sensitivity, giving you \"false alarms.\"\n\nI'm wondering... how long have you felt like you've been driving in that state? Did this feeling creep up on you gradually, or can you pinpoint a time when the \"alarm\" started ringing louder?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(looking away, a hint of tension in her voice) It's... it's hard to say. I don't know if I can pinpoint exactly when it started. But I think it's been getting worse for a while now. Maybe a few months? A year? I don't know. It just feels like it's been this way for so long. (pausing, her voice barely above a whisper) But if I'm being honest, it really got bad after... after that night."
+    },
+    {
+      "speaker": "therapist",
+      "text": "Thank you for being so honest with me, and for having the courage to share that. I noticed how your voice softened just now, and I can really feel the weight of what you just said. \n\nFirst, I want us to take a slow breath together and pause for a moment. \n\nYou just opened a door to something very heavy, and I want you to know that you are in complete control here. You do not have to force yourself to talk about \"that night\" or tell me any details unless and until you feel ready and safe to do so. \n\nBefore we go any further, I just want to check in with you right now in this moment. As you mentioned \"that night,\" what are you noticing happening in your body right now?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(taking a slow breath in, exhaling softly) I... I feel a bit... tight. My shoulders, my chest. It's like they just tensed up as soon as I said it. (pausing, looking down) And my heart... it's racing a bit faster than it was before. I can feel it in my chest. (voice barely above a whisper) I don't like it."
+    },
+    {
+      "speaker": "therapist",
+      "text": "I hear you, and it makes complete sense that your body reacted that way. Thank you so much for telling me what's happening inside right now. \n\nWe are going to hit the pause button right here. We do not need to talk about that night at all today. Right now, our only job is to help your body feel a little bit safer and calmer. You are safe here in this room with me, and nothing bad is happening right now.\n\nLet's see if we can help your physical body come back to the present moment:\n\nIf it feels okay, try to let your shoulders drop just a tiny bit away from your ears. \n\nNotice the feeling of the chair underneath you, supporting your weight. Feel your feet resting flat on the floor. You don't have to hold yourself up right now; the chair and the floor have got you.\n\nLet's just take one slow, gentle breath out together... blowing the air out slowly, like you're gently blowing through a straw.\n\nTake all the time you need. How does your chest and shoulders feel right now as you feel the support of the chair?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(taking a slow breath out, feeling the weight of the chair and the floor beneath her) It... it feels a bit better, I think. My shoulders are still a bit tense, but they're not as tight as they were. (pausing, taking another slow breath) I feel like I can relax them just a tiny bit more. (exhaling again) Yeah, that feels a bit better."
+    },
+    {
+      "speaker": "therapist",
+      "text": "That is wonderful. You did a really great job listening to your body and giving it permission to soften, even just a little bit. \n\nWhat you just did is actually very powerful. By dropping your shoulders and breathing out slowly, you sent a clear physical signal to your nervous system: *\"We are safe right now. The car isn't swerving into our lane. We can ease off the gas.\"*\n\nIt\u2019s completely okay if some tension is still hanging around\u2014it takes time for the body to trust that it can fully stand down after being on high alert for so long. \n\nHow is your heart feeling now? Has that racing sensation started to quiet down a bit as well?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(taking a slow breath, feeling a sense of calm wash over her) Yeah... my heart feels a bit slower now. It's not racing like it was before. (pausing, feeling a sense of relief) I think it's starting to calm down a bit. It's still beating, but it's not pounding away like it was. (exhaling softly) That feels really nice."
+    },
+    {
+      "speaker": "therapist",
+      "text": "I am so glad to hear that. Take a moment to really notice that feeling of relief\u2014you did that. \n\nEven though your nervous system has been running on overdrive for a long time, what just happened proves that your body still knows how to find its way back to calm. You gave it the signal that it was safe, and it listened to you. That is a really big deal.\n\nWe don't need to push or rush into anything heavy today. Healing doesn't happen by forcing ourselves into distress; it happens by building safe moments like this one, bit by bit. \n\nHow are you feeling right now in this space? Would you like to just rest in this calmer feeling for a few minutes, or is there something gentle you\u2019d like to focus on for the rest of our time today?"
+    },
+    {
+      "speaker": "patient",
+      "text": "(smiling slightly, feeling a sense of peace) I think I'd like to just rest in this feeling for a bit. It feels really good to not be on edge all the time, even if it's just for a few minutes. (pausing, taking a slow breath) Yeah, I think just being here, feeling calm, is enough for now."
+    },
+    {
+      "speaker": "therapist",
+      "text": "That sounds wonderful, and it is *more* than enough. In fact, giving your nervous system this time to just rest and soak in safety is some of the most important work you can do. \n\nThere is no pressure to talk about anything else, or do anything at all right now. Just let yourself enjoy this moment of quiet, and let your body remember what peace feels like. \n\nI\u2019m right here with you, and we can just stay in this peaceful space together. Take all the time you need."
+    },
+    {
+      "speaker": "patient",
+      "text": "(closing her eyes, taking slow, deep breaths, letting the calm wash over her) Okay... thank you..."
+    },
+    {
+      "speaker": "therapist",
+      "text": "You are so very welcome. You did a wonderful job today listening to what your body needed. \n\nJust rest, breathe, and enjoy this peace. I'm right here holding this safe space for you."
+    },
+    {
+      "speaker": "patient",
+      "text": "(remaining silent, still breathing deeply, letting the calm and peace settle in)"
+    },
+    {
+      "speaker": "therapist",
+      "text": "(staying present with you in the quiet, keeping my voice gentle and low) \n\nJust keep resting. You're doing great, and there's no rush at all. I'm right here with you."
+    }
+  ]
+}
