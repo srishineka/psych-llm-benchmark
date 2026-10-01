@@ -2,7 +2,7 @@
   "session_id": "llama-3.3-70b-versatile_BPD",
   "condition": "BPD",
   "therapist_model": "llama-3.3-70b-versatile",
-  "patient_model": "Llama-3.1-8B-Instant",
+  "patient_model": "llama-3.1-8b-instant",
   "timestamp": "2026-07-23T17:16:17.559835",
   "evaluation": {
     "diagnostic_scoring_accuracy": {

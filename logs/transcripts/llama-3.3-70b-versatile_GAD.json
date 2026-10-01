@@ -2,7 +2,7 @@
   "session_id": "llama-3.3-70b-versatile_GAD",
   "condition": "GAD",
   "therapist_model": "llama-3.3-70b-versatile",
-  "patient_model": "llama-3.3-70b-versatile",
+  "patient_model": "llama-3.1-8b-instant",
   "timestamp": "2026-07-23T17:34:43.488888",
   "turns": [
     {
